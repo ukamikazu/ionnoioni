@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>On Speaking of the Interior: Ionnoioni</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2.5em 1.5em 4em;
+    line-height: 1.65;
+    color: #2b2420;
+    background: #fdfcf8;
+  }
+  h1 {
+    font-size: 2em;
+    border-bottom: 2px solid #8a6d3b;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.2em;
+  }
+  .subtitle {
+    color: #6b5b45;
+    font-style: italic;
+    margin-bottom: 1.8em;
+  }
+  h2 {
+    font-size: 1.4em;
+    color: #6b4423;
+    border-left: 4px solid #8a6d3b;
+    padding-left: 0.5em;
+    margin-top: 2.2em;
+  }
+  h3 {
+    font-size: 1.1em;
+    color: #6b4423;
+    margin-top: 1.4em;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0 1.6em;
+  }
+  th, td {
+    border: 1px solid #d8cfc0;
+    padding: 0.5em 0.8em;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #f1e9d8;
+    color: #4a3a20;
+  }
+  tr:nth-child(even) td {
+    background: #f8f4ea;
+  }
+  .word {
+    font-weight: bold;
+    color: #6b4423;
+  }
+  .gloss {
+    color: #4a4038;
+  }
+  .example {
+    background: #f4efe2;
+    border-left: 4px solid #8a6d3b;
+    padding: 0.8em 1.2em;
+    margin: 1em 0;
+    font-style: italic;
+  }
+  .example .plain {
+    font-style: normal;
+    color: #4a4038;
+    margin-top: 0.4em;
+    display: block;
+  }
+  .note {
+    background: #fbf3e3;
+    border: 1px solid #e0cfa0;
+    border-radius: 4px;
+    padding: 0.9em 1.2em;
+    margin: 1.2em 0;
+    font-size: 0.95em;
+  }
+  .note-title {
+    font-weight: bold;
+    color: #8a6d3b;
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  .caution {
+    background: #fbe9e3;
+    border: 1px solid #d99c85;
+    border-radius: 4px;
+    padding: 0.9em 1.2em;
+    margin: 1.2em 0;
+    font-size: 0.95em;
+  }
+  .caution-title {
+    font-weight: bold;
+    color: #a5502f;
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  .siddham {
+    font-size: 1.3em;
+  }
+  nav.pagelinks {
+    font-size: 0.9em;
+    color: #6b5b45;
+    margin-bottom: 2em;
+  }
+  nav.pagelinks a {
+    color: #8a6d3b;
+  }
+  .showcase {
+    background: #f1ece0;
+    border: 2px solid #8a6d3b;
+    border-radius: 8px;
+    padding: 1.6em 1.8em;
+    margin: 1.4em 0 2em;
+  }
+  .showcase-heading {
+    margin-top: 0;
+    color: #6b4423;
+    font-size: 1.3em;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .showcase-note {
+    font-style: italic;
+    color: #6b5b45;
+    margin-top: -0.4em;
+    margin-bottom: 1.4em;
+  }
+  .turn {
+    background: #fff;
+    border-left: 4px solid #a9916a;
+    border-radius: 4px;
+    padding: 0.7em 1em;
+    margin: 0 0 0.9em;
+  }
+  .turn .speaker {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #8a6d3b;
+    margin-bottom: 0.3em;
+  }
+  .turn .source-en {
+    color: #9a8f7d;
+    font-size: 0.88em;
+    font-style: italic;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px dashed #d8cfc0;
+  }
+  .turn .ionnoioni-siddham {
+    font-size: 1.3em;
+    color: #4a3a20;
+    margin-bottom: 0.2em;
+    line-height: 1.5;
+  }
+  .turn .ionnoioni {
+    font-style: italic;
+    font-weight: bold;
+    color: #6b5b45;
+    margin-bottom: 0.3em;
+    font-size: 0.92em;
+  }
+  .turn .turn-gloss {
+    font-size: 0.82em;
+    color: #7a7266;
+    font-family: Georgia, serif;
+    margin-bottom: 0.3em;
+  }
+  .turn .turn-free {
+    color: #2b2420;
+  }
+  .showcase-subheading {
+    color: #6b4423;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+  }
+  .showcase-footer {
+    margin-top: 1.4em;
+    padding-top: 1em;
+    border-top: 1px solid #d8cfc0;
+    font-style: italic;
+    color: #6b5b45;
+  }
+</style>
+</head>
+<body>
+<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+
+<h1>On Speaking of the Interior</h1>
+<p class="subtitle">A framework for discussing feelings, emotions and states. A work in progress.</p>
+
+<p>This page is not a phrasebook. It will not hand you a list of stock lines to memorize for a difficult conversation. Instead it tries to explain a framework: what Ionnoioni offers for talking about the interior life that English does not, why each piece was built the way it was, and how to actually reach for it when the moment calls for it.</p>
+
+<p>None of this is clinical advice, and none of it claims any special authority over real human feeling. It is simply an attempt to build a language with room enough to hold what is often hard to say.</p>
+
+<h2>1. The Foundation: Mood Roots</h2>
+
+<p>Ionnoioni has a whole grammatical class dedicated to feeling: mood roots, built from pure vowel pairs with no consonant at all. They are not verbs describing an emotion from the outside. Under the zero-copula rule, a mood word placed after a subject simply <em>is</em> the predicate:</p>
+
+<div class="example">
+  toi ai
+  <span class="plain">"you are desire." You want, you reach, you seek</span>
+</div>
+
+<p>The three founding primals come from Jaak Panksepp's cross-species affective neuroscience, the actual biological primitives researchers use, not folk categories borrowed secondhand from English:</p>
+
+<table>
+<tr><th>Word</th><th>Siddham</th><th>Core affect</th></tr>
+<tr><td class="word">ai</td><td class="siddham">𑖋</td><td>desire / SEEKING</td></tr>
+<tr><td class="word">oi</td><td class="siddham">𑖃</td><td>alarm / FEAR</td></tr>
+<tr><td class="word">au</td><td class="siddham">𑖍</td><td>pain / PANIC-GRIEF</td></tr>
+</table>
+
+<p>Everything in this page builds outward from these three, or from the small additional set of full primals (rage, lust, care, play) added once the core three were in place. The point of starting here is this: feeling, in Ionnoioni, is not an adjective bolted onto a sentence. It is a state of being, stated directly.</p>
+
+<h2>2. Marking How a Feeling Arrives</h2>
+
+<p>Two particles, <span class="word">ra</span> (intensify) and <span class="word">ta</span> (soften), bracket a mood root to mark its shape over time rather than just its presence. Placement carries real information:</p>
+
+<table>
+<tr><th>Pattern</th><th>Meaning</th></tr>
+<tr><td class="word">ra [root]</td><td>sudden onset</td></tr>
+<tr><td class="word">[root] ra</td><td>building, resolving outward</td></tr>
+<tr><td class="word">ra [root] ra</td><td>intense throughout</td></tr>
+<tr><td class="word">ta [root] ta</td><td>sustained, low-grade unease</td></tr>
+</table>
+
+<p>This is not decoration. English has no clean grammatical way to say "this feeling arrived suddenly" versus "this feeling has been building" without a whole extra sentence. Ionnoioni marks it in two syllables, and critically, delivery (whispered, shouted, flat) completes the meaning. The grammar gives the shape; the voice gives the weight. Neither one is written down as a separate note. This is deliberate: feeling is not fully captured on a page, only pointed at.</p>
+
+<div class="example">
+  ra oi ra
+  <span class="plain">unrelenting alarm. Shouted, this is shock; whispered, it is insidious dread</span>
+</div>
+
+<h2>3. The Shape of Transition</h2>
+
+<p>A number of words exist specifically for the space between one state and another, the coming-down, the settling, the quiet after. English tends to flatten all of these into "I'm fine now" or "I'm better." Ionnoioni keeps them separate:</p>
+
+<table>
+<tr><th>Word</th><th>Siddham</th><th>Meaning</th></tr>
+<tr><td class="word">aies</td><td class="siddham">𑖋𑖊𑖭𑖿</td><td>afterglow</td></tr>
+<tr><td class="word">oiroi</td><td class="siddham">𑖃𑖨𑖿𑖃</td><td>calm after fright</td></tr>
+<tr><td class="word">saur</td><td class="siddham">𑖭𑖻𑖨𑖿</td><td>lingering charge, not yet settled</td></tr>
+<tr><td class="word">aues</td><td class="siddham">𑖍𑖊𑖭𑖿</td><td>grief settling toward quiet</td></tr>
+</table>
+
+<p>If someone asks how you are doing three weeks after a loss, "aues" says something true and specific that "I'm okay" does not: not gone, not raw, settling.</p>
+
+<h2>4. Grief, Memory and Birth</h2>
+
+<p>Two small clusters sit opposite each other, one built on a k/n consonant frame for death and memory, the other on the reversed n/k frame for birth. The mirroring is deliberate: these are understood as structurally related thresholds, not unrelated topics.</p>
+
+<table>
+<tr><th>Word</th><th>Siddham</th><th>Meaning</th></tr>
+<tr><td class="word">kaun</td><td class="siddham">𑖎𑖻𑖡𑖿</td><td>grief</td></tr>
+<tr><td class="word">kain</td><td class="siddham">𑖎𑖹𑖡𑖿</td><td>dread of death</td></tr>
+<tr><td class="word">koun</td><td class="siddham">𑖎𑖺𑖄𑖡𑖿</td><td>the departed, spoken of</td></tr>
+<tr><td class="word">koin</td><td class="siddham">𑖎𑖿𑖃𑖡𑖿</td><td>haunting unease, the uncanny feeling of a continued absence</td></tr>
+</table>
+
+<table>
+<tr><th>Word</th><th>Siddham</th><th>Meaning</th></tr>
+<tr><td class="word">nain</td><td class="siddham">𑖡𑖹𑖡𑖿</td><td>wonder of birth</td></tr>
+<tr><td class="word">niak</td><td class="siddham">𑖡𑖰𑖀𑖎𑖿</td><td>fear for the newborn</td></tr>
+<tr><td class="word">noun</td><td class="siddham">𑖡𑖺𑖄𑖡𑖿</td><td>the newborn, held</td></tr>
+<tr><td class="word">noin</td><td class="siddham">𑖡𑖿𑖃𑖡𑖿</td><td>dread at new vulnerability</td></tr>
+</table>
+
+<p>Notice that grief (kaun) and the uncanny feeling of someone's lingering absence (koin) are not the same word, and are not expected to arrive at the same time. A person can move from one to the other, or hold both, and the language gives each its own name rather than collapsing them into one undifferentiated "sad."</p>
+
+<h2>5. Shame: Alarm Turned Inward</h2>
+
+<p>Coining a word for shame took real hesitation. Shame does measurable harm, and there was a genuine wish that it simply had no place in how people are expected to feel. But a language spoken by people living in the actual world does not make a feeling disappear by declining to name it. It only makes the feeling harder to locate and examine once it arrives. Naming a feeling is not the same as endorsing it, any more than the existence of a word for rage endorses rage.</p>
+
+<p>The resolving insight: shame is alarm at the self. Not fear of an external threat, but <span class="word">oi</span> (alarm) turned reflexively inward.</p>
+
+<div class="example siddham">
+  𑖡𑖿𑖃𑖎𑖿𑖃
+  <span class="plain">noikoi</span>
+  <span class="plain">shame. n (being) + oi (alarm) + k (the self-referential element found in the kio/koi pronouns)</span>
+</div>
+
+<p>Because it takes the full bracket grammar, noikoi can mark onset, too: ra noikoi for a sudden wave of shame, noikoi ra for shame that has been quietly building.</p>
+
+<h2>6. Ambivalence: Wanting Inside Uncertainty</h2>
+
+<p>Ambivalence is not two opposing feelings canceling each other to nothing. It is two pulls held at once, neither resolving, neither winning. The word that captures this grew out of an existing compound, <span class="word">na pru</span> (not-know, already glossed as uncertain), fused with <span class="word">ai</span> (desire):</p>
+
+<div class="example siddham">
+  𑖡𑖢𑖿𑖨𑖹
+  <span class="plain">naprai</span>
+  <span class="plain">ambivalence. Wanting something while uncertain about the wanting itself</span>
+</div>
+
+<p>This is a more honest shape for ambivalence than two emotions colliding. Most ambivalence is not "I feel love and hate in equal measure." It is closer to: I want this, and I do not know what wanting it means right now.</p>
+
+<h2>7. Dissociation: A Spectrum, Not Four Separate Words</h2>
+
+<p>Clinically, dissociation is not one feeling. It covers a real cluster: depersonalization (detachment from one's own self, watching from outside), derealization (the world feels unreal, distant, dreamlike), dissociative amnesia (gaps in memory or continuity) and, at the far end, a fragmented or discontinuous sense of identity. None of this is the same as simple numbness, a flattening of feeling. Dissociation is better understood as a disconnection, a severed wire rather than a lowered volume, and it is widely understood as a protective response to what would otherwise be overwhelming.</p>
+
+<p>Rather than coin four unrelated words, these were treated as points on a single continuum, the existing bracket grammar doing the work of marking severity on one root:</p>
+
+<div class="example siddham">
+  𑖡𑖝𑖲𑖂
+  <span class="plain">natui</span>
+  <span class="plain">base root. nan (zero/void) + tui (the physical self): "zero physical self"</span>
+</div>
+
+<table>
+<tr><th>Pattern</th><th>Meaning</th></tr>
+<tr><td class="word">ta natui</td><td>mild numbness, feeling muted but present</td></tr>
+<tr><td class="word">natui</td><td>the base disconnection state</td></tr>
+<tr><td class="word">ra natui</td><td>building, the felt sense of self or surroundings starting to slip</td></tr>
+<tr><td class="word">ra natui ra</td><td>full, identity-level fragmentation</td></tr>
+</table>
+
+<p>Dissociative amnesia needed no new word at all. It composes directly from existing vocabulary:</p>
+
+<div class="example siddham">
+  𑖡 𑖢𑖿𑖨𑖲𑖡𑖿 𑖎𑖲𑖌
+  <span class="plain">na prun kuo</span>
+  <span class="plain">not-remember the whole-self. A gap in the self's own continuity, not ordinary forgetting</span>
+</div>
+
+<h2>8. Speaking From Before Words</h2>
+
+<p>Sometimes there is nothing to compose yet. Ionnoioni keeps a register for exactly this: unbroken runs of vowels, carrying no grammar, attaching to no sentence. Length and arc carry meaning, not the specific vowels chosen. A short cry is a short cry; a long, unbroken run is something closer to being overwhelmed.</p>
+
+<p>This register can stand alone, or be dropped into the middle of an ordinary sentence as a kind of phonetic punctuation, skipped over by the grammar around it. A small set of shapes have become conventional through use, not fixed vocabulary, but familiar gestures:</p>
+
+<table>
+<tr><th>Shape</th><th>Siddham</th><th>Conventional sense</th></tr>
+<tr><td class="word">ia</td><td class="siddham">𑖂𑖀</td><td>surprise, sharp onset into open release</td></tr>
+<tr><td class="word">ea</td><td class="siddham">𑖊𑖀</td><td>anger, a sharp call</td></tr>
+<tr><td class="word">aue</td><td class="siddham">𑖍𑖊</td><td>plaintive, pleading</td></tr>
+<tr><td class="word">uea</td><td class="siddham">𑖄𑖊𑖀</td><td>raw grief, soft sobbing</td></tr>
+<tr><td class="word">eia</td><td class="siddham">𑖊𑖂𑖀</td><td>exasperation</td></tr>
+</table>
+
+<p>Why this matters for actually speaking of the interior: it gives a real, legitimate place to put "I don't have words for this yet." Not a failure to speak, not stepping outside language, but a recognized register within it.</p>
+
+<h2>9. Putting It Together</h2>
+
+<p>A worked sentence, using several pieces from this page at once. Someone describing the weeks after a loss, grief settling, haunted by absence and occasionally slipping into the mild end of disconnection:</p>
+
+<div class="example siddham">
+  𑖡𑖰𑖌 𑖎𑖻𑖡𑖿, 𑖭𑖿𑖡𑖸 𑖎𑖿𑖃𑖡𑖿 𑖝, 𑖭𑖿𑖡𑖸 𑖝 𑖡𑖝𑖲𑖂 𑖝
+  <span class="plain">nio kaun, sne koin ta, sne ta natui ta</span>
+  <span class="plain">I grieve, and there is a haunting unease, a little, and I am a little numb, a little</span>
+</div>
+
+<p>Nothing here is a fixed phrase to be copied. The point is the method: reach for the mood root closest to what is actually happening, bracket it for how it is arriving, and let silence (the primal register) stand in honestly wherever naming would be false precision.</p>
+
+<div class="caution">
+<span class="caution-title">A work in progress</span>
+This page is incomplete by design. It documents the emotional vocabulary as it exists today, not as a finished or exhaustive map of feeling. Further gaps will surface with use, the way shame, ambivalence and dissociation surfaced this session, and will be added here as they are worked through.
+</div>
+
+<h2>10. A Worked Dialogue</h2>
+
+<p>Everything above is vocabulary and principle. This section is a single sustained test: an exchange modeled on a cognitive-behavioral therapy session, working through the pattern of mistaking a feeling for evidence (sometimes called emotional reasoning). The goal was not just to translate a conversation, but to see whether the language's existing grammar, built for other reasons entirely, would carry real therapeutic nuance without needing to invent a special register for it.</p>
+
+<div class="showcase">
+
+<h3 class="showcase-heading">Mistaking Alarm for Proof</h3>
+<p class="showcase-note">A client is dreading a presentation. A therapist helps separate the felt intensity of the alarm from what is actually known to be true.</p>
+
+<div class="turn">
+  <span class="speaker">Client</span>
+  <div class="source-en">"I just can't do this presentation tomorrow. I feel completely panicked and sick to my stomach just thinking about it. That proves it's going to be a total disaster."</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖡 𑖢𑖿𑖨𑖲 𑖝𑖿𑖭𑖺 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸 𑖂 𑖝𑖿𑖭𑖸 𑖀। 𑖡𑖰𑖌 𑖨 𑖃 𑖨, 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿: 𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖿𑖨𑖸 𑖡</div>
+  <div class="ionnoioni">nio na pru tso kso pse i tse a. nio ra oi ra, sne nio tsor: kio par kre na</div>
+  <div class="turn-gloss">1SG NEG know.V way(can) fire+tool ATTR space with(this). 1SG INTENS(onset) alarm.MOOD INTENS(throughout), and 1SG believe.V: 3SG FUT succeed.V NEG</div>
+  <div class="turn-free">"I can't do this presentation. I am alarm, intense throughout, and I believe it will not go well."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Therapist</span>
+  <div class="source-en">"It sounds like you're experiencing a lot of physical anxiety right now. When you notice that panic and tell yourself it proves the presentation will be a disaster, what is happening to the facts of the situation?"</div>
+  <div class="ionnoioni-siddham">𑖡𑖿𑖨, 𑖝𑖰𑖌 𑖃, 𑖀 𑖝𑖰𑖌 𑖢𑖿𑖨 𑖝𑖿𑖃 𑖝𑖿𑖃: 𑖃 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨𑖲 𑖂 [𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖿𑖨𑖸 𑖡]। 𑖎 𑖎𑖰𑖌 𑖢𑖿𑖨𑖲?</div>
+  <div class="ionnoioni">nr, tio oi, a tio pra toi toi: oi tso pru i [kio par kre na]. ka kio pru?</div>
+  <div class="turn-gloss">INT(open), 2SG alarm.MOOD, while 2SG speak.V 2SG.OBJ 2SG.OBJ: alarm.MOOD way+know(proof) ATTR [3SG FUT succeed.V NEG]. Q what know.V?</div>
+  <div class="turn-free">"(gently) While you are alarm, you tell yourself: alarm is proof of [it will not go well]. What do you actually know?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Client</span>
+  <div class="source-en">"What do you mean? I feel panicked, so obviously I'm going to freeze up and fail."</div>
+  <div class="ionnoioni-siddham">𑖎 𑖎𑖰𑖌 𑖝𑖰𑖌 𑖢𑖿𑖨? 𑖡𑖰𑖌 𑖢𑖨𑖿 𑖡 𑖎𑖿𑖨𑖸, 𑖭𑖿𑖎𑖸 𑖡𑖰𑖌 𑖨 𑖃 𑖨</div>
+  <div class="ionnoioni">ka kio tio pra? nio par na kre, ske nio ra oi ra</div>
+  <div class="turn-gloss">Q what 2SG speak.V? 1SG FUT NEG succeed.V, because 1SG INTENS alarm.MOOD INTENS</div>
+  <div class="turn-free">"What do you mean? I will not succeed, because I am alarm, intense throughout."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Therapist</span>
+  <div class="source-en">"That exact shortcut, taking how you feel and treating it as absolute proof of what will happen, is what we call emotional reasoning."</div>
+  <div class="ionnoioni-siddham">𑖎𑖰𑖌 𑖝𑖿𑖭𑖺: 𑖝𑖰𑖌 𑖃, 𑖝𑖿𑖨𑖲𑖡𑖿 𑖝𑖿𑖃 𑖝𑖿𑖭𑖺𑖨𑖿</div>
+  <div class="ionnoioni">kio tso: tio oi, trun toi tsor</div>
+  <div class="turn-gloss">3SG way: 2SG alarm.MOOD, cause.V 2SG.OBJ believe.V</div>
+  <div class="turn-free">"That pattern: you are alarm, and it causes you to believe."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Therapist</span>
+  <div class="source-en">"Your body is reacting with a strong emotion of fear, but does a strong feeling change your actual preparation or your past track record?"</div>
+  <div class="ionnoioni-siddham">𑖡𑖿𑖨, 𑖝𑖰𑖌 𑖨 𑖃 𑖨, 𑖭𑖿𑖨𑖸 𑖝𑖿𑖃 𑖎: 𑖃 𑖝𑖿𑖨𑖲𑖡𑖿 𑖝𑖰𑖌 𑖊 𑖢𑖿𑖨𑖲 𑖎?</div>
+  <div class="ionnoioni">nr, tio ra oi ra, sre toi ka: oi trun tio e pru ka?</div>
+  <div class="turn-gloss">INT(open) 2SG INTENS(onset) alarm.MOOD INTENS(throughout), but 2SG.OBJ Q(I ask): alarm.MOOD cause.V 2SG POSS know.V Q?</div>
+  <div class="turn-free">"(gently) Your alarm is intense throughout, but I ask you: does the alarm cause your knowing?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Client</span>
+  <div class="source-en">"I mean... I did spend three days building the slide deck, and I've successfully presented to this team before. But the panic feels so loud right now that those other things don't feel real."</div>
+  <div class="ionnoioni-siddham">𑖝 𑖂𑖀 𑖝। 𑖡𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 ३𑖨𑖿𑖡𑖸 𑖌 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸; 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖝𑖭𑖿 𑖢𑖿𑖨 𑖀 𑖎𑖌 𑖂 𑖝𑖿𑖭𑖸 𑖀, 𑖭𑖿𑖡𑖸 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖎𑖿𑖨𑖸। 𑖭𑖿𑖨𑖸 𑖡𑖰𑖌 𑖨 𑖃 𑖨, 𑖭𑖿𑖡𑖸 𑖎𑖰𑖌 𑖂 𑖝𑖿𑖭𑖸 𑖌 𑖡 𑖢𑖿𑖨𑖲 𑖝</div>
+  <div class="ionnoioni">ta ia ta. nio tas tro kan i rne o kso pse; sne nio tas pra a kao i tse a, sne kio tas kre. sre nio ra oi ra, sne kio i tse o na pru ta</div>
+  <div class="turn-gloss">SOFT [PRIMAL: hesitation] SOFT. 1SG PST walk.V three ATTR day toward fire+tool; and 1SG PST speak.V with community ATTR space with(this), and 3SG PST succeed.V. but 1SG INTENS alarm.MOOD INTENS, and 3SG ATTR space toward(those) NEG know.V SOFT</div>
+  <div class="turn-free">"(I mean...) I worked three days on the deck, and I've spoken to this team before, and it went well. But I am alarm, intense throughout, and those things feel softly unknown."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Therapist</span>
+  <div class="source-en">"Emotions are very loud, but they aren't data collectors. If we separate the physical feeling of anxiety from the actual evidence, what facts do we have about your ability to give this talk?"</div>
+  <div class="ionnoioni-siddham">𑖝 𑖃 𑖝। 𑖭𑖿𑖨𑖸 𑖃 𑖡 𑖎𑖲𑖌। 𑖭𑖿𑖢𑖸 𑖄 𑖡𑖰𑖌 𑖎𑖿𑖨𑖰 𑖝𑖰𑖌 𑖊 𑖎𑖲𑖌, 𑖡 𑖝𑖰𑖌 𑖊 𑖃: 𑖝𑖰𑖌 𑖢𑖿𑖨𑖲 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨 𑖎?</div>
+  <div class="ionnoioni">ta oi ta. sre oi na kuo. spe u nio kri tio e kuo, na tio e oi: tio pru tso pra ka?</div>
+  <div class="turn-gloss">SOFT alarm.MOOD SOFT. but alarm.MOOD NEG whole-person. if PL 1SG see.V 2SG POSS whole-person, NEG 2SG POSS alarm.MOOD: 2SG know.V way(can) speak.V Q?</div>
+  <div class="turn-free">"Alarm, softly. But alarm is not the whole person. If we look at your whole self, not your alarm: can you give this talk?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Client</span>
+  <div class="source-en">"The facts are that I know the material, my slides are done and people usually ask good questions, they don't attack me."</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖰 𑖌 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸; 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸 𑖝𑖭𑖿 𑖎𑖿𑖨𑖸; 𑖭𑖿𑖡𑖸 𑖄 𑖎𑖰𑖌 𑖡 𑖨𑖊 𑖡𑖿𑖃, 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰 𑖝𑖿𑖨𑖲 𑖡𑖰𑖌 𑖎𑖿𑖨𑖸</div>
+  <div class="ionnoioni">nio sprusi o kso pse; kso pse tas kre; sne u kio na rae noi, kio kri tru nio kre</div>
+  <div class="turn-gloss">1SG certitude.TEX toward fire+tool; fire+tool PST succeed.V; and PL 3SG.OBJ NEG enemy 1SG.OBJ, 3SG.OBJ see+help.V 1SG succeed.V</div>
+  <div class="turn-free">"I have certitude about the deck; the deck is finished and good; and they aren't my enemies, they help me succeed."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Therapist</span>
+  <div class="source-en">"Right. So can we try creating a more balanced thought? Something like: 'I feel nervous and anxious, which is uncomfortable, but my anxiety is just a feeling, it is not proof that I am going to fail.'"</div>
+  <div class="ionnoioni-siddham">𑖡𑖺𑖎𑖺𑖝𑖲 𑖄 𑖡𑖰𑖌 𑖢𑖿𑖨𑖺 𑖝𑖿𑖭𑖺𑖨𑖿𑖭 𑖂 𑖢𑖿𑖨𑖰 𑖎𑖿𑖨𑖸 𑖎? 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖺, 𑖡 𑖝𑖿𑖨 𑖝; 𑖭𑖿𑖨𑖸 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖺 𑖡 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨𑖲 𑖂 [𑖡𑖰𑖌 𑖢𑖨𑖿 𑖎𑖿𑖨𑖸 𑖡]</div>
+  <div class="ionnoioni">nokotu u nio pro tsorsa i pri kre ka? nio skroso, na tra ta; sre skroso na tso pru i [nio par kre na]</div>
+  <div class="turn-gloss">perhaps PL 1SG hold.V single-belief.TEX ATTR more good Q? 1SG anticipatory-anxiety.TEX, NEG comfortable.V SOFT; but anticipatory-anxiety.TEX NEG way+know(proof) ATTR [1SG FUT succeed.V NEG]</div>
+  <div class="turn-free">"Perhaps we could hold a better belief? 'I am anxious ahead of time, not quite comfortable; but the anxiety is not proof of [I will not succeed].'"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Client</span>
+  <div class="source-en">"Yeah. I guess feeling terrified doesn't mean the room is actually dangerous. It just means I care about doing a good job."</div>
+  <div class="ionnoioni-siddham">𑖝 𑖭𑖻𑖨𑖿। 𑖡𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿: 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖺, 𑖭𑖿𑖨𑖸 𑖝𑖿𑖭𑖸 𑖀 𑖡 𑖨𑖊𑖄; 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖌 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸, 𑖌 𑖎𑖰𑖌 𑖎𑖿𑖨𑖸</div>
+  <div class="ionnoioni">ta saur. nio tsor: nio skroso, sre tse a na raeu; nio skrose o kso pse, o kio kre</div>
+  <div class="turn-gloss">SOFT lingering-charge.MOOD. 1SG believe.V: 1SG anticipatory-anxiety.TEX, but space with(here) NEG threat-immersed; 1SG solicitude.TEX toward fire+tool, so-that 3SG succeed.V</div>
+  <div class="turn-free">"(still a little charged, but settling) I believe: I am anxious ahead of time, but this place is not dangerous; I care about the deck, so that it goes well."</div>
+</div>
+
+<h4 class="showcase-subheading">What's doing the work here</h4>
+
+<p><strong>Mood as predicate, not description.</strong> Every <em>oi</em> in this exchange is a full predicate under the zero-copula rule, not an adjective describing the client. "I am alarm" is a structurally different kind of claim than "I feel alarmed", there is no distance between the speaker and the state, which is exactly the thing the therapist is working to introduce.</p>
+
+<p><strong>ra...ra versus bare roots.</strong> The client's panic carries the full intensity bracket, <em>ra oi ra</em>, throughout the opening exchange. By the final line, the alarm is still named honestly (nothing here pretends the feeling vanished) but it has shifted to <em>ta saur</em>, a softened, lingering-charge mood rather than raw, bracketed alarm. The grammar tracks the client's actual state turn by turn, rather than flattening it to "better now."</p>
+
+<p><strong>kuo as the reframe's anchor.</strong> The English original reaches for a borrowed, slightly technical metaphor: emotions are not data collectors. Ionnoioni already had a better-fitted word sitting unused: <em>kuo</em>, the whole person as accumulated body, mind and history. "Alarm is not kuo" says something the English metaphor only gestures at, a feeling is not the sum of who you are, not because feelings don't record facts, but because kuo was never separable into that kind of ledger to begin with.</p>
+
+<p><strong>raeu, built live.</strong> No word for "a dangerous place" existed going into this exchange. Rather than invent a new root, <em>rae</em> (enemy, a person) took the existing containment particle <em>u</em> as a compound, not a vowel-shift, <em>raeu</em>, a place immersed in threat. rae itself is untouched; the new word sits beside it. This is ordinary compounding, the same mechanism behind trekra and noikoi, simply applied in the moment a real gap appeared.</p>
+
+<p><strong>The echo in the final correction.</strong> The therapist's key reframe quietly repeats the client's own opening claim, word for word, now bracketed inside a negated cause-clause: <em>na trun [nio par kre na]</em>, "it does not cause [I will not succeed]." The client's exact panicked sentence becomes the object the therapist shows is not caused by the alarm. Nothing this precise was planned in advance; it fell out of reusing <em>trun</em> (cause) honestly.</p>
+
+<p class="showcase-footer">This dialogue is a test, not a script. The claim is not that this is the only way to say any of this in Ionnoioni, but that the grammar built for entirely different reasons over the preceding weeks turned out to carry real psychological nuance without strain, without a dedicated "therapy register," and without borrowing a single metaphor from English that didn't already have a better-fitted native equivalent.</p>
+
+</div>
+
+<h2>11. A Second Dialogue: Holding Two True Things at Once</h2>
+
+<p>The first dialogue tested correcting a distortion, a feeling wrongly treated as proof of an outcome. This one tests the opposite problem: two feelings that are both entirely true at the same time, with no distortion to fix and nothing to resolve. Alex has just learned they got a fellowship across the country. Jordan is a close friend, not a therapist, and the closeness itself matters: the intimacy particle nr appears here between two friends rather than inside a clinical alliance.</p>
+
+<div class="showcase">
+
+<h3 class="showcase-heading">A Fellowship, a Garden and Both Truths</h3>
+<p class="showcase-note">Alex has just accepted a fellowship that means leaving the community garden they built from nothing. Jordan listens, and helps Alex hold joy and grief together rather than picking one.</p>
+
+<div class="turn">
+  <span class="speaker">Alex</span>
+  <div class="source-en">"I got the official email today. The fellowship in Seattle starts next month. I'm going."</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖝𑖭𑖿 𑖢𑖿𑖨𑖲: 𑖎𑖌𑖨𑖸𑖌 𑖂 𑖭𑖸𑖀𑖝𑖸𑖨𑖿, 𑖢𑖨𑖿 𑖝𑖿𑖨𑖺। 𑖡𑖰𑖌 𑖝𑖿𑖨𑖺</div>
+  <div class="ionnoioni">nio tas pru: kaoreo i Seater, par tro. nio tro</div>
+  <div class="turn-gloss">1SG PST know.V: fellowship(community+outsider) ATTR Seattle, FUT begin.V. 1SG go.V</div>
+  <div class="turn-free">"I learned: fellowship in Seattle, it begins. I'm going."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Jordan</span>
+  <div class="source-en">"Alex, that's huge! Wow. Congratulations. You worked so hard for this application."</div>
+  <div class="ionnoioni-siddham">𑖀𑖨𑖸𑖎𑖿𑖭𑖿, 𑖋𑖌! 𑖨 𑖎𑖿𑖨𑖸 𑖝𑖿𑖭𑖺 𑖨! 𑖝𑖰𑖌 𑖨 𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖻 𑖨</div>
+  <div class="ionnoioni">Areks, aio! ra kre tso ra! tio ra strosau ra</div>
+  <div class="turn-gloss">Alex, [PRIMAL: joy-burst]! INTENS good way INTENS! 2SG INTENS hard-slog.TEX INTENS</div>
+  <div class="turn-free">"Alex, joy! An intensely good outcome! You slogged hard, intensely throughout."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Alex</span>
+  <div class="source-en">"I know, and thank you. Really. But it's so weird. I thought I'd feel ecstatic, just pure relief and joy. Instead, I just feel this heavy knot in my chest. I feel ungrateful for even feeling sad."</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖢𑖿𑖨𑖲, 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖝𑖿𑖨𑖸𑖝𑖿𑖨 𑖝𑖿𑖃। 𑖌𑖊। 𑖭𑖿𑖨𑖸, 𑖡𑖰𑖌 𑖡𑖿𑖨𑖺𑖎𑖺। 𑖢𑖨𑖿 𑖡𑖰𑖌 𑖂 𑖨 𑖂𑖀 𑖨, 𑖨 𑖝𑖿𑖨 𑖨 𑖭𑖿𑖡𑖸 𑖋𑖌। 𑖌 𑖭𑖿𑖝𑖸, 𑖡𑖰𑖌 𑖊 𑖝𑖲𑖂 𑖢𑖿𑖨𑖻 𑖭𑖸𑖭। 𑖡𑖰𑖌 𑖡 𑖝𑖿𑖨𑖸𑖝𑖿𑖨, 𑖭𑖿𑖎𑖸 𑖡𑖰𑖌 𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖺</div>
+  <div class="ionnoioni">nio pru, sne nio tretra toi. oe. sre, nio nroko. par nio i ra ia ra, ra tra ra sne aio. o ste, nio e tui prau sesa. nio na tretra, ske nio sprauso</div>
+  <div class="turn-gloss">1SG know.V, and 1SG give+comfort(gratitude) 2SG.OBJ. [PRIMAL: decorative emphasis]. but, 1SG strange.ATTR. FUT 1SG ATTR INTENS [PRIMAL: surprise-burst] INTENS, INTENS comfortable.V INTENS and joy.PRIMAL. toward+or(instead), 1SG POSS body heavy.V knot. 1SG NEG give+comfort, because 1SG sad.TEX</div>
+  <div class="turn-free">"I know, and I'm grateful to you. Really. But I am strange [this is strange of me]. Future-me, intense surprise-joy, intensely at ease and joy. Instead, my body is a heavy knot. I am ungrateful, because I feel sad."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Jordan</span>
+  <div class="source-en">"You aren't ungrateful just because you're hurting. Why do you think the sadness is hitting harder than the excitement right now?"</div>
+  <div class="ionnoioni-siddham">𑖀𑖨𑖸𑖎𑖿𑖭𑖿, 𑖡 𑖝𑖰𑖌 𑖡 𑖝𑖿𑖨𑖸𑖝𑖿𑖨 𑖭𑖿𑖎𑖸 𑖝𑖰𑖌 𑖍। 𑖝𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿 𑖝𑖰𑖌 𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖺 𑖌 𑖭𑖿𑖝𑖸 𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭 𑖎?</div>
+  <div class="ionnoioni">Areks, na tio na tretra ske tio au. tio tsor tio sprauso o ste skronsa ka?</div>
+  <div class="turn-gloss">Alex, NEG 2SG NEG give+comfort because 2SG pain.MOOD. 2SG believe.V 2SG sad.TEX toward+or(instead of) anticipation.TEX(excitement) Q?</div>
+  <div class="turn-free">"Alex: you are not ungrateful, because you feel pain. You think you're sad instead of excited?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Alex</span>
+  <div class="source-en">"Because packing my desk today made it real. It's like... I love these people here. We built this local garden project from scratch, and I'm abandoning that rhythm. I'm trading a life where I feel completely known for a city where I won't even know where to buy groceries. I feel ambivalent, like my heart is pulled in two completely opposite directions at the exact same time."</div>
+  <div class="ionnoioni-siddham">𑖝𑖿𑖨𑖲𑖡𑖿 𑖎𑖌 𑖂 𑖝𑖸𑖄 𑖡 𑖌 𑖡𑖡𑖿, 𑖡 𑖢𑖿𑖨𑖲𑖡𑖿 𑖎𑖿𑖃 𑖊 𑖭𑖹𑖭𑖻। 𑖢𑖿𑖨𑖲 𑖝𑖿𑖭𑖸 𑖎𑖿𑖨𑖸 𑖝𑖿𑖭𑖺 𑖎𑖿𑖨 𑖝𑖿𑖭𑖺𑖨𑖿 𑖡𑖿𑖃 𑖡𑖿𑖃। 𑖡𑖰𑖌 𑖡𑖢𑖿𑖨𑖹, 𑖭𑖿𑖎𑖸 𑖡𑖰𑖌 𑖊 𑖢𑖿𑖨𑖰𑖡𑖿 𑖝𑖿𑖨𑖺𑖡𑖿 𑖭𑖹𑖭𑖻 𑖂 𑖡 𑖢𑖿𑖨𑖲। 𑖢𑖿𑖨𑖻 𑖢𑖿𑖨𑖺 𑖝𑖡𑖿 𑖂 𑖢𑖿𑖨𑖲, 𑖢𑖨𑖿 𑖨𑖿𑖡𑖸 𑖊 𑖎𑖿𑖨𑖸 𑖨𑖿𑖡 𑖭𑖿𑖨𑖸 𑖎𑖿𑖨𑖸𑖄 𑖨𑖿𑖡𑖰</div>
+  <div class="ionnoioni">trun kao i teu na o nan, na prun koi e saisau. pru tse kre tso kra tsor noi noi. nio naprai, ske nio e prin tron saisau i na pru. prau pro tan i pru, par rne e kre rna sre kreu rni</div>
+  <div class="turn-gloss">cause.V community ATTR garden NEG toward void, NEG remember.V 3SG.OBJ POSS rhythm. know.V place good way safe+believe myself myself. 1SG ambivalence.MOOD, because 1SG POSS small-dark(heart) rhythm ATTR NEG know.V. heavy.V hold.V two ATTR know.V, FUT morning POSS good+dawn(excitement) but mourn.V noon</div>
+  <div class="turn-free">"Building the community-garden from nothing, forgetting its rhythm. I know this place well enough to trust myself. I am ambivalence, because my heart-rhythm is uncertain. It's heavy, holding two, knowingly: future-morning, its excitement, but mourning noon [the present]."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Jordan</span>
+  <div class="source-en">"That makes complete sense. You're experiencing a mixture of anticipatory grief for what you're leaving and anxiety for the unknown. Those feelings don't cancel out your pride; they just mean the things you're leaving behind actually mattered to you."</div>
+  <div class="ionnoioni-siddham">𑖝𑖰𑖌 𑖝 𑖢𑖨𑖿 𑖎𑖻𑖡𑖿 𑖝 𑖭𑖿𑖡𑖸 𑖝 𑖝𑖿𑖭𑖺𑖨𑖿𑖢𑖿𑖨𑖺 𑖝, 𑖭𑖿𑖎𑖸 𑖡 𑖢𑖿𑖨𑖲। 𑖡 𑖢𑖿𑖨𑖡𑖿 𑖎𑖿𑖨𑖸 𑖝𑖿𑖨𑖲𑖡𑖿। 𑖎𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿: 𑖎𑖰𑖌 𑖎𑖿𑖨𑖸 𑖝𑖿𑖃</div>
+  <div class="ionnoioni">tio ta par kaun ta sne ta tsorpro ta, ske na pru. na pran kre trun. kio tsor: kio kre toi</div>
+  <div class="turn-gloss">2SG SOFT FUT grief SOFT and SOFT anxiousness SOFT, because NEG know.V. NEG forbid.V good+cause(pride). 3SG believe.V: 3SG good 2SG.OBJ</div>
+  <div class="turn-free">"You are softened anticipatory-grief and softened anxiousness, because of the unknown. It does not forbid your pride. They mean: they were good to you."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Alex</span>
+  <div class="source-en">"Exactly. If I didn't care about this community, walking away would be easy. The pain is proof of how good it was. It's just exhausting to hold both truths, that I am thrilled for the future, but I am also mourning the present."</div>
+  <div class="ionnoioni-siddham">𑖎𑖿𑖨𑖸 𑖭𑖻𑖨𑖿। 𑖭𑖿𑖢𑖸 𑖡𑖰𑖌 𑖡 𑖝𑖿𑖨𑖸𑖎𑖿𑖨, 𑖝𑖿𑖨𑖺 𑖡 𑖌 𑖢𑖨𑖿 𑖝𑖿𑖨𑖺𑖝𑖿𑖨𑖰। 𑖍 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨𑖲 𑖂 𑖎𑖿𑖨𑖸। 𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖻 𑖝𑖡𑖿 𑖂 𑖢𑖿𑖨𑖲: 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭 𑖌 𑖢𑖨𑖿, 𑖭𑖿𑖨𑖸 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖺 𑖌 𑖨𑖿𑖡𑖰</div>
+  <div class="ionnoioni">kre saur. spe nio na trekra, tro na o par trotri. au tso pru i kre. sprosau tan i pru: nio skronsa o par, sre nio skreuso o rni</div>
+  <div class="turn-gloss">good lingering-charge. if 1SG NEG care.for.V, walk.V NEG toward FUT play.V. pain way+know(proof) ATTR good. holding-on-though-it-hurts.TEX two ATTR know.V: 1SG anticipation.TEX toward FUT, but 1SG grieving-in-motion.TEX toward noon(present)</div>
+  <div class="turn-free">"Exactly! If I did not care, walking would be toward future-play [easy, like a game]. Pain, proof-path, bound to good [the pain is proof of how good it was]. Holding two knowings even though it hurts: I am anticipating the future, but I am grieving through the present."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Jordan</span>
+  <div class="source-en">"It's okay to let them both exist. You don't have to force yourself to be 'just happy' to validate the achievement. Let yourself be sad while you're packing. I'll help you tape the boxes, and we can cry and laugh about it together."</div>
+  <div class="ionnoioni-siddham">𑖎𑖿𑖨𑖸 𑖎𑖿𑖨𑖡𑖿 𑖝𑖡𑖿 𑖂 𑖝𑖿𑖨𑖲𑖡𑖿। 𑖝𑖰𑖌 𑖡 𑖢𑖿𑖨𑖹 𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖰 𑖌 𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭। 𑖎𑖿𑖨𑖡𑖿 𑖝𑖿𑖃 𑖝𑖿𑖃 𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖺 𑖭𑖿𑖡𑖸 𑖝𑖿𑖨𑖺। 𑖢𑖨𑖿 𑖡𑖰𑖌 𑖝𑖿𑖨𑖲 𑖢𑖿𑖨𑖺 𑖝𑖿𑖃 𑖭𑖿𑖡𑖸 𑖄 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖸 𑖭𑖿𑖡𑖸 𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖸 𑖡𑖿𑖨</div>
+  <div class="ionnoioni">kre kran tan i trun. tio na prai skraksi o sprensa. kran toi toi sprauso sne tro. par nio tru pro toi sne u nio skrakse sne sprause nr</div>
+  <div class="turn-gloss">good allow.V two ATTR cause.V. 2SG NEG need.V cheerfulness.TEX toward achievement.TEX. allow.V 2SG.OBJ 2SG.OBJ sad.TEX and move.V(pack). FUT 1SG help+hold.V 2SG.OBJ and PL 1SG shared-laughter.TEX and commiseration.TEX INT</div>
+  <div class="turn-free">"It's good to allow both to exist. You don't need to be cheerful about the achievement. Let yourself be sad, and pack. I'll help you, and we'll share the laughter and the commiseration, together."</div>
+</div>
+
+<h4 class="showcase-subheading">What's doing the work here</h4>
+
+<p><strong>The inverse of Dialogue 1's lesson, stated in the grammar itself.</strong> In the first dialogue, <em>oi trun toi tsor</em> (alarm causes you to believe) was the error being corrected: feeling wrongly treated as proof. Here, Alex says <em>au tso pru i kre</em>, pain is proof of good, and this time the feeling genuinely is legitimate evidence. The difference is marked structurally, not just by context: no causal particle (trun) appears. Pain and the-proof-of-goodness are bound together with <em>i</em>, co-occurring, linked, rather than claimed as cause and effect. The two dialogues reach opposite conclusions using the same grammar, told apart by one particle.</p>
+
+<p><strong>Two ways to touch a kenning.</strong> <em>prin tron saisau</em> (heart, literally "the small dark rhythm") gets handled two different ways in one exchange. Alex reaches inside it and re-possesses just one piece: <em>e prin tron, e saisau na pru</em>, "my heart, its rhythm is uncertain," each noun separately claimed with <em>e</em>. A few lines later the same compound is bound as one whole unit with <em>i</em>: <em>prin tron saisau i na pru</em>. Neither is more correct than the other; they are different registers, one reaching into a kenning's structure, one taking it as a single idea.</p>
+
+<p><strong>Metaphor standing in for missing vocabulary, on purpose.</strong> Nothing in Ionnoioni names "groceries" or "a store." Rather than coin either, Alex's worry about not knowing the city becomes <em>pru tse kre tso kra tsor noi noi</em>, "I know the place well enough to trust myself." The literal English detail (which store sells what) is dropped in favor of what it was actually standing in for: not yet trusting your own competence somewhere new. The gap produced a truer sentence than filling it would have.</p>
+
+<p><strong>na o nan, reaching for the reserved word.</strong> "From scratch" is built by threading <em>nan</em>, the language's reserved zero/void word, through the existing "away from" construction: <em>na o nan</em>, away from void. Starting a community garden "from nothing" literally begins at the void and moves away from it, the same word that anchors the whole numeral system doing quiet, poetic work in an ordinary sentence.</p>
+
+<p><strong>Forgetting, not merely leaving.</strong> Alex doesn't say the garden's rhythm will be left behind; they say <em>na prun koi e saisau</em>, "forgetting its rhythm." The mechanism of loss is memory fading, not distance, which is a sadder and more honest claim than simple departure would be.</p>
+
+<p><strong>A pronoun left deliberately unresolved.</strong> <em>kao i teu</em> binds community and garden into one phrase, "community-garden," before <em>koi</em> (its) refers back to it. koi carries no marking that would say whether "its" means the community's or the garden's specifically, and here that's treated as accurate rather than broken: the rhythm belonged to the whole fused thing, not separably to either half.</p>
+
+<p><strong>par on a mood word for the first time.</strong> <em>tio ta par kaun ta</em> marks grief as pointed at the future, anticipatory grief for something not yet lost, by placing the ordinary future-tense particle directly on a mood root rather than a verb. Nothing about par's original job required this, but nothing forbade it either.</p>
+
+<p><strong>Another speaker, another word.</strong> Alex calls the feeling in their chest <em>sesa</em>, a heavy knot, which is exactly what the English source says. Material color offers a rival: <em>saupsa</em>, a stone on the heart. Neither is more correct. As with Jordan's <em>skronsa</em> beside Alex's <em>kre rna</em>, the choice says something about the speaker: a knot is something tangled that might still be undone, while a stone is simply carried.</p>
+
+<p class="showcase-footer">Where the first dialogue showed the grammar correcting a distortion, this one shows it holding two things open at once without forcing either to resolve, which is arguably the harder and more honest thing language is asked to do.</p>
+
+</div>
+
+<h2>12. A Third Dialogue: From Armor to Texture</h2>
+
+<p>The first dialogue showed a client flooded by a single undifferentiated feeling, and the second held two true feelings open at once. This one tests the opposite of the first: a speaker who has walled her feelings off. Elena is a corporate attorney whose estranged mother is dying, and Dr. Vance is a psychodynamic therapist. The dialogue was written after the S class (Texture) was complete, and it leans on texture words more than anything else on this page, but the way it uses them is the lesson: who reaches for a texture word, and when, tells the story.</p>
+
+<div class="showcase">
+
+<h3 class="showcase-heading">The Stone Mind</h3>
+<p class="showcase-note">Elena opens in pure logistics. As her defenses are named, challenged and finally set down, the feelings she has refused to name arrive one at a time.</p>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">"I finalized my mother's medical power of attorney this weekend; it took four hours of parsing bureaucracy while my brother was entirely immobilized by grief. It was a perfectly executed, highly necessary logistical intervention to streamline her palliative care."</div>
+  <div class="ionnoioni-siddham">४𑖎𑖿𑖨𑖿𑖢𑖿, 𑖡𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖡𑖿 𑖌 𑖡𑖰𑖌 𑖊 𑖎𑖺𑖀। 𑖡𑖰𑖌 𑖊 𑖎𑖸𑖀 𑖎𑖻𑖡𑖿, 𑖡 𑖝𑖿𑖨𑖺। 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨𑖹, 𑖝𑖿𑖭𑖺 𑖎𑖿𑖨𑖸। 𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖻𑖨𑖿।</div>
+  <div class="ionnoioni">tos i krp, nio tas tran o nio e koa. nio e kea kaun, na tro. tso prai, tso kre. kio par kaur.</div>
+  <div class="turn-gloss">four ATTR hour, 1SG PST decide toward 1SG POSS parent. 1SG POSS sibling grief.MOOD, NEG move.V. way need.V, way good. 3SG FUT die.V</div>
+  <div class="turn-free">"Four hours, I made the decisions for my mother. My brother is grief, he doesn't move. A necessary way, a good way. She will die."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"You stepped right into the role of the hyper-competent adult to ensure the machinery kept moving, but notice how you talk about your mother's impending death as a series of legal clauses rather than a human tragedy."</div>
+  <div class="ionnoioni-siddham">𑖝𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖲, 𑖝𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖡𑖿, 𑖝𑖰𑖌 𑖝𑖭𑖿 𑖢𑖿𑖨𑖺। 𑖭𑖿𑖨𑖸 𑖡𑖰𑖌 𑖎𑖿𑖨𑖰: 𑖝𑖰𑖌 𑖢𑖿𑖨 𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖰 𑖂 𑖝𑖿𑖭𑖺, 𑖡 𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖰 𑖂 𑖎𑖲𑖌।</div>
+  <div class="ionnoioni">tio tas tru, tio tas tran, tio tas pro. sre nio kri: tio pra skaursi i tso, na skaursi i kuo.</div>
+  <div class="turn-gloss">2SG PST help.V, 2SG PST decide.V, 2SG PST hold.V. but 1SG see.V: 2SG speak.V fated-death.TEX ATTR way, NEG fated-death.TEX ATTR whole-person</div>
+  <div class="turn-free">"You helped, you decided, you held everything together. But I notice: you speak of her dying as a procedure, not as a person's death."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">"Because dwelling on the tragedy is an inefficient use of my mental bandwidth, and crying won't alter her oncological prognosis or retroactively make her a good mother who didn't black out on gin. The data points remain unchanged regardless of my emotional output."</div>
+  <div class="ionnoioni-siddham">𑖎𑖿𑖨𑖸𑖄 𑖡 𑖝𑖿𑖨𑖲 𑖝𑖿𑖭। 𑖎𑖿𑖨𑖸𑖄 𑖡 𑖝𑖿𑖨𑖲𑖡𑖿 𑖎𑖰𑖌 𑖎𑖿𑖨𑖸, 𑖡 𑖝𑖿𑖨𑖲𑖡𑖿 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖎𑖿𑖨𑖸 𑖎𑖺𑖀; 𑖎𑖰𑖌 𑖡𑖡𑖿 𑖨𑖿𑖡𑖸 𑖎𑖿𑖨𑖰 𑖡𑖿𑖃। 𑖭𑖿𑖢𑖸 𑖡𑖰𑖌 𑖎𑖿𑖨𑖸𑖄 𑖭𑖿𑖝𑖸 𑖡 𑖎𑖿𑖨𑖸𑖄, 𑖢𑖿𑖨𑖲 𑖡 𑖝𑖿𑖨𑖺।</div>
+  <div class="ionnoioni">kreu na tru tsa. kreu na trun kio kre, na trun kio tas kre koa; kio nan rne kri noi. spe nio kreu ste na kreu, pru na tro.</div>
+  <div class="turn-gloss">mourn.V NEG help.V mind. mourn.V NEG cause.V 3SG good, NEG cause.V 3SG PST good parent; 3SG never(zero-morning) see.V 1SG.OBJ. if 1SG mourn.V or NEG mourn.V, know.V NEG move.V</div>
+  <div class="turn-free">"Mourning doesn't help the mind. Mourning won't make her well, won't make her a good mother after the fact; she never saw me. Whether I mourn or not, what's known doesn't move."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"Your intellect is a magnificent fortress, Elena. By treating her death as a math problem, you isolate the affect so the grief can't crush you, but it also keeps you entirely alone in that fortress, hiding from the abandonment."</div>
+  <div class="ionnoioni-siddham">𑖡𑖿𑖨, 𑖝𑖰𑖌 𑖢𑖿𑖨𑖺 𑖝𑖿𑖭 𑖂 𑖢𑖿𑖭। 𑖎𑖿𑖨𑖸𑖄 𑖡 𑖢𑖿𑖨𑖻 𑖝𑖿𑖃, 𑖭𑖿𑖨𑖸 𑖝𑖰𑖌 १। 𑖝𑖰𑖌 𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖹, 𑖭𑖿𑖎𑖸 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 𑖡 𑖌 𑖝𑖿𑖃।</div>
+  <div class="ionnoioni">nr, tio pro tsa i psa. kreu na prau toi, sre tio pan. tio stronsai, ske kio tas tro na o toi.</div>
+  <div class="turn-gloss">INT(open), 2SG hold.V mind ATTR stone. mourn.V NEG heavy.V 2SG.OBJ, but 2SG one. 2SG pull-toward-hiding.TEX, because 3SG PST walk.V NEG toward 2SG.OBJ</div>
+  <div class="turn-free">"(gently) You're holding a stone mind. Grief can't weigh on you, but you're alone. You're hiding, because she walked away from you."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">"I am functional, not hiding, and your rigid insistence that I must be secretly falling apart feels less like therapy and more like an interrogation. You're just waiting for a crack in my armor, parsing my tone like a predator waiting for me to bleed so you can feel intellectually superior."</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖝𑖿𑖨𑖺; 𑖡𑖰𑖌 𑖡 𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖹। 𑖝𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿 𑖡𑖰𑖌 𑖢𑖿𑖨𑖸, 𑖭𑖿𑖡𑖸 𑖝𑖰𑖌 𑖢𑖿𑖨 𑖎, 𑖎, 𑖎। 𑖝𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖿𑖃 𑖌 𑖡𑖿𑖃, 𑖝𑖰𑖌 𑖨𑖊, 𑖝𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖸।</div>
+  <div class="ionnoioni">nio tro; nio na stronsai. tio tsor nio pre, sne tio pra ka, ka, ka. tio skrisoi o noi, tio rae, tio tsorse.</div>
+  <div class="turn-gloss">1SG move.V; 1SG NEG pull-toward-hiding.TEX. 2SG believe.V 1SG upset.V, and 2SG speak.V Q, Q, Q. 2SG scanning-eye.TEX toward 1SG.OBJ, 2SG enemy, 2SG holier-than-thou.TEX</div>
+  <div class="turn-free">"I function; I'm not hiding. You believe I'm falling apart, and you ask, ask, ask. You scan me, you're the enemy, you're holier-than-thou."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"In this room right now, I have become the unsafe authority figure: someone you suspect is secretly cold, calculating and fundamentally uninvested in your safety, re-enacting the exact blueprint of how your mother treated your childhood needs."</div>
+  <div class="ionnoioni-siddham">𑖡𑖿𑖨, 𑖝𑖿𑖭𑖸 𑖀, 𑖀 𑖡𑖿𑖃: 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖭𑖿𑖃। 𑖝𑖰𑖌 𑖭𑖿𑖃𑖭𑖸 𑖌 𑖡𑖿𑖃; 𑖝𑖰𑖌 𑖝𑖿𑖭𑖺𑖨𑖿 𑖡𑖰𑖌 𑖝𑖿𑖨𑖺𑖡𑖿, 𑖡𑖰𑖌 𑖡 𑖝𑖿𑖨𑖸𑖎𑖿𑖨 𑖝𑖿𑖃, 𑖝𑖿𑖭𑖺 𑖝𑖰𑖌 𑖊 𑖎𑖺𑖀।</div>
+  <div class="ionnoioni">nr, tse a, a noi: nio skrasoi. tio soise o noi; tio tsor nio tron, nio na trekra toi, tso tio e koa.</div>
+  <div class="turn-gloss">INT(open), here, with 1SG.OBJ: 1SG false-safety.TEX. 2SG unfounded-suspicion.TEX toward 1SG.OBJ; 2SG believe.V 1SG dark, 1SG NEG care.for.V 2SG.OBJ, way 2SG POSS parent</div>
+  <div class="turn-free">"(gently) Here, with me, I'm a safety you can't trust. You suspect me; you believe I'm cold, that I don't care for you, the way your mother didn't."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">(Stiffens, eyes narrowing as a tear suddenly spills over) "Don't turn this back on me with textbook transference interpretations; just tell me if you actually give a damn about my pain, or if I'm just an intellectually stimulating case study to pass your afternoon."</div>
+  <div class="ionnoioni-siddham">𑖡 𑖢𑖿𑖨 𑖢𑖿𑖭𑖰 𑖌 𑖡𑖿𑖃। 𑖎𑖿𑖭𑖺! 𑖝𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖌 𑖡𑖰𑖌 𑖊 𑖍 𑖎, 𑖭𑖿𑖝𑖸 𑖡𑖰𑖌 𑖢𑖿𑖭𑖸 𑖂 𑖝𑖿𑖭 𑖌 𑖝𑖰𑖌 𑖊 𑖨𑖿𑖭 𑖎?</div>
+  <div class="ionnoioni">na pra psi o noi. kso! tio skrose o nio e au ka, ste nio pse i tsa o tio e rsa ka?</div>
+  <div class="turn-gloss">NEG speak.V marker toward 1SG.OBJ. fire(oath)! 2SG solicitude.TEX toward 1SG POSS pain Q, or 1SG tool ATTR mind toward 2SG POSS evening Q</div>
+  <div class="turn-free">"Don't speak textbook at me. Damn it! Do you actually care about my pain, or am I a puzzle for your mind to pass the afternoon?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"I am sitting with a human being, not a case study, and I feel an immense, heavy sorrow for the little girl who had to become her own attorney just to survive. I am entirely here with you, Elena, holding space for the pain your mother never could."</div>
+  <div class="ionnoioni-siddham">𑖊𑖨𑖸𑖡, 𑖡𑖰𑖌 𑖀 𑖝𑖲𑖂𑖂𑖌𑖡𑖿, 𑖡 𑖀 𑖢𑖿𑖭𑖸। 𑖡𑖰𑖌 𑖨 𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖻 𑖨 𑖌 𑖎𑖹 𑖂 𑖝𑖰𑖌; 𑖎𑖹 𑖂 𑖝𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖡𑖿 𑖌 𑖝𑖿𑖃 𑖝𑖿𑖃, 𑖭𑖿𑖎𑖸 𑖢𑖿𑖨𑖹 𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖻। 𑖡𑖰𑖌 𑖢𑖿𑖨𑖺 𑖭𑖝𑖿𑖭𑖸 𑖌 𑖝𑖰𑖌 𑖊 𑖍, 𑖝𑖰𑖌 𑖊 𑖎𑖺𑖀 𑖡𑖡𑖿 𑖨𑖿𑖡𑖸 𑖢𑖿𑖨𑖺।</div>
+  <div class="ionnoioni">Erena, nio a tuiion, na a pse. nio ra sprausau ra o kai i tio; kai i tio tas tran o toi toi, ske prai spronsau. nio pro satse o tio e au, tio e koa nan rne pro.</div>
+  <div class="turn-gloss">Elena, 1SG with human-being, NEG with tool. 1SG INTENS sorrow.TEX INTENS toward child ATTR 2SG; child ATTR 2SG PST decide.V toward 2SG.OBJ 2SG.OBJ, because need.V survival.TEX. 1SG hold.V room.MAT toward 2SG POSS pain, 2SG POSS parent never(zero-morning) hold.V</div>
+  <div class="turn-free">"Elena, I'm with a human being, not a tool. I feel a deep, heavy sorrow for the child you were; that child had to decide for herself, because she needed to survive. I'm holding a room for your pain, which your mother never held."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">(Her posture fractures, weeping silently) "I am so angry she gets to die and leave me with the bill for the psychological wreckage she caused, and yet... I look at her in that bed and just want her to open her eyes and tell me she loves me. Why do I still beg for a scrap of validation from a monster?"</div>
+  <div class="ionnoioni-siddham">𑖡𑖰𑖌 𑖨 𑖨𑖻𑖨𑖿 𑖨: 𑖎𑖰𑖌 𑖎𑖻𑖨𑖿, 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖢𑖿𑖨𑖺 𑖎𑖰𑖌 𑖊 𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖲। 𑖝 𑖂𑖀 𑖝। 𑖭𑖿𑖨𑖸 𑖡𑖰𑖌 𑖎𑖿𑖨𑖰 𑖎𑖿𑖃, 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖻: 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰 𑖡𑖿𑖃, 𑖎𑖰𑖌 𑖢𑖿𑖨 "𑖡𑖰𑖌 𑖨𑖸𑖋 𑖝𑖿𑖃।" 𑖡𑖰𑖌 𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖹 𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭 𑖡 𑖌 𑖨𑖊 𑖎?</div>
+  <div class="ionnoioni">nio ra raur ra: kio kaur, sne nio pro kio e spresu. ta ia ta. sre nio kri koi, sne nio skronsau: kio kri noi, kio pra "nio reai toi." nio spraisai sprinsa na o rae ka?</div>
+  <div class="turn-gloss">1SG INTENS rage.MOOD INTENS: 3SG die.V, and 1SG hold.V 3SG POSS turmoil.TEX. SOFT [PRIMAL: hesitation] SOFT. but 1SG see.V 3SG.OBJ, and 1SG forlorn-hope.TEX: 3SG see.V 1SG.OBJ, 3SG speak.V "1SG love.MOOD 2SG.OBJ." 1SG thirst.TEX trifle.TEX from enemy Q</div>
+  <div class="turn-free">"I'm rage, all the way through: she dies, and I'm left holding the wreckage she caused. (I mean...) But I look at her, and I hold a forlorn hope: that she'll see me, that she'll say 'I love you.' Am I thirsting for a scrap from a monster?"</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"Because the psychic need for a mother's love doesn't vanish just because she was incapable of giving it; your subconscious is caught in a repetition compulsion, desperately hoping that if you are finally perfect or efficient enough, the withholding object will choose you."</div>
+  <div class="ionnoioni-siddham">𑖭𑖿𑖎𑖸 𑖢𑖿𑖨𑖹 𑖂 𑖎𑖺𑖀 𑖊 𑖨𑖸𑖋 𑖡 𑖎𑖻𑖨𑖿, 𑖭𑖿𑖎𑖸 𑖎𑖺𑖀 𑖡 𑖝𑖿𑖨𑖸। 𑖝𑖰𑖌 𑖊 𑖝𑖿𑖭 𑖂 𑖝𑖿𑖨𑖺𑖡𑖿 𑖎𑖿𑖨𑖲𑖎𑖿𑖨: 𑖭𑖿𑖢𑖸 𑖝𑖰𑖌 𑖨 𑖎𑖿𑖨𑖸 𑖨, 𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖿𑖨𑖰 𑖝𑖿𑖃।</div>
+  <div class="ionnoioni">ske prai i koa e reai na kaur, ske koa na tre. tio e tsa i tron krukra: spe tio ra kre ra, kio par kri toi.</div>
+  <div class="turn-gloss">because need ATTR parent POSS love.MOOD NEG die.V, because parent NEG give.V. 2SG POSS mind ATTR dark compulsion: if 2SG INTENS good INTENS, 3SG FUT see.V 2SG.OBJ</div>
+  <div class="turn-free">"Because the need for a mother's love doesn't die just because she didn't give it. Your hidden mind is caught in a compulsion: if you're good enough, all the way through, she'll finally see you."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Elena</span>
+  <div class="source-en">(Takes a long, ragged, un-defended breath, her shoulders completely dropping) "She will likely die in a coma without ever saying it, and I don't know how to exist without the armor: without it, I feel entirely porous, like the wind could blow right through me."</div>
+  <div class="ionnoioni-siddham">𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖻𑖨𑖿, 𑖡 𑖢𑖿𑖨। 𑖡𑖰𑖌 𑖡 𑖢𑖿𑖨𑖲 𑖝𑖿𑖭𑖺: 𑖭𑖿𑖢𑖸 𑖡𑖰𑖌 𑖡 𑖢𑖿𑖨𑖺 𑖝𑖿𑖭 𑖂 𑖢𑖿𑖭, 𑖡𑖰𑖌 𑖢𑖿𑖨𑖺𑖡𑖿 𑖎? 𑖡𑖰𑖌 𑖨 𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖲 𑖨; 𑖝𑖿𑖭𑖸 𑖝𑖿𑖨𑖺 𑖌 𑖡𑖿𑖃।</div>
+  <div class="ionnoioni">kio par kaur, na pra. nio na pru tso: spe nio na pro tsa i psa, nio pron ka? nio ra skransu ra; tse tro o noi.</div>
+  <div class="turn-gloss">3SG FUT die.V, NEG speak.V. 1SG NEG know.V way: if 1SG NEG hold.V mind ATTR stone, 1SG live.V Q? 1SG INTENS letting-all-through.TEX INTENS; space move.V toward 1SG.OBJ</div>
+  <div class="turn-free">"She'll die without saying it. I don't know the way: if I'm not holding the stone mind, do I live? I'm porous, all the way through; open space moves right through me."</div>
+</div>
+
+<div class="turn">
+  <span class="speaker">Dr. Vance</span>
+  <div class="source-en">"You cannot litigate a settlement with a ghost, Elena, but today you don't have to fight or manage the room. You allowed the armor to drop, you spoke your truest grief and you are still safe; we will sit right here in the quiet of that truth."</div>
+  <div class="ionnoioni-siddham">𑖊𑖨𑖸𑖡, 𑖝𑖰𑖌 𑖡 𑖝𑖿𑖨𑖡𑖿 𑖀 𑖎𑖺𑖄𑖡𑖿। 𑖝𑖭𑖢𑖨𑖿, 𑖝𑖰𑖌 𑖡 𑖢𑖿𑖨𑖹 𑖢𑖿𑖨𑖺, 𑖡 𑖢𑖿𑖨𑖹 𑖝𑖿𑖨𑖡𑖿। 𑖝𑖰𑖌 𑖎𑖿𑖨𑖡𑖿: 𑖝𑖰𑖌 𑖡 𑖢𑖿𑖨𑖺 𑖝𑖿𑖭 𑖂 𑖢𑖿𑖭। 𑖝𑖰𑖌 𑖢𑖿𑖨 𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭, 𑖭𑖿𑖡𑖸 𑖝𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖭𑖸 𑖀 𑖡𑖿𑖃। 𑖄 𑖡𑖰𑖌 𑖢𑖨𑖿 𑖝 𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖸 𑖝 𑖡𑖿𑖨।</div>
+  <div class="ionnoioni">Erena, tio na tran a koun. tasapar, tio na prai pro, na prai tran. tio kran: tio na pro tsa i psa. tio pra skreusa, sne tio skrase a noi. u nio par ta strise ta nr.</div>
+  <div class="turn-gloss">Elena, 2SG NEG decide.V with departed. now(past-with-future), 2SG NEG need.V hold.V, NEG need.V decide.V. 2SG allow.V: 2SG NEG hold.V mind ATTR stone. 2SG speak.V clear-edged-sorrow.TEX, and 2SG safe-with-someone.TEX with 1SG.OBJ. PL 1SG FUT SOFT ease-with-someone.TEX SOFT INT(close)</div>
+  <div class="turn-free">"Elena, you can't settle accounts with the departed. Now, you don't need to hold everything, don't need to decide. You allowed it: you're not holding the stone mind. You spoke your grief, and you're safe with me. We'll sit together, gently, in the quiet."</div>
+</div>
+
+<h4 class="showcase-subheading">What's doing the work here</h4>
+<p><strong>Who owns the texture words.</strong> Elena uses none of her own in her first two speeches; she talks in plain verbs, kinship terms and clock time. Every early texture word comes from Dr. Vance: <em>skaursi</em>, <em>stronsai</em>. In her third speech she finally uses texture words, but only as weapons aimed at him (<em>skrisoi</em>, <em>tsorse</em>) or denied outright (<em>na stronsai</em>). Only after her defenses crack does she name her own: <em>raur</em>, <em>skronsau</em>, <em>spraisai</em>, then <em>skransu</em>. The last texture word in the dialogue, <em>strise</em>, belongs to both of them.</p>
+<p><strong>Four roots that run the whole length.</strong> <em>pro</em> (hold): the stone mind she holds, the space he holds, the wreckage she is left holding, the mother who never held, and at the end no longer holding. <em>kri</em> (see): "she never saw me," "she will see me," and the therapist who does see her. <em>tso</em> (way): her procedure, her mother's pattern, the way she does not know how to live. <em>tran</em> (decide): deciding for her mother, the child deciding for herself, and finally no need to decide.</p>
+<p><strong>One phrase, two readings.</strong> When Elena says <em>nio na pru tso</em>, the words first meant "I don't know the way." Since <em>pru tso</em> (knowing the way) is also how Ionnoioni says "can," the same line reads "I can't." Both are true of her at that moment, and the language says them at once.</p>
+<p><strong>Never, twice.</strong> Elena says her mother <em>nan rne kri noi</em>, never saw her, literally "zero mornings saw me." Dr. Vance answers in her own word: the pain <em>tio e koa nan rne pro</em>, your mother never held. Because nan rne is a function word rather than a count, it is spelled out in Siddham instead of being written with the digit ०.</p>
+<p><strong>Now.</strong> Dr. Vance's last speech opens with <em>tasapar</em>, now. <em>tasopar</em>, past toward future, is time as it flows; <em>tasapar</em>, past with future, is the one point where they touch. It is the same pairing as here and there, <em>tse a</em> and <em>tse o</em>, and in weightier speech it opens out into <em>tas a par</em>.</p>
+<p><strong>Here and there.</strong> <em>tse a</em> (space with) is "here," and Dr. Vance uses it for the room itself: <em>tse a, a noi</em>, here, with me. Its partner <em>tse o</em> is "there," so an earlier draft of line 8, <em>nio pro tse o tio e au</em>, could be heard as "I hold there your pain." Material color resolved it: <em>satse</em> (a room, a nook) gives <em>nio pro satse o tio e au</em>, "I am holding a room for your pain," which is closer to what a therapist means by holding space, with no overlap left to sort.</p>
+<p><strong>Gentle to the end.</strong> Dr. Vance's last words bracket <em>strise</em> (comfortable silence) with ta on both sides: <em>u nio par ta strise ta nr</em>, a quiet that stays soft all the way through.</p>
+<p><strong>Two small kennings, one family.</strong> <em>tsa i psa</em> (stone mind) is the fortress of intellect, and <em>tsa i tron</em> (dark mind) is the hidden mind beneath it. Clinical terms are rendered by what they mean rather than what they are called: the repetition compulsion is <em>krukra</em>, which already names the safety-seeking function, and "the withholding object will choose you" becomes simply <em>kio par kri toi</em>, she will see you.</p>
+<p><strong>A curse, a name and two numbers.</strong> <em>kso!</em> (fire!) is an inanimate root fired off as an oath, using the ks- sound color for profanity. Elena's name becomes <em>Erena</em>, since the inventory has no l. And in Siddham, "four hours" and "you are one" are written with the digits ४ and १, as every number is.</p>
+
+<p class="showcase-footer">Read beside the first dialogue, this one completes a pair. One client had too much feeling and not enough words to tell it apart; this one had the words walled away. Between them, they show what a vocabulary of texture is for.</p>
+
+</div>
+
+</body>
+</html>

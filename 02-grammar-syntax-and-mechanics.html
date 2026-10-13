@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ionnoioni: Grammar, Syntax &amp; Mechanics</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --ink: #1a1410;
+    --paper: #faf6ee;
+    --accent: #7a3b2e;
+    --line: #d8cdb8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Noto Serif', Georgia, serif;
+    margin: 0;
+    padding: 32px 28px 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  h1 { text-align: center; font-size: 1.9rem; margin: 0 0 2px; }
+  .subtitle { text-align: center; font-size: 1rem; color: var(--accent); margin: 0 0 24px; font-style: italic; }
+  h2.section {
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 4px;
+    margin: 30px 0 12px;
+  }
+  h3.sub { font-size: 1.02rem; color: var(--accent); margin: 18px 0 6px; }
+  p.body { margin: 4px 0 10px; }
+
+  .ex {
+    margin: 10px 0 16px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  .siddham-row {
+    font-family: 'Noto Sans Siddham', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+  .roman-row { font-style: italic; color: var(--accent); margin-top: 4px; font-size: 0.95rem; }
+  .gloss-row { color: #555; font-size: 0.85rem; margin-top: 2px; }
+  .gloss-row span { display: inline-block; margin-right: 10px; }
+  .free-row { margin-top: 3px; font-size: 0.95rem; }
+  table.fw { border-collapse: collapse; width: 100%; background: #fff; border: 1px solid var(--line); margin: 10px 0 16px; }
+  table.fw th, table.fw td { padding: 6px 10px; text-align: left; border: 1px solid var(--line); font-size: 0.9rem; }
+  table.fw th { background: var(--accent); color: #fff; }
+  table.fw td.w { font-style: italic; color: var(--accent); white-space: nowrap; }
+  .siddham-tag { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.2rem; }
+  .gap-note { font-size: 0.85rem; color: #a05a2c; font-style: italic; margin: 4px 0 14px; }
+</style>
+</head>
+<body>
+<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+
+  <h1>Ionnoioni</h1>
+  <div class="subtitle">Grammar, Syntax &amp; Mechanics</div>
+
+  <p class="body">Ionnoioni is <strong>analytic</strong>: word order and a small set of invariant particles carry every grammatical relationship. No word ever changes its own shape to mark tense, case, number or possession, only the words placed around it do.</p>
+
+  <h2 class="section">Word order &amp; zero-copula predication</h2>
+  <p class="body">Basic order is Subject-Verb-Object. Predicates attach directly to a subject with no linking "to be" verb at all. This isn't limited to mood words, it applies to any predicate: a mood root, a descriptive/quality word or anything else standing in that slot. Mood was simply where the pattern first got demonstrated.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨𑖰 𑖝𑖿𑖃 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖢𑖿𑖨𑖹 𑖨𑖸𑖋</div>
+    <div class="roman-row">nio kri toi sne nio prai reai</div>
+    <div class="gloss-row"><span>1SG</span><span>see.V</span><span>2SG.OBJ</span><span>and</span><span>1SG</span><span>need.V</span><span>love.MOOD</span></div>
+    <div class="free-row">I see you and I need love</div>
+  </div>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖡𑖿𑖨𑖺𑖎𑖺</div>
+    <div class="roman-row">nio nroko</div>
+    <div class="gloss-row"><span>1SG</span><span>strange.ATTR</span></div>
+    <div class="free-row">I am strange</div>
+  </div>
+  <p class="gap-note">A descriptive/quality word (ordinarily seen attaching to a noun via i, as in nroko i tsi, "strange tree") stands here as a bare predicate with no linking verb, exactly the way a mood word does.</p>
+
+  <h2 class="section">Pronouns</h2>
+  <p class="body">Ionnoioni has three pronouns, each with a subject form and an object form. The consonant marks the person (n for the speaker, t for the one spoken to, k for anyone or anything else) and the order of the two vowels marks the role: <em>io</em> for the subject, <em>oi</em> for the object. The plural particle <em>u</em> in front makes any of them plural.</p>
+  <table class="fw">
+    <tr><th>Subject</th><th>Object</th><th>Siddham</th><th>Meaning</th></tr>
+    <tr><td class="w">nio</td><td class="w">noi</td><td class="siddham-tag">𑖡𑖰𑖌 / 𑖡𑖿𑖃</td><td>I / me</td></tr>
+    <tr><td class="w">tio</td><td class="w">toi</td><td class="siddham-tag">𑖝𑖰𑖌 / 𑖝𑖿𑖃</td><td>you / you</td></tr>
+    <tr><td class="w">kio</td><td class="w">koi</td><td class="siddham-tag">𑖎𑖰𑖌 / 𑖎𑖿𑖃</td><td>he, she or it / him, her or it</td></tr>
+    <tr><td class="w">u nio</td><td class="w">u noi</td><td class="siddham-tag">𑖄 𑖡𑖰𑖌 / 𑖄 𑖡𑖿𑖃</td><td>we / us</td></tr>
+    <tr><td class="w">u tio</td><td class="w">u toi</td><td class="siddham-tag">𑖄 𑖝𑖰𑖌 / 𑖄 𑖝𑖿𑖃</td><td>you (more than one)</td></tr>
+    <tr><td class="w">u kio</td><td class="w">u koi</td><td class="siddham-tag">𑖄 𑖎𑖰𑖌 / 𑖄 𑖎𑖿𑖃</td><td>they / them</td></tr>
+  </table>
+  <p class="body">kio carries no gender and no class: it is he, she and it alike, for people, animals and things. In this Ionnoioni follows languages like Turkish and Persian, whose third-person pronouns (Turkish <em>o</em>, Persian <em>u</em>) make no gender distinction either. Number, on the other hand, is always available through <em>u</em>.</p>
+
+  <h3 class="sub">Which form to use</h3>
+  <p class="body">The <strong>subject form</strong> is for the one doing or being: before the verb, or as the subject of a zero-copula predicate. It is also the form that takes the possessive <em>e</em>: <em>nio e kea</em>, my sibling. (For "your," both <em>tio e</em> and <em>toi e</em> are heard.)</p>
+  <p class="body">The <strong>object form</strong> is for everything else: after the verb, as the one receiving the action, and after any particle at all, as in <em>a noi</em> (with me), <em>o toi</em> (toward you), <em>na o koi</em> (away from it) and <em>a u noi</em> (with us).</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 𑖌 𑖡𑖿𑖃।</div>
+    <div class="roman-row">kio tas tro o noi.</div>
+    <div class="gloss-row"><span>3SG</span><span>PST</span><span>walk.V</span><span>toward</span><span>1SG.OBJ</span></div>
+    <div class="free-row">She walked toward me.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖊 𑖎𑖸𑖀</div>
+    <div class="roman-row">nio e kea</div>
+    <div class="gloss-row"><span>1SG</span><span>POSS</span><span>sibling</span></div>
+    <div class="free-row">my sibling</div>
+  </div>
+
+  <h3 class="sub">The reflexive</h3>
+  <p class="body">There is no separate reflexive pronoun: the object form is simply doubled. Doubling is always on the object pronoun; doubling the subject pronoun is not a recognized construction.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖨𑖸𑖋 𑖡𑖿𑖃 𑖡𑖿𑖃</div>
+    <div class="roman-row">nio reai noi noi</div>
+    <div class="gloss-row"><span>1SG</span><span>love.MOOD</span><span>1SG.OBJ</span><span>1SG.OBJ</span></div>
+    <div class="free-row">I love myself</div>
+  </div>
+  <p class="body">This has a useful consequence. Because pointing back to the subject requires the doubled form, a <strong>single</strong> object pronoun never refers to its own subject. In <em>kio kri koi</em>, the one seeing and the one seen are two different people. The section on keeping track of who's who, below, puts this to work.</p>
+
+  <h2 class="section">Particles</h2>
+
+  <h3 class="sub">e: possessive, and reaching inside a kenning</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖊 𑖋𑖊𑖭𑖿</div>
+    <div class="roman-row">nio e aies</div>
+    <div class="gloss-row"><span>1SG</span><span>POSS</span><span>afterglow.MOOD</span></div>
+    <div class="free-row">my afterglow</div>
+  </div>
+  <p class="body">e's ordinary job is possession, but it has a second, more deliberate use: reaching inside a multi-root kenning and re-possessing just one inner piece of it, rather than claiming the whole compound. This is a genuinely different move from i's job below (binding a kenning as one indivisible unit); e can decompose it.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖊 𑖢𑖿𑖨𑖰𑖡𑖿 𑖝𑖿𑖨𑖺𑖡𑖿, 𑖊 𑖭𑖹𑖭𑖻 𑖡 𑖢𑖿𑖨𑖲</div>
+    <div class="roman-row">nio e prin tron, e saisau na pru</div>
+    <div class="gloss-row"><span>1SG</span><span>POSS</span><span>small-dark(heart)</span><span>POSS</span><span>rhythm</span><span>NEG</span><span>know.V</span></div>
+    <div class="free-row">my heart, its rhythm is uncertain</div>
+  </div>
+  <p class="gap-note">Reserved for more creative or technical registers; the compact everyday form uses i instead (see Idioms, Metaphors &amp; Kennings).</p>
+
+  <h3 class="sub">u: plural</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖄 𑖡𑖰𑖌 𑖨𑖸𑖋 𑖝𑖿𑖃</div>
+    <div class="roman-row">u nio reai toi</div>
+    <div class="gloss-row"><span>PL</span><span>1SG</span><span>love.MOOD</span><span>2SG.OBJ</span></div>
+    <div class="free-row">we love you</div>
+  </div>
+  <p class="body">u also has a bound, non-plural use inside compounds, marking immersion/containment the way a vowel-shift to -u does elsewhere (e.g. raeu, "threat-immersed place," from rae "enemy" + u). This is accepted homophony: free-standing u is always plural; bound u inside a compound carries containment instead.</p>
+
+  <h3 class="sub">i: general binding link</h3>
+  <p class="body">i's real job is broader than "attach a modifier to a noun." It binds any two units where bare juxtaposition alone would be ambiguous, numerals, descriptive roots, kinship depth, a kenning taken as one whole, even a pronoun bound to a bracketed primal-register cry. The modifier+noun pattern below was simply the first place it got demonstrated; it was never the limit of what i does.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖡𑖿 𑖂 𑖢𑖿𑖭</div>
+    <div class="roman-row">kan i psa</div>
+    <div class="gloss-row"><span>three</span><span>ATTR</span><span>stone</span></div>
+    <div class="free-row">three stones</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖡𑖿 𑖂 𑖝𑖸 𑖎𑖺𑖀</div>
+    <div class="roman-row">tan i te koa</div>
+    <div class="gloss-row"><span>two</span><span>ATTR</span><span>fore-</span><span>parent</span></div>
+    <div class="free-row">great-grandparent</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖢𑖨𑖿 𑖡𑖰𑖌 𑖂 𑖨 𑖂𑖀 𑖨 । 𑖨 𑖝𑖿𑖨 𑖨 𑖭𑖿𑖡𑖸 𑖋𑖌</div>
+    <div class="roman-row">par nio i ra ia ra, ra tra ra sne aio</div>
+    <div class="gloss-row"><span>FUT</span><span>1SG</span><span>ATTR</span><span>INTENS</span><span>[PRIMAL: surprise-burst]</span><span>INTENS</span><span>INTENS</span><span>comfortable.V</span><span>INTENS</span><span>and</span><span>joy.PRIMAL</span></div>
+    <div class="free-row">I thought I'd feel ecstatic (future-me, intense surprise-burst, intensely comfortable and joy)</div>
+  </div>
+  <p class="gap-note">Here i binds a pronoun directly to a bracketed primal-register cry, material i had never joined before. Once i's job is stated as "bind any two units where juxtaposition would be ambiguous," this follows from the existing rule rather than stretching it.</p>
+
+  <h3 class="sub">na: negation (item-scoped; a minimal pair)</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡 𑖢𑖿𑖨𑖲</div>
+    <div class="roman-row">na pru</div>
+    <div class="gloss-row"><span>NEG</span><span>know.V</span></div>
+    <div class="free-row">to be uncertain</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖢𑖿𑖨𑖲 𑖡</div>
+    <div class="roman-row">pru na</div>
+    <div class="gloss-row"><span>know.V</span><span>NEG</span></div>
+    <div class="free-row">to doubt / to not know</div>
+  </div>
+  <p class="body">Same two words, opposite order, negation attaches to whatever it stands beside, not to the whole clause.</p>
+
+  <h3 class="sub">ka: question marker, by position</h3>
+  <p class="body">ka is the sixth positional particle, alongside nr, tr, pr, ra and ta: where it stands changes what kind of question is being asked. At the end of a sentence it asks an ordinary question. At the start, joined to a question word, it frames the whole sentence as a question from the outset (see Function words, below). Mid-sentence it flags "I ask you." At both ends, it holds the question open the whole way through, an insistent question.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖎𑖿𑖨 𑖀 𑖡𑖿𑖃 𑖎</div>
+    <div class="roman-row">tio kra a noi ka</div>
+    <div class="gloss-row"><span>2SG</span><span>be.safe.V</span><span>with</span><span>1SG.OBJ</span><span>Q</span></div>
+    <div class="free-row">Do you feel safe with me?</div>
+  </div>
+  <p class="body">ka can also appear mid-sentence to flag "I ask you" before the question itself arrives, slowing the sentence down and signaling a genuine, open question rather than a rhetorical one.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖿𑖨, 𑖝𑖰𑖌 𑖨 𑖃 𑖨, 𑖭𑖿𑖨𑖸 𑖝𑖿𑖃 𑖎: 𑖃 𑖝𑖿𑖨𑖲𑖡𑖿 𑖝𑖰𑖌 𑖊 𑖢𑖿𑖨𑖲 𑖎?</div>
+    <div class="roman-row">nr, tio ra oi ra, sre toi ka: oi trun tio e pru ka?</div>
+    <div class="gloss-row"><span>INT(open)</span><span>2SG</span><span>INTENS</span><span>alarm.MOOD</span><span>INTENS</span><span>but</span><span>2SG.OBJ</span><span>Q(I ask)</span><span>alarm.MOOD</span><span>cause.V</span><span>2SG</span><span>POSS</span><span>know.V</span><span>Q</span></div>
+    <div class="free-row">Your alarm is intense throughout, but I ask you: does the alarm cause your knowing?</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖎 𑖭𑖿𑖎𑖸 𑖝𑖰𑖌 𑖢𑖿𑖨𑖸 𑖎?</div>
+    <div class="roman-row">ka ske tio pre ka?</div>
+    <div class="gloss-row"><span>Q</span><span>why</span><span>2SG</span><span>upset.V</span><span>Q</span></div>
+    <div class="free-row">Why are you upset? (insistent, the question held throughout)</div>
+  </div>
+
+  <h3 class="sub">a / o: relational particles (with / toward)</h3>
+  <p class="body">Already shown above: <em>a</em> marking "with" in <em>tio kra a noi</em>. Combined with negation, <em>na a</em> or <em>na o</em> yields "not with" / "away from," at no extra cost.</p>
+  <p class="body">A pronoun after any relational particle takes its object form: <em>a noi</em> (with me), <em>o toi</em> (toward you), <em>na o koi</em> (away from it), <em>a u noi</em> (with us). The subject forms nio, tio and kio are kept for the one doing or being.</p>
+
+  <h3 class="sub">"Instead" / "instead of": ste + o recombined</h3>
+  <p class="body">Not built from negation: "instead" never denies the unchosen option exists, it only selects among live options, which is why ste (or) is the right anchor rather than na. An early attempt to frame this as exclusive-or logic (na ste) was tested and rejected, that reads as NOR (neither), the wrong shape entirely. Two orderings carry genuinely different weight, not interchangeable.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖭𑖿𑖝𑖸 𑖌</div>
+    <div class="roman-row">ste o</div>
+    <div class="gloss-row"><span>or</span><span>toward</span></div>
+    <div class="free-row">instead? (forward-offering, e.g. "we have no coffee, tea instead?")</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖌 𑖭𑖿𑖝𑖸</div>
+    <div class="roman-row">o ste</div>
+    <div class="gloss-row"><span>toward</span><span>or</span></div>
+    <div class="free-row">instead of (retrospective-asserting, e.g. "she walked instead of driving")</div>
+  </div>
+
+  <h3 class="sub">ta: de-intensifier, and the connectives sre / ske / spe</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖨𑖻𑖨𑖿 𑖎</div>
+    <div class="roman-row">tio raur ka</div>
+    <div class="gloss-row"><span>2SG</span><span>rage.MOOD.V</span><span>Q</span></div>
+    <div class="free-row">Are you angry right now?</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖨𑖻𑖨𑖿 𑖝 𑖭𑖿𑖨𑖸 𑖡 𑖀 𑖝𑖿𑖃</div>
+    <div class="roman-row">nio raur ta sre na a toi</div>
+    <div class="gloss-row"><span>1SG</span><span>rage.MOOD.V</span><span>DEG(soft)</span><span>but</span><span>NEG</span><span>with</span><span>2SG.OBL</span></div>
+    <div class="free-row">A little bit, but not with you</div>
+  </div>
+  <p class="body">ta can also bracket the non-lexical primal register, not just ordinary lexical words, trailing a hesitation off gently rather than letting it stand raw.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝 𑖂𑖀 𑖝</div>
+    <div class="roman-row">ta ia ta</div>
+    <div class="gloss-row"><span>SOFT</span><span>[PRIMAL: hesitation]</span><span>SOFT</span></div>
+    <div class="free-row">(trailing off, a soft "I mean...")</div>
+  </div>
+  <p class="body"><strong>spe</strong> (if/then) bundles both halves of a conditional in one particle: a bare spe-clause followed immediately by a second clause reads as the complete "if X, then Y" with no second connective needed.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖭𑖿𑖢𑖸 𑖡𑖰𑖌 𑖡 𑖝𑖿𑖨𑖸𑖎𑖿𑖨, 𑖝𑖿𑖨𑖺 𑖡 𑖌 𑖢𑖨𑖿 𑖝𑖿𑖨𑖺𑖝𑖿𑖨𑖰</div>
+    <div class="roman-row">spe nio na trekra, tro na o par trotri</div>
+    <div class="gloss-row"><span>if</span><span>1SG</span><span>NEG</span><span>care.for.V</span><span>walk.V</span><span>NEG</span><span>toward</span><span>FUT</span><span>play.V</span></div>
+    <div class="free-row">if I didn't care, walking away would be [like] play [easy]</div>
+  </div>
+
+  <h3 class="sub">ske: because</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨 𑖭𑖿𑖎𑖸 𑖝𑖰𑖌 𑖝𑖿𑖨𑖸𑖎𑖿𑖨 𑖡𑖿𑖃 𑖡𑖿𑖨</div>
+    <div class="roman-row">nio kra ske tio trekra noi nr</div>
+    <div class="gloss-row"><span>1SG</span><span>be.safe.V</span><span>because</span><span>2SG</span><span>care.for.V</span><span>1SG.OBJ</span><span>INT(close)</span></div>
+    <div class="free-row">Yes, because you care for me</div>
+  </div>
+
+  <h3 class="sub">tas: past time-reference</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖝𑖭𑖿 𑖢𑖿𑖨𑖸 𑖝𑖿𑖃 𑖎</div>
+    <div class="roman-row">nio tas pre toi ka</div>
+    <div class="gloss-row"><span>1SG</span><span>PST</span><span>upset.V</span><span>2SG.OBJ</span><span>Q</span></div>
+    <div class="free-row">Did I do something to upset you?</div>
+  </div>
+  <h3 class="sub">par: future time-reference</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖢𑖨𑖿 𑖝𑖿𑖨𑖺 𑖝𑖿𑖃 𑖌</div>
+    <div class="roman-row">nio par tro toi o</div>
+    <div class="gloss-row"><span>1SG</span><span>FUT</span><span>walk.V</span><span>2SG.OBJ</span><span>toward</span></div>
+    <div class="free-row">I will walk toward you</div>
+  </div>
+  <p class="body">par can also mark a mood word directly, something not demonstrated until a grief was pointed at the future rather than the past.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖢𑖨𑖿 𑖎𑖻𑖡𑖿</div>
+    <div class="roman-row">tio par kaun</div>
+    <div class="gloss-row"><span>2SG</span><span>FUT</span><span>grief.MOOD</span></div>
+    <div class="free-row">you are anticipatory-grief (grief for something not yet lost)</div>
+  </div>
+
+  <h2 class="section">The intimacy register, tr, and pr</h2>
+  <p class="body">nr is written 𑖡𑖿𑖨, spoken [nrɛ], and was the first particle whose meaning shifts by position rather than by presence alone. Two more particles now follow the same pattern: <strong>tr</strong> [trɛ] marking voluntary/self-originated action, and <strong>pr</strong> [prɛ] marking involuntary/happened-to action. Before these existed, nothing in the grammar marked whether an action was chosen or imposed; every verb was neutral on that axis by default. tr echoes <em>tre</em> (give), the self as the source; pr echoes <em>par</em> (future), something not yet authored by the subject, arriving at them rather than from them.</p>
+
+  <h3 class="sub">nr, opening only, inviting, tentative</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖿𑖨 𑖝𑖰𑖌 𑖎𑖿𑖨 𑖀 𑖡𑖿𑖃 𑖎</div>
+    <div class="roman-row">nr tio kra a noi ka</div>
+    <div class="gloss-row"><span>INT(open)</span><span>2SG</span><span>be.safe.V</span><span>with</span><span>1SG.OBJ</span><span>Q</span></div>
+    <div class="free-row">Do you feel safe with me? <em>(asked gently)</em></div>
+  </div>
+  <p class="body">nr's scope is broad by design: it marks any offer of intimacy in the general sense, closeness, trust, vulnerability extended, not narrowly romantic or erotic. It applies as naturally to a therapeutic alliance or a close friendship as to romance.</p>
+
+  <h3 class="sub">nr, closing only, deferred, private-later</h3>
+  <p class="body">See <em>nio kra ske tio trekra noi nr</em> above, the answer closes with nr, marking something held rather than something newly offered.</p>
+
+  <h3 class="sub">nr, both ends, full intimate register</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖿𑖨 𑖡𑖰𑖌 𑖝𑖿𑖨𑖸𑖎𑖿𑖨𑖰 𑖝𑖿𑖃 𑖝𑖿𑖭𑖺 𑖨𑖸𑖋 𑖡𑖿𑖨 𑖎</div>
+    <div class="roman-row">nr nio trekri toi tso reai nr ka</div>
+    <div class="gloss-row"><span>INT</span><span>1SG</span><span>show.V(give+see)</span><span>2SG.OBJ</span><span>way</span><span>love.MOOD</span><span>INT</span><span>Q</span></div>
+    <div class="free-row">How can I show you love?</div>
+  </div>
+
+  <h3 class="sub">tr and pr, voluntary / involuntary</h3>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖿𑖨 𑖝𑖿𑖭𑖺𑖨𑖿 𑖭𑖿𑖨𑖸 𑖢𑖿𑖨𑖲</div>
+    <div class="roman-row">tr tsor sre pru</div>
+    <div class="gloss-row"><span>VOL</span><span>believe.V</span><span>but</span><span>know.V</span></div>
+    <div class="free-row">believing in spite of knowing (voluntary self-deception, read as one idiom)</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖢𑖿𑖨 𑖡𑖝𑖲𑖂</div>
+    <div class="roman-row">pr natui</div>
+    <div class="gloss-row"><span>INVOL</span><span>disconnection.MOOD</span></div>
+    <div class="free-row">involuntary delusion, a break in the mind's own reality-tracking</div>
+  </div>
+  <p class="body">Not every word needs tr or pr stated; most default to one reading or the other based on how the experience typically unfolds, and the particle is only added when the distinction actually needs to be made explicit. A few words take neither: naireo (projection) deliberately marks no voluntariness at all, since the experience of being projected upon is identical regardless of the projector's intent, and marking the target's voluntariness would imply they had some choice in receiving it. tr/pr mark the boundary of their own usefulness as much as their reach.</p>
+
+  <h2 class="section">Bracket particles, ra &amp; ta on a single mood word</h2>
+  <p class="body">Unlike nr, which brackets a whole clause, ra (intensify) and ta (soften) bracket a single mood root, and their position marks <em>where</em> the intensity falls, onset, resolution or throughout. Delivery (speed, volume, pitch) completes the meaning further; this is never written down.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖨 𑖃</div>
+    <div class="roman-row">ra oi</div>
+    <div class="gloss-row"><span>INTENS(onset)</span><span>alarm.MOOD</span></div>
+    <div class="free-row">sudden, struck-by alarm, awe-adjacent</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖃 𑖨</div>
+    <div class="roman-row">oi ra</div>
+    <div class="gloss-row"><span>alarm.MOOD</span><span>INTENS(resolution)</span></div>
+    <div class="free-row">alarm that builds as it resolves, dread</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝 𑖃 𑖝</div>
+    <div class="roman-row">ta oi ta</div>
+    <div class="gloss-row"><span>SOFT</span><span>alarm.MOOD</span><span>SOFT</span></div>
+    <div class="free-row">gentle throughout, a low, sustained unease</div>
+  </div>
+
+  <h2 class="section">The primals</h2>
+  <p class="body">Beneath all of Ionnoioni's emotional vocabulary sit three primals, the first words the language had for feeling. Each is a single diphthong, and each names one of the basic emotional systems described by the neuroscientist Jaak Panksepp.</p>
+  <table class="fw">
+    <tr><th>Primal</th><th>Siddham</th><th>Meaning</th><th>Panksepp system</th></tr>
+    <tr><td class="w">ai</td><td class="siddham-tag">𑖋</td><td>desire</td><td>SEEKING</td></tr>
+    <tr><td class="w">au</td><td class="siddham-tag">𑖍</td><td>pain</td><td>PANIC/GRIEF</td></tr>
+    <tr><td class="w">oi</td><td class="siddham-tag">𑖃</td><td>alarm</td><td>FEAR</td></tr>
+  </table>
+  <p class="body">All three are <strong>falling</strong> diphthongs: each starts on an open vowel and closes toward i or u. They are the sound of something tightening, which suits feelings that grip. The primals are mood words, so they stand directly on a subject with no linking verb, and they take the ta and ra brackets like any other word. They also lend their senses to the vowel slots of the S class, where ai, au and oi read as desire, pain and alarm.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖋</div>
+    <div class="roman-row">tio ai</div>
+    <div class="gloss-row"><span>2SG</span><span>desire.MOOD</span></div>
+    <div class="free-row">You are desire.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖨 𑖃 𑖨</div>
+    <div class="roman-row">nio ra oi ra</div>
+    <div class="gloss-row"><span>1SG</span><span>INTENS</span><span>alarm.MOOD</span><span>INTENS</span></div>
+    <div class="free-row">I am alarm, intense throughout.</div>
+  </div>
+
+  <h3 class="sub">The children of the primals</h3>
+  <p class="body">Each primal has two children, made by placing i or u in front of it. The two vowels keep the senses they carry everywhere else in the language. <strong>i</strong> binds, so the i-child is <strong>focal</strong>: the feeling is pinned to one thing. <strong>u</strong> immerses, so the u-child is <strong>diffuse</strong>: the feeling has no edges and surrounds you.</p>
+  <table class="fw">
+    <tr><th>Parent</th><th>Focal (i-child)</th><th>Siddham</th><th>Diffuse (u-child)</th><th>Siddham</th></tr>
+    <tr><td class="w">ai, desire</td><td><em>iai</em>: desire fixed on one thing, the instant of "that one!"</td><td class="siddham-tag">𑖂𑖋</td><td><em>uai</em>: desire with nowhere to land, the wail of yearning</td><td class="siddham-tag">𑖄𑖋</td></tr>
+    <tr><td class="w">au, pain</td><td><em>iau</em>: pinpoint pain, a sharp, located hurt</td><td class="siddham-tag">𑖂𑖍</td><td><em>uau</em>: pain that engulfs, the howl</td><td class="siddham-tag">𑖄𑖍</td></tr>
+    <tr><td class="w">oi, alarm</td><td><em>ioi</em>: a startle at one thing, "yikes!"</td><td class="siddham-tag">𑖂𑖃</td><td><em>uoi</em>: alarm with no source, dread all around, dismay</td><td class="siddham-tag">𑖄𑖃</td></tr>
+  </table>
+  <p class="body">The children are mood words, just like their parents, and take the same brackets. They do not add new senses to the S class, whose eight vowel slots stay as they are.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖄𑖋</div>
+    <div class="roman-row">nio uai</div>
+    <div class="gloss-row"><span>1SG</span><span>yearning.MOOD</span></div>
+    <div class="free-row">I am yearning.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝 𑖄𑖃 𑖝</div>
+    <div class="roman-row">ta uoi ta</div>
+    <div class="gloss-row"><span>SOFT</span><span>diffuse-alarm.MOOD</span><span>SOFT</span></div>
+    <div class="free-row">a low, sourceless unease, gentle throughout</div>
+  </div>
+  <p class="gap-note">iau was a cry in the Primal Register before it was recognized as a child of au; its meaning did not change. uau sounds like "wow," and Portuguese spells "wow" exactly that way. In the standard language it is the howl of pain, but a dialect that drifts it toward amazement would be doing something entirely natural.</p>
+
+  <h2 class="section">The Primal Register</h2>
+  <p class="body">Unbroken runs of pure vowels, with no consonant, no virama, no bracket particle, no grammatical attachment of any kind. Not vocabulary, a register: the sound of feeling that has exceeded the mind's capacity to shape it into structure at all. Length and arc carry the weight, not which specific vowels appear or in what order, a short run reads as a sharp cry, still barely contained; a long, unbroken run reads as something closer to a wail, structure fully abandoned.</p>
+  <p class="body">The register has two uses: standing alone as a complete, raw cry, or inserted mid-sentence as <strong>phonetic punctuation</strong>, a burst of unstructured feeling dropped at a natural break point, skipped over entirely by the surrounding grammar rather than joined to it. A bracketed primal cry (ta ia ta, ra ia ra) can also be bound to a noun or pronoun via i, as shown above.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨𑖰 𑖊 𑖝𑖸 𑖎𑖺𑖀 𑖎𑖻𑖨𑖿 𑖃𑖃𑖍 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌 𑖡 𑖢𑖿𑖨𑖡𑖿 𑖎𑖿𑖃 𑖎𑖻𑖨𑖿 𑖡𑖿𑖨</div>
+    <div class="roman-row">nio kri e te koa kaur, oioiau, sne nio na pran koi kaur nr</div>
+    <div class="gloss-row"><span>1SG</span><span>see.V</span><span>POSS</span><span>fore-</span><span>parent</span><span>die.V</span><span>[PRIMAL: oi+oi+au]</span><span>and</span><span>1SG</span><span>NEG</span><span>prevent.V</span><span>3SG.OBJ</span><span>die.V</span><span>INT(close)</span></div>
+    <div class="free-row">I watched my grandfather die, <em>oioiau</em>, and I could not save him.</div>
+  </div>
+
+  <h3 class="sub">Conventional shapes</h3>
+  <p class="body">These shapes are documented habit, not fixed vocabulary. A speaker may reach for any other vowel-string a moment calls for.</p>
+  <table class="fw">
+    <tr><th>Shape</th><th>Siddham</th><th>Represents</th></tr>
+    <tr><td class="w">eia</td><td class="siddham-tag">𑖊𑖂𑖀</td><td>exasperation, a small defeat</td></tr>
+    <tr><td class="w">aio</td><td class="siddham-tag">𑖋𑖌</td><td>delighted greeting, a burst of joy</td></tr>
+    <tr><td class="w">aue</td><td class="siddham-tag">𑖍𑖊</td><td>plaintive, pleading</td></tr>
+    <tr><td class="w">eu</td><td class="siddham-tag">𑖊𑖄</td><td>disgust</td></tr>
+    <tr><td class="w">ia</td><td class="siddham-tag">𑖂𑖀</td><td>surprise</td></tr>
+    <tr><td class="w">ea</td><td class="siddham-tag">𑖊𑖀</td><td>anger ("hey!")</td></tr>
+    <tr><td class="w">uea</td><td class="siddham-tag">𑖄𑖊𑖀</td><td>raw grief, soft sobbing</td></tr>
+    <tr><td class="w">oe</td><td class="siddham-tag">𑖌𑖊</td><td>decorative affirmation or emphasis with no propositional content ("Really.")</td></tr>
+  </table>
+
+  <h3 class="sub">Opening cries</h3>
+  <p class="body">The primals and their children all close. A second family of cries does the opposite: these <strong>rising</strong> shapes start on i or u and open outward, the sound of something released. Rising shapes are what interjections are made of in language after language, and these are no exception: said quickly, many of them land close to familiar cries.</p>
+  <table class="fw">
+    <tr><th>Shape</th><th>Siddham</th><th>Represents</th></tr>
+    <tr><td class="w">ie</td><td class="siddham-tag">𑖂𑖊</td><td>recognition, "yes, that's it"</td></tr>
+    <tr><td class="w">io</td><td class="siddham-tag">𑖂𑖌</td><td>a call, setting out, "off we go"</td></tr>
+    <tr><td class="w">iu</td><td class="siddham-tag">𑖂𑖄</td><td>sinking into pleasure, "mmm"</td></tr>
+    <tr><td class="w">ua</td><td class="siddham-tag">𑖄𑖀</td><td>release, relief bursting out</td></tr>
+    <tr><td class="w">ue</td><td class="siddham-tag">𑖄𑖊</td><td>a plea</td></tr>
+    <tr><td class="w">uo</td><td class="siddham-tag">𑖄𑖌</td><td>awe, being brought up short by something large ("whoa")</td></tr>
+    <tr><td class="w">ui</td><td class="siddham-tag">𑖄𑖂</td><td>glee, delight in motion ("wee")</td></tr>
+  </table>
+  <p class="gap-note">ia (surprise) belongs to this family too. In the standard language each of these is two vowels, which is exactly what leaves them free to be cries. A dialect that hardens i before a vowel into y, and u into w, would turn them into ordinary syllables; see "A language that expects dialects," below.</p>
+
+  <h2 class="section">Ideophones, a fifth, exempt category</h2>
+  <p class="body">Ideophones are not built from the four root-class templates (animate, inanimate, verb, mood). Their shape imitates the sound they name, not a grammatical category, the same way kennings are exempt from the length ceiling and nr/tr/pr are exempt from sound-spelling correspondence. Sustained, repetitive or buzzing calls lean on the trill (r); short, breathy bursts stay minimal, often bare vowel-plus-consonant with no onset; calls with natural repetition may reduplicate.</p>
+
+  <table style="border-collapse:collapse; width:100%; background:#fff; border:1px solid var(--line); margin-bottom:14px;">
+    <tr style="background:var(--accent); color:#fff;"><th style="padding:6px 10px; text-align:left;">Siddham</th><th style="padding:6px 10px; text-align:left;">Roman</th><th style="padding:6px 10px; text-align:left;">Gloss</th></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖄𑖎𑖿</td><td style="padding:6px 10px;"><em>uk</em></td><td style="padding:6px 10px;">dog (bark)</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖡𑖻</td><td style="padding:6px 10px;"><em>nau</em></td><td style="padding:6px 10px;">cat (meow)</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖀𑖎𑖿</td><td style="padding:6px 10px;"><em>ak</em></td><td style="padding:6px 10px;">laugh</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖢𑖰𑖌</td><td style="padding:6px 10px;"><em>pio</em></td><td style="padding:6px 10px;">bird (generic call)</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖭𑖸𑖭𑖿</td><td style="padding:6px 10px;"><em>ses</em></td><td style="padding:6px 10px;">snake (hiss)</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖨𑖰𑖨𑖿</td><td style="padding:6px 10px;"><em>rir</em></td><td style="padding:6px 10px;">cricket</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖨𑖸𑖌𑖨𑖿</td><td style="padding:6px 10px;"><em>reor</em></td><td style="padding:6px 10px;">cicada</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖝𑖿𑖨𑖰𑖨𑖿</td><td style="padding:6px 10px;"><em>trir</em></td><td style="padding:6px 10px;">katydid</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖨𑖲𑖨𑖿</td><td style="padding:6px 10px;"><em>rur</em></td><td style="padding:6px 10px;">frog / toad</td></tr>
+    <tr style="border-bottom:1px solid var(--line);"><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖄𑖝𑖿</td><td style="padding:6px 10px;"><em>ut</em></td><td style="padding:6px 10px;">owl</td></tr>
+    <tr><td style="padding:6px 10px; font-family:'Noto Sans Siddham',sans-serif; font-size:1.3rem;">𑖎𑖸𑖎</td><td style="padding:6px 10px;"><em>keka</em></td><td style="padding:6px 10px;">raven / crow</td></tr>
+  </table>
+
+  <h3 class="sub">Verbifying an ideophone</h3>
+  <p class="body">An ideophone can graduate into ordinary grammar by fusing a stop+r verb-marking onset directly in front of it, keeping the original mimetic sound fully audible inside the new word.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨𑖎𑖿</div>
+    <div class="roman-row">nio krak</div>
+    <div class="gloss-row"><span>1SG</span><span>laugh.V(fused ak)</span></div>
+    <div class="free-row">I laugh</div>
+  </div>
+
+  <h2 class="section">Aspect (in principle)</h2>
+  <p class="body">Ordinary verbs (plain CCV) have no internal vowel-consonant-vowel slot to reframe the way mood templates do, so aspect on an ordinary verb is marked externally instead, by the same particles already built for other jobs: <strong>ta</strong> for an ongoing, not-yet-settled state, <strong>tas</strong> for a resolved one. No new mechanism is needed.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖎𑖿𑖨</div>
+    <div class="roman-row">tio kra</div>
+    <div class="gloss-row"><span>2SG</span><span>be.safe.V</span></div>
+    <div class="free-row">immediate, you are safe</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖎𑖿𑖨 𑖝</div>
+    <div class="roman-row">tio kra ta</div>
+    <div class="gloss-row"><span>2SG</span><span>be.safe.V</span><span>DEG(soft)</span></div>
+    <div class="free-row">ongoing, settling into safety, not yet fully there</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖎𑖿𑖨 𑖝𑖭𑖿</div>
+    <div class="roman-row">tio kra tas</div>
+    <div class="gloss-row"><span>2SG</span><span>be.safe.V</span><span>PST</span></div>
+    <div class="free-row">resolved, was safe; safety now stands as an accomplished state</div>
+  </div>
+
+
+  <h2 class="section">Function words</h2>
+  <p class="body">Questions, time, possibility, reasons and comparison are all built from words and particles the language already had. Nothing on this list required a new root except <em>nokotu</em> (perhaps), and even that was worn down from existing words.</p>
+
+  <h3 class="sub">Question words: ka + an existing word</h3>
+  <p class="body">A question word is ka placed in front of the word that names what is being asked about. Because it stands at the start, it frames the sentence as a question from the outset.</p>
+  <table class="fw">
+    <tr><th>Question word</th><th>Siddham</th><th>Built from</th><th>Meaning</th></tr>
+    <tr><td class="w">ka ske</td><td class="siddham-tag">𑖎 𑖭𑖿𑖎𑖸</td><td>Q + because</td><td>why</td></tr>
+    <tr><td class="w">ka tso</td><td class="siddham-tag">𑖎 𑖝𑖿𑖭𑖺</td><td>Q + way</td><td>how</td></tr>
+    <tr><td class="w">ka kuo</td><td class="siddham-tag">𑖎 𑖎𑖲𑖌</td><td>Q + whole person</td><td>who</td></tr>
+    <tr><td class="w">ka tse</td><td class="siddham-tag">𑖎 𑖝𑖿𑖭𑖸</td><td>Q + space</td><td>where</td></tr>
+    <tr><td class="w">ka o</td><td class="siddham-tag">𑖎 𑖌</td><td>Q + toward</td><td>where to, what for</td></tr>
+    <tr><td class="w">ka kio</td><td class="siddham-tag">𑖎 𑖎𑖰𑖌</td><td>Q + it</td><td>what, which</td></tr>
+    <tr><td class="w">ka tas</td><td class="siddham-tag">𑖎 𑖝𑖭𑖿</td><td>Q + past</td><td>when (already happened)</td></tr>
+    <tr><td class="w">ka par</td><td class="siddham-tag">𑖎 𑖢𑖨𑖿</td><td>Q + future</td><td>when (yet to happen)</td></tr>
+  </table>
+  <p class="body">"When" is always two words, because when is never now: a question about time points either backward or forward. Habitual clock-time questions use the unit itself: <em>ka krp</em> (at what hour?), <em>ka rne</em> (on what day?).</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎 𑖎𑖰𑖌 𑖝𑖰𑖌 𑖢𑖿𑖨?</div>
+    <div class="roman-row">ka kio tio pra?</div>
+    <div class="gloss-row"><span>Q</span><span>what</span><span>2SG</span><span>speak.V</span></div>
+    <div class="free-row">What are you saying?</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖎 𑖝𑖭𑖿 𑖝𑖰𑖌 𑖝𑖿𑖨𑖺?</div>
+    <div class="roman-row">ka tas tio tro?</div>
+    <div class="gloss-row"><span>Q</span><span>PST</span><span>2SG</span><span>walk.V</span></div>
+    <div class="free-row">When did you go?</div>
+  </div>
+
+  <h3 class="sub">Here, there, this and that</h3>
+  <p class="body">Place words come from <em>tse</em> (space) and the two relational particles: <em>tse a</em> (space with, here) and <em>tse o</em> (space toward, there). Bound to a noun with i, they give "this" and "that."</p>
+  <div class="ex">
+    <div class="siddham-row">𑖢𑖿𑖭 𑖂 𑖝𑖿𑖭𑖸 𑖀</div>
+    <div class="roman-row">psa i tse a</div>
+    <div class="gloss-row"><span>stone</span><span>ATTR</span><span>space</span><span>with</span></div>
+    <div class="free-row">this stone</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖰𑖌 𑖂 𑖝𑖿𑖭𑖸 𑖌</div>
+    <div class="roman-row">kio i tse o</div>
+    <div class="gloss-row"><span>it</span><span>ATTR</span><span>space</span><span>toward</span></div>
+    <div class="free-row">that one</div>
+  </div>
+
+  <h3 class="sub">Time and now</h3>
+  <p class="body">Time itself is <em>tasopar</em>, past toward future, fused from the kenning <em>tas o par</em>. Swap o for a and the same three pieces give <em>tasapar</em>, past with future: now, the one point where they touch. The pairing matches here and there exactly. In weightier speech, both open back out into their unfused forms.</p>
+  <table class="fw">
+    <tr><th></th><th>with (a)</th><th>toward (o)</th></tr>
+    <tr><td>space</td><td><em>tse a</em>, here</td><td><em>tse o</em>, there</td></tr>
+    <tr><td>time</td><td><em>tasapar</em> <span class="siddham-tag">𑖝𑖭𑖢𑖨𑖿</span>, now (weighty: <em>tas a par</em>)</td><td><em>tasopar</em> <span class="siddham-tag">𑖝𑖭𑖺𑖢𑖨𑖿</span>, time (weighty: <em>tas o par</em>)</td></tr>
+  </table>
+  <p class="body">The rest of the time words reuse aspect, plurals and reduplication:</p>
+  <table class="fw">
+    <tr><th>Meaning</th><th>Form</th><th>How it works</th></tr>
+    <tr><td>already</td><td class="w">verb + tas</td><td>the resolved aspect, shown above</td></tr>
+    <tr><td>still</td><td class="w">tas o</td><td>the past, carried forward</td></tr>
+    <tr><td>always</td><td class="w">u rne</td><td>all the mornings</td></tr>
+    <tr><td>never</td><td class="w">nan rne</td><td>zero mornings</td></tr>
+    <tr><td>again</td><td class="w">verb said twice</td><td>reduplication: <em>pra pra</em>, speak again</td></tr>
+  </table>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨 𑖝𑖭𑖿 𑖌</div>
+    <div class="roman-row">nio kra tas o</div>
+    <div class="gloss-row"><span>1SG</span><span>be.safe.V</span><span>PST</span><span>toward</span></div>
+    <div class="free-row">I am still safe</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖝𑖿𑖨𑖸𑖎𑖿𑖨 𑖝𑖿𑖃 𑖄 𑖨𑖿𑖡𑖸</div>
+    <div class="roman-row">nio trekra toi u rne</div>
+    <div class="gloss-row"><span>1SG</span><span>care.for.V</span><span>2SG.OBJ</span><span>PL</span><span>morning</span></div>
+    <div class="free-row">I always care for you</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖰𑖌 𑖡𑖡𑖿 𑖨𑖿𑖡𑖸 𑖎𑖿𑖨𑖰 𑖡𑖿𑖃</div>
+    <div class="roman-row">kio nan rne kri noi</div>
+    <div class="gloss-row"><span>3SG</span><span>zero</span><span>morning</span><span>see.V</span><span>1SG.OBJ</span></div>
+    <div class="free-row">she never saw me</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖢𑖿𑖨 𑖢𑖿𑖨</div>
+    <div class="roman-row">nio pra pra</div>
+    <div class="gloss-row"><span>1SG</span><span>speak.V</span><span>speak.V</span></div>
+    <div class="free-row">I speak again</div>
+  </div>
+  <p class="gap-note">Numbers are written as digits in Siddham only when something is being counted. When a numeral is the basis of a function word, as nan is in nan rne, it is not enumerating anything, so it is spelled out: 𑖡𑖡𑖿 𑖨𑖿𑖡𑖸, never ०𑖨𑖿𑖡𑖸.</p>
+
+  <h3 class="sub">Can, perhaps, should and must</h3>
+  <p class="body">"Can" is <em>pru tso</em>, to know the way. "Perhaps" is <em>nokotu</em>, the one new word in this section: it began as <em>nroko i trun</em>, a strange cause, by chance, and fast speech wore it down through nrokoitru and noikotu to nokotu. Placed before a verb, it is read by context as might, could or would. "Perhaps not" is <em>nokotu na</em> followed by the word being doubted.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖢𑖿𑖨𑖲 𑖝𑖿𑖭𑖺 𑖢𑖿𑖨 𑖎?</div>
+    <div class="roman-row">tio pru tso pra ka?</div>
+    <div class="gloss-row"><span>2SG</span><span>know.V</span><span>way</span><span>speak.V</span><span>Q</span></div>
+    <div class="free-row">Can you speak? (Do you know the way to speak?)</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖺𑖎𑖺𑖝𑖲 𑖎𑖰𑖌 𑖢𑖨𑖿 𑖎𑖿𑖨𑖸</div>
+    <div class="roman-row">nokotu kio par kre</div>
+    <div class="gloss-row"><span>perhaps</span><span>3SG</span><span>FUT</span><span>good.V</span></div>
+    <div class="free-row">Perhaps it will go well.</div>
+  </div>
+  <p class="body">Obligation is <em>prai</em> (need), and the bracket particles grade it: <em>ta prai</em> is should, <em>ra prai</em> is must. A wish is a bare spe clause with nothing after it, an "if" left hanging. Permission is <em>kran</em> (allow).</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖝 𑖢𑖿𑖨𑖹 𑖢𑖿𑖨</div>
+    <div class="roman-row">tio ta prai pra</div>
+    <div class="gloss-row"><span>2SG</span><span>SOFT</span><span>need.V</span><span>speak.V</span></div>
+    <div class="free-row">You should speak.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖨 𑖢𑖿𑖨𑖹 𑖢𑖿𑖨</div>
+    <div class="roman-row">tio ra prai pra</div>
+    <div class="gloss-row"><span>2SG</span><span>INTENS</span><span>need.V</span><span>speak.V</span></div>
+    <div class="free-row">You must speak.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖭𑖿𑖢𑖸 𑖝𑖰𑖌 𑖝𑖿𑖨𑖺 𑖌 𑖡𑖿𑖃</div>
+    <div class="roman-row">spe tio tro o noi</div>
+    <div class="gloss-row"><span>if</span><span>2SG</span><span>walk.V</span><span>toward</span><span>1SG.OBJ</span></div>
+    <div class="free-row">If only you would come to me.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖎𑖿𑖨𑖡𑖿 𑖝𑖿𑖃 𑖝𑖿𑖨𑖺</div>
+    <div class="roman-row">nio kran toi tro</div>
+    <div class="gloss-row"><span>1SG</span><span>allow.V</span><span>2SG.OBJ</span><span>walk.V</span></div>
+    <div class="free-row">You may go.</div>
+  </div>
+
+  <h3 class="sub">Joining clauses: while, so that and therefore</h3>
+  <p class="body">The relational particles also join whole clauses. <em>a</em> (with) joins two things happening together, "while" or "when." <em>o</em> (toward) points a clause at its purpose, "so that." "Therefore" is <em>ske o</em>: ske (because) looks back from an effect to its cause, and adding o turns it to face forward, from the cause to what follows. It is the same move that made <em>ste o</em> (instead) out of ste (or).</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖃, 𑖀 𑖝𑖰𑖌 𑖢𑖿𑖨 𑖝𑖿𑖃 𑖝𑖿𑖃</div>
+    <div class="roman-row">tio oi, a tio pra toi toi</div>
+    <div class="gloss-row"><span>2SG</span><span>alarm.MOOD</span><span>with</span><span>2SG</span><span>speak.V</span><span>2SG.OBJ</span><span>2SG.OBJ</span></div>
+    <div class="free-row">While you are alarm, you tell yourself...</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖌 𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸, 𑖌 𑖎𑖰𑖌 𑖎𑖿𑖨𑖸</div>
+    <div class="roman-row">nio skrose o kso pse, o kio kre</div>
+    <div class="gloss-row"><span>1SG</span><span>solicitude.TEX</span><span>toward</span><span>fire+tool</span><span>toward</span><span>3SG</span><span>good.V</span></div>
+    <div class="free-row">I care about the presentation, so that it goes well.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖿𑖭𑖺 𑖢𑖿𑖭𑖸 𑖝𑖭𑖿 𑖎𑖿𑖨𑖸; 𑖭𑖿𑖎𑖸 𑖌 𑖡𑖰𑖌 𑖎𑖿𑖨</div>
+    <div class="roman-row">kso pse tas kre; ske o nio kra</div>
+    <div class="gloss-row"><span>fire+tool</span><span>PST</span><span>good.V</span><span>because</span><span>toward</span><span>1SG</span><span>be.safe.V</span></div>
+    <div class="free-row">The presentation is finished and good; therefore I am at ease.</div>
+  </div>
+  <p class="body">English uses "so" for both of the last two. Ionnoioni keeps them apart: <em>o</em> is purpose, something done so that something else will happen, while <em>ske o</em> is consequence, something true from which something else follows. With <em>ka ske</em> (why), the set is complete: ka ske asks for the cause, ske gives it and ske o draws the conclusion.</p>
+
+  <h3 class="sub">The left-binding rule</h3>
+  <p class="body">Several fixed pairs end in o: <em>tas o</em> (still), <em>tse o</em> (there), <em>ste o</em> (instead), <em>na o</em> (from), <em>ka o</em> (what for) and <em>ske o</em> (therefore). In every one of them, <strong>o belongs to the word before it</strong>, and two pairs never share an o. So a run like <em>nio kro tas o, ske o ...</em> can only be heard one way: still, therefore. The one older exception is <em>o ste</em> (instead of), which looks back over the unchosen option and binds forward.</p>
+
+  <h3 class="sub">Comparison</h3>
+  <p class="body">"More" is <em>pri</em> (increase) placed before the quality, and the standard of comparison follows <em>na o</em> (away from), taking the object form like any pronoun after a particle.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖢𑖿𑖨𑖰 𑖎𑖿𑖨𑖸 𑖡 𑖌 𑖡𑖿𑖃</div>
+    <div class="roman-row">tio pri kre na o noi</div>
+    <div class="gloss-row"><span>2SG</span><span>increase</span><span>good</span><span>NEG</span><span>toward</span><span>1SG.OBJ</span></div>
+    <div class="free-row">You are better than me.</div>
+  </div>
+
+  <h3 class="sub">Texture words with an object</h3>
+  <p class="body">A texture word from the S class can work like a verb and take a direct object, or attach what it is about with a relational particle. Both are correct, and the choice is the speaker's.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖝𑖿𑖃</div>
+    <div class="roman-row">nio skrose toi</div>
+    <div class="gloss-row"><span>1SG</span><span>solicitude.TEX</span><span>2SG.OBJ</span></div>
+    <div class="free-row">I care about you.</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖌 𑖝𑖿𑖃</div>
+    <div class="roman-row">nio skrose o toi</div>
+    <div class="gloss-row"><span>1SG</span><span>solicitude.TEX</span><span>toward</span><span>2SG.OBJ</span></div>
+    <div class="free-row">My care goes out toward you.</div>
+  </div>
+
+  <h2 class="section">Numerals as implicit pronouns</h2>
+  <p class="body">A bare numeral, with no following noun, can stand alone when the referent is recoverable from context, functioning much like English "both" standing in for two already-mentioned things. This is not a new particle, just numerals permitted to occupy a noun phrase's position the way any noun already can.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖿𑖨𑖸 𑖎𑖿𑖨𑖡𑖿 𑖝𑖡𑖿 𑖂 𑖝𑖿𑖨𑖲𑖡𑖿</div>
+    <div class="roman-row">kre kran tan i trun</div>
+    <div class="gloss-row"><span>good</span><span>allow.V</span><span>two</span><span>ATTR</span><span>cause.V</span></div>
+    <div class="free-row">it's good to allow both [truths] to exist</div>
+  </div>
+
+  <h2 class="section">Keeping track of who's who</h2>
+  <p class="body">Because kio has no gender, a story with several people in it cannot lean on he and she the way English does. Ionnoioni keeps track instead with four tools, two of which come straight out of rules already described above.</p>
+  <ol style="margin: 4px 0 12px 20px;">
+    <li><strong>The topic default.</strong> A bare kio points to whoever the scene is about. The topic is the subject of the opening sentence; if that subject is a pair, it is whichever of the two is first named on their own as a subject. Naming someone else later does not move the topic.</li>
+    <li><strong>The single object pronoun.</strong> Since the reflexive needs a doubled pronoun, a single koi never points back to its own subject. With two people in play, it must be the other one.</li>
+    <li><strong>This one and that one.</strong> When two people are introduced together, <em>kio i tse o</em> (that one) is the one named first and <em>kio i tse a</em> (this one) is the one named second, like English "the former" and "the latter." The reference is fixed from that point on; it does not shift with each new mention.</li>
+    <li><strong>Repeat the name or noun.</strong> When everything else runs out, say the name again, as speakers of Turkish and Persian do.</li>
+  </ol>
+
+  <h3 class="sub">Three people and a garden</h3>
+  <p class="body">Iortan's father tells her brothers that she saved his garden. They do not believe her, so he walks them out to it, and when they see it, they thank her. In English, she, he, they and it keep every pronoun straight. Here is the same story with every pronoun left bare:</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖺𑖀 𑖊 𑖂𑖌𑖨𑖿𑖝𑖡𑖿 𑖝𑖭𑖿 𑖢𑖿𑖨 𑖌 𑖄 𑖎𑖸𑖀 𑖊 𑖂𑖌𑖨𑖿𑖝𑖡𑖿: 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖲 𑖎𑖰𑖌 𑖊 𑖝𑖸𑖄। 𑖄 𑖎𑖰𑖌 𑖡 𑖝𑖿𑖭𑖺𑖨𑖿 𑖎𑖿𑖃, 𑖭𑖿𑖎𑖸 𑖌 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 𑖄 𑖎𑖿𑖃 𑖌 𑖎𑖰𑖌। 𑖀 𑖄 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰 𑖎𑖿𑖃, 𑖄 𑖎𑖰𑖌 𑖝𑖿𑖨𑖸𑖝𑖿𑖨 𑖎𑖿𑖃।</div>
+    <div class="roman-row">koa e Iortan tas pra o u kea e Iortan: kio tas tru kio e teu. u kio na tsor koi, ske o kio tas tro u koi o kio. a u kio kri koi, u kio tretra koi.</div>
+    <div class="gloss-row"><span>parent</span><span>POSS</span><span>Iortan</span><span>PST</span><span>speak.V</span><span>toward</span><span>PL</span><span>sibling</span><span>POSS</span><span>Iortan</span><span>3SG</span><span>PST</span><span>help.V</span><span>3SG</span><span>POSS</span><span>garden</span><span>PL</span><span>3SG</span><span>NEG</span><span>believe.V</span><span>3SG.OBJ</span><span>therefore</span><span>3SG</span><span>PST</span><span>walk.V</span><span>PL</span><span>3SG.OBJ</span><span>toward</span><span>3SG</span><span>when</span><span>PL</span><span>3SG</span><span>see.V</span><span>3SG.OBJ</span><span>PL</span><span>3SG</span><span>gratitude</span><span>3SG.OBJ</span></div>
+    <div class="free-row">Iortan's parent told Iortan's siblings: it helped its garden. They did not believe it, so it walked them toward it. When they saw it, they thanked it.</div>
+  </div>
+  <p class="body">Number survives, since <em>u kio</em> is always the brothers, but everything else collapses: kio could be Iortan, her father or the garden, and <em>kio tas tru kio e teu</em> alone has four readings. Now the same story with the tools applied:</p>
+  <div class="ex">
+    <div class="siddham-row">𑖎𑖺𑖀 𑖊 𑖂𑖌𑖨𑖿𑖝𑖡𑖿 𑖝𑖭𑖿 𑖢𑖿𑖨 𑖌 𑖄 𑖎𑖸𑖀 𑖊 𑖂𑖌𑖨𑖿𑖝𑖡𑖿: 𑖂𑖌𑖨𑖿𑖝𑖡𑖿 𑖝𑖭𑖿 𑖝𑖿𑖨𑖲 𑖎𑖰𑖌 𑖊 𑖝𑖸𑖄। 𑖄 𑖎𑖰𑖌 𑖡 𑖝𑖿𑖭𑖺𑖨𑖿 𑖂𑖌𑖨𑖿𑖝𑖡𑖿, 𑖭𑖿𑖎𑖸 𑖌 𑖎𑖰𑖌 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 𑖄 𑖎𑖿𑖃 𑖌 𑖝𑖸𑖄। 𑖀 𑖄 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰 𑖝𑖸𑖄, 𑖄 𑖎𑖰𑖌 𑖝𑖿𑖨𑖸𑖝𑖿𑖨 𑖂𑖌𑖨𑖿𑖝𑖡𑖿।</div>
+    <div class="roman-row">koa e Iortan tas pra o u kea e Iortan: Iortan tas tru kio e teu. u kio na tsor Iortan, ske o kio tas tro u koi o teu. a u kio kri teu, u kio tretra Iortan.</div>
+    <div class="gloss-row"><span>parent</span><span>POSS</span><span>Iortan</span><span>PST</span><span>speak.V</span><span>toward</span><span>PL</span><span>sibling</span><span>POSS</span><span>Iortan</span><span>Iortan</span><span>PST</span><span>help.V</span><span>3SG</span><span>POSS</span><span>garden</span><span>PL</span><span>3SG</span><span>NEG</span><span>believe.V</span><span>Iortan</span><span>therefore</span><span>3SG</span><span>PST</span><span>walk.V</span><span>PL</span><span>3SG.OBJ</span><span>toward</span><span>garden</span><span>when</span><span>PL</span><span>3SG</span><span>see.V</span><span>garden</span><span>PL</span><span>3SG</span><span>gratitude</span><span>Iortan</span></div>
+    <div class="free-row">Iortan's father told her brothers she had saved his garden. They did not believe her, so he walked them out to it, and when they saw it, they thanked her.</div>
+  </div>
+  <p class="body">The father opens the story, so he is the topic, and every bare kio is his: his garden, his walk. Iortan is named wherever she is meant, the garden is named instead of being a third kio and the brothers are always <em>u kio</em>. Every pronoun now has exactly one reading.</p>
+
+  <h3 class="sub">Two people, neither the topic</h3>
+  <p class="body">The hardest case is two people of the same number with nothing to tell them apart. English fails here too: "Erena and Iortan had a falling-out. She ran off, and she followed her. When she caught sight of her, she apologized to her, and she let it go." Nobody could follow that. Ionnoioni can:</p>
+  <div class="ex">
+    <div class="siddham-row">𑖊𑖨𑖸𑖡 𑖭𑖿𑖡𑖸 𑖂𑖌𑖨𑖿𑖝𑖡𑖿 𑖝𑖭𑖿 𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖸। 𑖎𑖰𑖌 𑖂 𑖝𑖿𑖭𑖸 𑖀 𑖝𑖭𑖿 𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖿𑖃, 𑖭𑖿𑖡𑖸 𑖊𑖨𑖸𑖡 𑖝𑖭𑖿 𑖝𑖿𑖨𑖺 𑖌 𑖎𑖿𑖃। 𑖀 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰 𑖎𑖿𑖃, 𑖎𑖰𑖌 𑖂 𑖝𑖿𑖭𑖸 𑖀 𑖢𑖿𑖨 𑖭𑖿𑖢𑖿𑖨𑖻𑖭 𑖌 𑖎𑖿𑖃, 𑖭𑖿𑖡𑖸 𑖎𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖺।</div>
+    <div class="roman-row">Erena sne Iortan tas sprese. kio i tse a tas strosoi, sne Erena tas tro o koi. a kio kri koi, kio i tse a pra sprausa o koi, sne kio skranso.</div>
+    <div class="gloss-row"><span>Erena</span><span>and</span><span>Iortan</span><span>PST</span><span>falling-out.TEX</span><span>3SG</span><span>ATTR</span><span>space</span><span>with</span><span>PST</span><span>fleeing.TEX</span><span>and</span><span>Erena</span><span>PST</span><span>walk.V</span><span>toward</span><span>3SG.OBJ</span><span>when</span><span>3SG</span><span>see.V</span><span>3SG.OBJ</span><span>3SG</span><span>ATTR</span><span>space</span><span>with</span><span>speak.V</span><span>guilt.TEX</span><span>toward</span><span>3SG.OBJ</span><span>and</span><span>3SG</span><span>letting-go.TEX</span></div>
+    <div class="free-row">Erena and Iortan had a falling-out. Iortan ran off, and Erena followed her. When Erena caught sight of her, Iortan apologized to her, and Erena let it go.</div>
+  </div>
+  <p class="body">Read it clause by clause:</p>
+  <ol style="margin: 4px 0 12px 20px;">
+    <li><em>Erena sne Iortan tas sprese.</em> The pair is introduced: Erena first, Iortan second.</li>
+    <li><em>kio i tse a tas strosoi.</em> This one, the one named second, fled: Iortan.</li>
+    <li><em>sne Erena tas tro o koi.</em> Erena is the first of the pair named on her own as a subject, so she becomes the topic. A single koi cannot be its own subject, so it is the other one: Erena walked after Iortan.</li>
+    <li><em>a kio kri koi.</em> Bare kio is the topic, Erena; the single koi is not the subject, so it is Iortan.</li>
+    <li><em>kio i tse a pra sprausa o koi.</em> This one, Iortan, spoke guilt toward the other, Erena: she apologized.</li>
+    <li><em>sne kio skranso.</em> Bare kio is the topic again: Erena let it go.</li>
+  </ol>
+  <p class="gap-note">One name repeated, and every pronoun has exactly one reading. Where English needs names at every turn, Ionnoioni needs only one.</p>
+
+  <h2 class="section">Guidelines for Coining New Words</h2>
+  <p class="body">These are reasoning tools that have emerged from real coinage sessions, not fixed rules. They describe patterns in how new words have actually been built, offered as guidance for future coinage rather than as grammar a learner needs to master.</p>
+
+  <h3 class="sub">Compound ordering tendency</h3>
+  <p class="body">In most existing compounds, a grounding or core element tends to come first, with a qualifying or active element following it. This is an enthusiastic suggestion, not a codified rule, it describes a pattern that keeps emerging, not a requirement every compound must satisfy.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖲𑖂𑖂𑖌𑖡𑖿</div>
+    <div class="roman-row">tuiion</div>
+    <div class="gloss-row"><span>body/self</span><span>+</span><span>being</span></div>
+    <div class="free-row">human being, self grounds the word before "being" folds into it</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖿𑖃𑖎𑖿𑖃</div>
+    <div class="roman-row">noikoi</div>
+    <div class="gloss-row"><span>being</span><span>+</span><span>alarm</span><span>+</span><span>self</span></div>
+    <div class="free-row">shame, being is the ground; alarm-turned-to-self is the event happening to it</div>
+  </div>
+
+  <h3 class="sub">Standalone descriptive roots, not forced into a family</h3>
+  <p class="body">When a new concept doesn't fit cleanly into an existing root family's vowel-slot system, or when forcing it in would collide with a word already claimed by that family, the better move is often to coin a standalone descriptive root instead. It attaches to whatever noun it modifies through the ordinary attributive particle <strong>i</strong>, the same way numerals do, rather than needing a dedicated grammatical slot of its own.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖿𑖨𑖺𑖎𑖺 𑖂 𑖝𑖿𑖭𑖰</div>
+    <div class="roman-row">nroko i tsi</div>
+    <div class="gloss-row"><span>strange</span><span>ATTR</span><span>tree</span></div>
+    <div class="free-row">a strange tree</div>
+  </div>
+
+  <p class="body">This is how a naming collision between <em>kai</em> (child) and an early proposal of <em>kai</em> (totem) was resolved: rather than disturb the kau (animal) vowel-shift family to find it a new slot, totem was re-coined as <strong>kopsi</strong> (self + marker/monument), a free-standing word with no dependency on kau's vowel system at all.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖊 𑖎𑖺𑖢𑖿𑖭𑖰 𑖂 𑖎𑖻</div>
+    <div class="roman-row">nio e kopsi i kau</div>
+    <div class="gloss-row"><span>1SG</span><span>POSS</span><span>totem</span><span>ATTR</span><span>animal</span></div>
+    <div class="free-row">my totem-animal</div>
+  </div>
+
+  <h3 class="sub">Escalation through bracket grammar, not separate coinages</h3>
+  <p class="body">When several related concepts sit on a single continuum of intensity or severity, the existing bracket particles (<strong>ra</strong> = intensify, <strong>ta</strong> = soften) can generate the whole range from one base root, rather than requiring a new word at every point on the scale.</p>
+
+  <div class="ex">
+    <div class="siddham-row">𑖝 𑖡𑖝𑖲𑖂</div>
+    <div class="roman-row">ta natui</div>
+    <div class="gloss-row"><span>SOFT</span><span>disconnection.MOOD</span></div>
+    <div class="free-row">mild, numbness, muted but present</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖨 𑖡𑖝𑖲𑖂</div>
+    <div class="roman-row">ra natui</div>
+    <div class="gloss-row"><span>INTENS(onset)</span><span>disconnection.MOOD</span></div>
+    <div class="free-row">building, the felt sense of self or surroundings starting to slip</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖨 𑖡𑖝𑖲𑖂 𑖨</div>
+    <div class="roman-row">ra natui ra</div>
+    <div class="gloss-row"><span>INTENS</span><span>disconnection.MOOD</span><span>INTENS</span></div>
+    <div class="free-row">full, identity-level fragmentation, intense throughout</div>
+  </div>
+
+  <p class="body">One coinage, <strong>natui</strong> (nan "zero/void" + tui "physical self"), carries an entire spectrum through bracketing alone, four distinct, usable meanings from a single root. The same economy applies to the voluntary/involuntary particles above: a single word like tsopro (catastrophizing) or krutsor (rumination) carries its own default reading, with tr or pr added only when the distinction needs to be made explicit.</p>
+
+  <p class="body">A dedicated page, "Idioms, Metaphors &amp; Kennings," covers the companion discipline: when to build an image instead of coining an atomic word, and when to leave that image unfused rather than compress it.</p>
+
+  <h2 class="section">A language that expects dialects</h2>
+  <p class="body">In the standard language, each word begins cleanly. A vowel particle keeps its own syllable even beside another vowel, so <em>a u noi</em> (with us) is spoken as three words, not as <em>au</em> (pain) followed by <em>noi</em>, and <em>ka o</em> (what for) stays apart from <em>kao</em> (community). Siddham shows the same thing on the page, since a vowel that begins a word is written with its full glyph.</p>
+  <p class="body">That is a description of the standard, not a fence around it. Ionnoioni has already changed under its speakers' tongues: <em>nokotu</em> (perhaps) is <em>nroko i trun</em> worn down by fast speech, and <em>tasopar</em> (time) is <em>tas o par</em> fused through use. Places where words lean into one another are exactly where a community of speakers might take the language somewhere new, letting <em>a u</em> run together and finding a meaning of their own in it.</p>
+  <p class="body">Other directions are just as natural. A group might turn <em>i</em> before another vowel into a full <em>y</em> (ya, ye, yo, yu) and <em>u</em> before a vowel into <em>w</em> or <em>v</em>, which is what Sanskrit sandhi, the home tradition of Siddham, has always done, and write them with <span class="siddham-tag">𑖧</span> and <span class="siddham-tag">𑖪</span>. Another might prefer <em>b</em> to <em>p</em>, or <em>d</em> to <em>t</em>, and reach for <span class="siddham-tag">𑖤</span> and <span class="siddham-tag">𑖟</span>. The letters are already waiting in the script.</p>
+  <p class="body">None of this would be getting Ionnoioni wrong. A dialect is a sign that a language is alive, and anyone who takes it in a new direction is doing exactly what this guide invites: helping it grow.</p>
+
+</body>
+</html>

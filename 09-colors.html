@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ionnoioni: Colors</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --ink: #1a1410;
+    --paper: #faf6ee;
+    --accent: #7a3b2e;
+    --line: #d8cdb8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Noto Serif', Georgia, serif;
+    margin: 0;
+    padding: 32px 28px 60px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  h1 { text-align: center; font-size: 1.9rem; margin: 0 0 2px; }
+  .subtitle { text-align: center; font-size: 1rem; color: var(--accent); margin: 0 0 24px; font-style: italic; }
+  h2.section {
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 4px;
+    margin: 30px 0 12px;
+  }
+  h3.sub { font-size: 1.02rem; color: var(--accent); margin: 18px 0 6px; }
+  p.body { margin: 4px 0 10px; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0 16px; background: #fff; border: 1px solid var(--line); }
+  th, td { padding: 7px 10px; text-align: left; border: 1px solid var(--line); font-size: 0.9rem; vertical-align: middle; }
+  th { background: var(--accent); color: #fff; }
+  td.word { font-style: italic; color: var(--accent); white-space: nowrap; }
+  .siddham-tag { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.2rem; white-space: nowrap; }
+  .gap-note { font-size: 0.85rem; color: #a05a2c; font-style: italic; margin: 4px 0 14px; }
+  .sw {
+    display: inline-block;
+    width: 42px; height: 22px;
+    border: 1px solid #b9ad97;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+  td.swcell { width: 64px; text-align: center; }
+  .grid { overflow-x: auto; }
+  table.mod td, table.mod th { text-align: center; }
+  table.mod td.word, table.mod th.rowhead { text-align: left; }
+  table.mod th.rowhead { background: #efe4d0; color: var(--ink); font-style: italic; font-weight: 600; }
+  .modcell { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .modcell .sw { width: 54px; height: 26px; }
+  .modcell span.lbl { font-size: 0.8rem; }
+  .callout { background: #fff; border-left: 4px solid var(--accent); padding: 10px 14px; margin: 12px 0 16px; }
+  .siddham-name { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.8rem; display: block; text-align: center; margin: 6px 0 2px; }
+  .cite { font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+
+  <h1>Ionnoioni</h1>
+  <span class="siddham-name">𑖎𑖿𑖨𑖰𑖭𑖿</span>
+  <div class="subtitle">kris: Colors</div>
+
+  <p class="body">Ionnoioni names colors the way a painter mixes them, not the way a field guide names them. There is no word that means "the color of the sky" or "the color of blood." Instead there is a small palette of root colors and a handful of rules for blending them, softening them and pushing them, so that a speaker can name what they actually see rather than reach for a fixed list. The aim is not a complete catalog of every shade, but a set of tools.</p>
+
+  <h2 class="section">The color class</h2>
+  <p class="body">Every color word ends in <strong>-s</strong>, written <span class="siddham-tag">𑖭𑖿</span> in Siddham, in the same way most numerals end in -n. A simple color word has the shape consonant, vowel, s. Color, like texture, is a way of qualifying how the world is experienced, and the shared s is a quiet nod to the S class.</p>
+  <p class="body">Color words behave like any other descriptive word. They can stand on their own as a zero-copula predicate or attach to a noun with <em>i</em>.</p>
+
+  <h2 class="section">kris: the word for color</h2>
+  <p class="body">The word for color itself is <strong>kris</strong>, <span class="siddham-tag">𑖎𑖿𑖨𑖰𑖭𑖿</span>, built from <em>kri</em> (see) and the class marker -s: the seen, taken as color. It carries the -s of the class it names but opens with a cluster, so it belongs to the color words without being mistaken for one of them.</p>
+  <table>
+    <tr><th>Phrase</th><th>Siddham</th><th>Reads as</th></tr>
+    <tr><td class="word">ka kio kris?</td><td class="siddham-tag">𑖎 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰𑖭𑖿</td><td>What color? Which color?</td></tr>
+    <tr><td class="word">ka kio kris, kio?</td><td class="siddham-tag">𑖎 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰𑖭𑖿 𑖎𑖰𑖌</td><td>What color is it?</td></tr>
+    <tr><td class="word">ka kio kris ka?</td><td class="siddham-tag">𑖎 𑖎𑖰𑖌 𑖎𑖿𑖨𑖰𑖭𑖿 𑖎</td><td>What color is it, really?</td></tr>
+    <tr><td class="word">kio kris ka?</td><td class="siddham-tag">𑖎𑖰𑖌 𑖎𑖿𑖨𑖰𑖭𑖿 𑖎</td><td>Is it colored? Does it have color?</td></tr>
+  </table>
+  <p class="gap-note">The question word ka kio comes first when asking which color. A lone final ka asks a yes or no question instead.</p>
+
+  <h2 class="section">The root palette</h2>
+  <p class="body">Five colors are roots: the three painter's primaries plus white and black. Everything else is built from them.</p>
+  <table>
+    <tr><th></th><th>Word</th><th>Siddham</th><th>Color</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#ffffff"></span></td><td class="word">tis</td><td class="siddham-tag">𑖝𑖰𑖭𑖿</td><td>white</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#f2c80f"></span></td><td class="word">kes</td><td class="siddham-tag">𑖎𑖸𑖭𑖿</td><td>yellow</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#c8102e"></span></td><td class="word">ros</td><td class="siddham-tag">𑖨𑖺𑖭𑖿</td><td>red</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#1f4fa8"></span></td><td class="word">nus</td><td class="siddham-tag">𑖡𑖲𑖭𑖿</td><td>blue</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#141414"></span></td><td class="word">tus</td><td class="siddham-tag">𑖝𑖲𑖭𑖿</td><td>black</td></tr>
+  </table>
+  <p class="gap-note">ros takes its r from the Greek letter rho. tis and tus are a minimal pair: the same frame, with only the vowel moving from light to dark.</p>
+
+  <h2 class="section">Blended colors</h2>
+  <p class="body">A color halfway between two others takes the <strong>consonant of one parent and the vowel of the other</strong>. The vowel also tracks lightness: <em>i</em> is light, <em>e</em> sits in the middle and <em>u</em> is dark, which is why grey falls exactly between white and black.</p>
+  <table>
+    <tr><th></th><th>Word</th><th>Siddham</th><th>Color</th><th>Built from</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#ef7d1a"></span></td><td class="word">res</td><td class="siddham-tag">𑖨𑖸𑖭𑖿</td><td>orange</td><td>r of ros + e of kes</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#2e8b3e"></span></td><td class="word">kus</td><td class="siddham-tag">𑖎𑖲𑖭𑖿</td><td>green</td><td>k of kes + u of nus</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#6a3d9a"></span></td><td class="word">nos</td><td class="siddham-tag">𑖡𑖺𑖭𑖿</td><td>purple</td><td>n of nus + o of ros</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#8a8a8a"></span></td><td class="word">tes</td><td class="siddham-tag">𑖝𑖸𑖭𑖿</td><td>grey</td><td>between tis and tus</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#f4a6c0"></span></td><td class="word">ris</td><td class="siddham-tag">𑖨𑖰𑖭𑖿</td><td>pink</td><td>r of ros + i of tis</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#7b4a26"></span></td><td class="word">pas</td><td class="siddham-tag">𑖢𑖭𑖿</td><td>brown</td><td>a fresh coinage, since brown is every color mixed at once</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#de3163"></span></td><td class="word">rus</td><td class="siddham-tag">𑖨𑖲𑖭𑖿</td><td>cerise</td><td>a red that will not quite settle</td></tr>
+  </table>
+
+  <h2 class="section">Ambivalent colors</h2>
+  <p class="body">Some colors hover between two others without belonging to either: teal, vermilion, magenta. These take two syllables, the <strong>first syllable of one parent followed by the whole of the other</strong>. As everywhere else in the language, the lead element grounds the word and the trailing element qualifies it, so <em>rores</em> is a red leaning toward orange, while <em>reros</em> is an orange leaning toward red.</p>
+  <table>
+    <tr><th></th><th>Word</th><th>Siddham</th><th>Color</th><th>Built from</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#0f7f7a"></span></td><td class="word">nukus</td><td class="siddham-tag">𑖡𑖲𑖎𑖲𑖭𑖿</td><td>teal</td><td>nu (blue) + kus (green)</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#00b4d8"></span></td><td class="word">kunus</td><td class="siddham-tag">𑖎𑖲𑖡𑖲𑖭𑖿</td><td>cyan</td><td>ku (green) + nus (blue)</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#ff2400"></span></td><td class="word">rores</td><td class="siddham-tag">𑖨𑖺𑖨𑖸𑖭𑖿</td><td>scarlet</td><td>ro (red) + res (orange)</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#e34234"></span></td><td class="word">reros</td><td class="siddham-tag">𑖨𑖸𑖨𑖺𑖭𑖿</td><td>vermilion</td><td>re (orange) + ros (red)</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#cc2a8c"></span></td><td class="word">rinos</td><td class="siddham-tag">𑖨𑖰𑖡𑖺𑖭𑖿</td><td>magenta</td><td>ri (pink) + nos (purple)</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#b03a7a"></span></td><td class="word">noris</td><td class="siddham-tag">𑖡𑖺𑖨𑖰𑖭𑖿</td><td>red violet</td><td>no (purple) + ris (pink)</td></tr>
+  </table>
+  <p class="gap-note">Eighteen words in all. That is deliberately not a full chart. Anything between these can be reached with the tools below.</p>
+
+  <h2 class="section">Lightness and saturation: ta and ra</h2>
+  <p class="body">The softener <em>ta</em> and the intensifier <em>ra</em> already mean something different depending on where they stand: in front of a word they mark how a thing arrives, after it they mark how it builds. Colors borrow that same logic. In front, they describe how hard the color strikes the eye, its <strong>saturation</strong>. After, they describe how deep the color goes, its <strong>lightness</strong>. On both sides, they describe the whole color.</p>
+  <p class="body">This is meant as a springboard rather than a fixed chart. The English labels below are rough neighbors, not definitions, and the three hues are only a starting point.</p>
+
+  <div class="grid">
+  <table class="mod">
+    <tr><th>Form</th><th>Reads as</th><th>ros (red)</th><th>kus (green)</th><th>nus (blue)</th></tr>
+    <tr>
+      <th class="rowhead">ra ___</th><td>vivid</td>
+      <td><div class="modcell"><span class="sw" style="background:#ec0a24"></span><span class="lbl">vivid red</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#00b33c"></span><span class="lbl">vivid green</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#0a4fff"></span><span class="lbl">vivid blue</span></div></td>
+    </tr>
+    <tr>
+      <th class="rowhead">ta ___</th><td>muted</td>
+      <td><div class="modcell"><span class="sw" style="background:#a6585f"></span><span class="lbl">dusty red</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#7f9f80"></span><span class="lbl">sage</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#5f7590"></span><span class="lbl">slate</span></div></td>
+    </tr>
+    <tr>
+      <th class="rowhead">___ ra</th><td>deep</td>
+      <td><div class="modcell"><span class="sw" style="background:#7a0a1c"></span><span class="lbl">oxblood</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#1f4d27"></span><span class="lbl">forest</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#12285a"></span><span class="lbl">navy</span></div></td>
+    </tr>
+    <tr>
+      <th class="rowhead">___ ta</th><td>pale</td>
+      <td><div class="modcell"><span class="sw" style="background:#f2a9b0"></span><span class="lbl">pale red</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#aadcb2"></span><span class="lbl">mint</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#a8c8f0"></span><span class="lbl">baby blue</span></div></td>
+    </tr>
+    <tr>
+      <th class="rowhead">ra ___ ra</th><td>full</td>
+      <td><div class="modcell"><span class="sw" style="background:#a3001b"></span><span class="lbl">crimson</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#007a3d"></span><span class="lbl">emerald</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#1a2fa0"></span><span class="lbl">ultramarine</span></div></td>
+    </tr>
+    <tr>
+      <th class="rowhead">ta ___ ta</th><td>faded</td>
+      <td><div class="modcell"><span class="sw" style="background:#d8b6b8"></span><span class="lbl">faded red</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#c3d1c4"></span><span class="lbl">washed-out green</span></div></td>
+      <td><div class="modcell"><span class="sw" style="background:#a3b4c8"></span><span class="lbl">faded denim</span></div></td>
+    </tr>
+  </table>
+  </div>
+
+  <p class="body">In Siddham, these are simply the separate words written in order: <em>ra kus ra</em> is <span class="siddham-tag">𑖨 𑖎𑖲𑖭𑖿 𑖨</span>, and <em>nus ta</em> is <span class="siddham-tag">𑖡𑖲𑖭𑖿 𑖝</span>.</p>
+
+  <div class="callout">
+    <p class="body"><strong>ta and ra never mix.</strong> That rule holds here as everywhere else, so a form like <em>ra ros ta</em> does not exist. A color that is both vivid and pale, a neon pastel, is rare enough that the language reaches it another way: by mixing with white, below.</p>
+  </div>
+
+  <h2 class="section">Tint, tone and shade: mixing with tis, tes and tus</h2>
+  <p class="body">A second route to lightness follows the painter's own terms. Attach white, grey or black with <em>i</em>, and the color is mixed with it. This sits comfortably alongside ta and ra, and covers combinations they cannot.</p>
+  <table>
+    <tr><th></th><th>Phrase</th><th>Siddham</th><th>Reads as</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#e8909b"></span></td><td class="word">ros i tis</td><td class="siddham-tag">𑖨𑖺𑖭𑖿 𑖂 𑖝𑖰𑖭𑖿</td><td>red with white, a tint</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#9e5a62"></span></td><td class="word">ros i tes</td><td class="siddham-tag">𑖨𑖺𑖭𑖿 𑖂 𑖝𑖸𑖭𑖿</td><td>red with grey, a tone</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#5e0c18"></span></td><td class="word">ros i tus</td><td class="siddham-tag">𑖨𑖺𑖭𑖿 𑖂 𑖝𑖲𑖭𑖿</td><td>red with black, a shade</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#ff8fa3"></span></td><td class="word">ra ros i tis</td><td class="siddham-tag">𑖨 𑖨𑖺𑖭𑖿 𑖂 𑖝𑖰𑖭𑖿</td><td>vivid red lightened with white, a neon pastel</td></tr>
+  </table>
+
+  <h2 class="section">Warmth and coolness</h2>
+  <p class="body">Ionnoioni has no dedicated words for warm and cool, and it does not need to coin any. Two existing tools do the work, and they can be used together.</p>
+
+  <h3 class="sub">Leaning toward a neighbor with o</h3>
+  <p class="body">The particle <em>o</em> means "toward," and a color can lean toward any neighbor on the wheel. This is the precise option, since it names exactly which way a color drifts.</p>
+  <table>
+    <tr><th></th><th>Phrase</th><th>Siddham</th><th>Reads as</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#7fae2e"></span></td><td class="word">kus o kes</td><td class="siddham-tag">𑖎𑖲𑖭𑖿 𑖌 𑖎𑖸𑖭𑖿</td><td>green leaning yellow, a warm green</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#1f8a72"></span></td><td class="word">kus o nus</td><td class="siddham-tag">𑖎𑖲𑖭𑖿 𑖌 𑖡𑖲𑖭𑖿</td><td>green leaning blue, a cool green</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#3d3fa8"></span></td><td class="word">nus o nos</td><td class="siddham-tag">𑖡𑖲𑖭𑖿 𑖌 𑖡𑖺𑖭𑖿</td><td>blue leaning violet</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#d63a1e"></span></td><td class="word">ros o kes</td><td class="siddham-tag">𑖨𑖺𑖭𑖿 𑖌 𑖎𑖸𑖭𑖿</td><td>red leaning yellow, a warm red</td></tr>
+  </table>
+
+  <h3 class="sub">Fire and water</h3>
+  <p class="body">For a general sense of temperature, attach <em>kso</em> (fire) for warmth or <em>tsu</em> (water) for coolness with <em>i</em>. These are not color words themselves, only qualifiers on a color, so the palette still holds to its rule of not naming colors after things in nature. Because they are ordinary words, ta and ra can scale them.</p>
+  <table>
+    <tr><th></th><th>Phrase</th><th>Siddham</th><th>Reads as</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#d9381e"></span></td><td class="word">ros i kso</td><td class="siddham-tag">𑖨𑖺𑖭𑖿 𑖂 𑖎𑖿𑖭𑖺</td><td>a warm red</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#2a5fb8"></span></td><td class="word">nus i tsu</td><td class="siddham-tag">𑖡𑖲𑖭𑖿 𑖂 𑖝𑖿𑖭𑖲</td><td>a cool blue</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#4f9a3a"></span></td><td class="word">kus i ta kso</td><td class="siddham-tag">𑖎𑖲𑖭𑖿 𑖂 𑖝 𑖎𑖿𑖭𑖺</td><td>a slightly warm green</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#8a2a8a"></span></td><td class="word">nos i ra tsu</td><td class="siddham-tag">𑖡𑖺𑖭𑖿 𑖂 𑖨 𑖝𑖿𑖭𑖲</td><td>a strongly cool purple</td></tr>
+  </table>
+  <p class="gap-note">Use o when the direction matters and kso or tsu when only the temperature does.</p>
+
+  <h2 class="section">Color and feeling</h2>
+  <p class="body">Colors carry feeling, and not only in poetry. A large study by Jonauskaite and colleagues asked thousands of people across thirty countries which emotions they linked with which colors, and found strong patterns shared across cultures: red with both love and anger, pink with love and pleasure, yellow with joy, white with hope and relief, blue with calm, grey with disappointment and black with sadness. They also found that lightness, saturation and warmth shift those feelings in systematic ways, which is part of why Ionnoioni gives speakers tools for exactly those three.</p>
+  <p class="body">None of these associations is built into the words themselves. A ros is simply red. But the palette was shaped with this research in mind, and the associations are worth knowing, because color in Ionnoioni sits close to its rich vocabulary of mood and texture, and the two can be used to color each other.</p>
+  <table>
+    <tr><th></th><th>Word</th><th>Strongest associations</th></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#c8102e"></span></td><td class="word">ros</td><td>love, anger</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#f4a6c0"></span></td><td class="word">ris</td><td>love, pleasure</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#f2c80f"></span></td><td class="word">kes</td><td>joy</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#ffffff"></span></td><td class="word">tis</td><td>hope, relief</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#1f4fa8"></span></td><td class="word">nus</td><td>calm</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#8a8a8a"></span></td><td class="word">tes</td><td>disappointment</td></tr>
+    <tr><td class="swcell"><span class="sw" style="background:#141414"></span></td><td class="word">tus</td><td>sadness</td></tr>
+  </table>
+  <p class="cite">Jonauskaite, D., et al. (2020). Universal patterns in color-emotion associations are further shaped by linguistic and geographic proximity. <em>Psychological Science</em>, 31(10), 1245 to 1260.</p>
+
+</body>
+</html>

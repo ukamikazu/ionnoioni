@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Numbers, Time & Calendar: Ionnoioni</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2.5em 1.5em 4em;
+    line-height: 1.65;
+    color: #2b2420;
+    background: #fdfcf8;
+  }
+  h1 {
+    font-size: 2em;
+    border-bottom: 2px solid #8a6d3b;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.2em;
+  }
+  .subtitle {
+    color: #6b5b45;
+    font-style: italic;
+    margin-bottom: 1.8em;
+  }
+  h2 {
+    font-size: 1.4em;
+    color: #6b4423;
+    border-left: 4px solid #8a6d3b;
+    padding-left: 0.5em;
+    margin-top: 2.2em;
+  }
+  h3 {
+    font-size: 1.1em;
+    color: #6b4423;
+    margin-top: 1.4em;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0 1.6em;
+  }
+  th, td {
+    border: 1px solid #d8cfc0;
+    padding: 0.5em 0.8em;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #f1e9d8;
+    color: #4a3a20;
+  }
+  tr:nth-child(even) td {
+    background: #f8f4ea;
+  }
+  .word {
+    font-weight: bold;
+    color: #6b4423;
+  }
+  .gloss {
+    color: #4a4038;
+  }
+  .example {
+    background: #f4efe2;
+    border-left: 4px solid #8a6d3b;
+    padding: 0.8em 1.2em;
+    margin: 1em 0;
+    font-style: italic;
+  }
+  .example .plain {
+    font-style: normal;
+    color: #4a4038;
+    margin-top: 0.4em;
+    display: block;
+  }
+  .note {
+    background: #fbf3e3;
+    border: 1px solid #e0cfa0;
+    border-radius: 4px;
+    padding: 0.9em 1.2em;
+    margin: 1.2em 0;
+    font-size: 0.95em;
+  }
+  .note-title {
+    font-weight: bold;
+    color: #8a6d3b;
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  .caution {
+    background: #fbe9e3;
+    border: 1px solid #d99c85;
+    border-radius: 4px;
+    padding: 0.9em 1.2em;
+    margin: 1.2em 0;
+    font-size: 0.95em;
+  }
+  .caution-title {
+    font-weight: bold;
+    color: #a5502f;
+    display: block;
+    margin-bottom: 0.3em;
+  }
+  .siddham {
+    font-size: 1.3em;
+  }
+  nav.pagelinks {
+    font-size: 0.9em;
+    color: #6b5b45;
+    margin-bottom: 2em;
+  }
+  nav.pagelinks a {
+    color: #8a6d3b;
+  }
+</style>
+</head>
+<body>
+<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+
+<nav class="pagelinks">
+  Ionnoioni: Introduction · Grammar, Syntax & Mechanics · Writing System · Glossary · <strong>Numbers, Time & Calendar</strong>
+</nav>
+
+<h1>Numbers, Time & Calendar</h1>
+<p class="subtitle">The full numeral system, the time-word class and how they combine to state dates.</p>
+
+<p>Numbers and time form a coherent subsystem of their own: not quite grammar, not quite vocabulary. This page walks through both from the ground up: the base digits, how magnitude and fractions are built from them, the phenomenological time-word class and how all of it combines to say something as concrete as a date and time.</p>
+
+<h2>1. Numeral Basics</h2>
+
+<p>The ten digits are atomic CVC roots, phonologically distinct from every other root class in the language (animate, inanimate, mood, verb, ideophone):</p>
+
+<table>
+<tr><th>Digit</th><th>Word</th><th>Devanagari</th></tr>
+<tr><td>0</td><td class="word">nan</td><td class="siddham">०</td></tr>
+<tr><td>1</td><td class="word">pan</td><td class="siddham">१</td></tr>
+<tr><td>2</td><td class="word">tan</td><td class="siddham">२</td></tr>
+<tr><td>3</td><td class="word">kan</td><td class="siddham">३</td></tr>
+<tr><td>4</td><td class="word">tos</td><td class="siddham">४</td></tr>
+<tr><td>5</td><td class="word">san</td><td class="siddham">५</td></tr>
+<tr><td>6</td><td class="word">ran</td><td class="siddham">६</td></tr>
+<tr><td>7</td><td class="word">pon</td><td class="siddham">७</td></tr>
+<tr><td>8</td><td class="word">ton</td><td class="siddham">८</td></tr>
+<tr><td>9</td><td class="word">kon</td><td class="siddham">९</td></tr>
+<tr><td>10</td><td class="word">seo</td><td class="siddham">१०</td></tr>
+</table>
+<p>These Devanagari digits are the only form used to write a number in Ionnoioni. Number-words are never spelled out in Siddham letters, though the classifiers they attach to (below) are.</p>
+
+<p><span class="word">nan</span> (zero) carries its own quiet weight, an in-world "void" origin.</p>
+
+<p>Numbers attach to nouns using the existing attributive particle <span class="word">i</span>, the same particle that links any modifier to a noun:</p>
+
+<div class="example">
+  kan i psa
+  <span class="plain">"three stones"</span>
+</div>
+
+<p>Ionnoioni makes no grammatical distinction between cardinal and ordinal numbers: "three" and "third" are both simply <span class="word">kan</span>. Position and context carry the ordinal sense when it's needed (see Day-of-Month, below).</p>
+
+<h2>2. The Magnitude Ladder</h2>
+
+<p>An earlier approach multiplied upward by repeating <span class="word">seo</span> (seo seo seo... for thousands), but this scales badly: the bigger the number, the longer and clumsier the phrase became. The system was reworked around one guiding principle:</p>
+
+<div class="note">
+<span class="note-title">Design principle</span>
+Bigger magnitudes should sound <em>lighter</em>, not heavier. The words you reach for most relative to their size should be the most efficient to say, the way frequently used words erode and shorten in natural languages.
+</div>
+
+<p>That gives six magnitude words, each one a further compression rather than a further repetition:</p>
+
+<table>
+<tr><th>Magnitude</th><th>Word</th><th>Note</th></tr>
+<tr><td>×10</td><td class="word">seo</td><td class="gloss">base multiplier</td></tr>
+<tr><td>×100 (hundred)</td><td class="word">seseo</td><td class="gloss">partial reduplication of seo, "seo of seo"</td></tr>
+<tr><td>×1,000 (thousand)</td><td class="word">seso</td><td class="gloss">compressed further, shorter than hundred despite being bigger</td></tr>
+<tr><td>×1,000,000 (million)</td><td class="word">raseo</td><td class="gloss">r = intensifier, applied to the multiplier itself</td></tr>
+<tr><td>×1,000,000,000 (billion)</td><td class="word">oiseo</td><td class="gloss">oi = alarm (founding mood primal)</td></tr>
+<tr><td>×1,000,000,000,000 (trillion)</td><td class="word">auseo</td><td class="gloss">au = pain (founding mood primal)</td></tr>
+</table>
+
+<p>The top two magnitudes borrow directly from two of the founding mood primals, <em>oi</em> and <em>au</em>, while <em>raseo</em> takes the intensifier <em>ra</em> and the third primal, <em>ai</em>, is saved for fractions (below). Rather than coining new phonemes, the ladder reuses material the language already has, in keeping with the "compounding before coining" ethos. It also leaves a small joke sitting in plain sight: numbers big enough to reach <em>oiseo</em> and <em>auseo</em> are, appropriately, attached to alarm and pain.</p>
+
+<h2>3. Fractions & Decimals</h2>
+
+<p>The remaining founding mood primal, <span class="word">ai</span> (desire / SEEKING), was repurposed for fractional quantities. A fitting reuse, since a fraction is a quantity reaching toward a whole it hasn't attained.</p>
+
+<p>Ionnoioni distinguishes two registers for stating a fraction or decimal, matched to how precise the speaker needs to be:</p>
+
+<h3>Casual register</h3>
+<p>Numeral, the connective <span class="word">sne</span> ("and"), <span class="word">ai</span> ("toward"), numeral:</p>
+<div class="example">
+  kan sne ai san
+  <span class="plain">"3 and toward 5", 3.5</span>
+</div>
+
+<h3>Precise register</h3>
+<p>Numeral, <span class="word">sne</span>, numeral, then a ladder-word marking exact place value:</p>
+<div class="example">
+  kan sne san aiseo
+  <span class="plain">"3 and 5 tenths", 3.5 stated to the tenths place</span>
+</div>
+
+<table>
+<tr><th>Place</th><th>Word</th></tr>
+<tr><td>tenths</td><td class="word">aiseo</td></tr>
+<tr><td>hundredths</td><td class="word">aiseseo</td></tr>
+<tr><td>thousandths</td><td class="word">aiseso</td></tr>
+</table>
+
+<p>Both registers are correct Ionnoioni. The casual form is what a shopkeeper reaches for; the precise form is what an engineer needs when the exact place value matters.</p>
+
+<h2>4. The Time-Word Class</h2>
+
+<p>Time-words form their own sixth root class: not animate, not inanimate, not mood, not verb, not ideophone. They needed their own logic because time doesn't behave like an object, a feeling or an action.</p>
+
+<div class="note">
+<span class="note-title">Phenomenological anchoring</span>
+Rather than treat time as an abstract unit, Ionnoioni names it by what's observably happening: dawn, morning, noon, evening, dusk, night. "Another morning" safely reads as "another day" from context alone.
+</div>
+
+<h3>The day-cycle</h3>
+<table>
+<tr><th>Word</th><th>Meaning</th><th>Siddham</th></tr>
+<tr><td class="word">rna</td><td>dawn</td><td class="siddham">𑖨𑖿𑖡</td></tr>
+<tr><td class="word">rne</td><td>morning</td><td class="siddham">𑖨𑖿𑖡𑖸</td></tr>
+<tr><td class="word">rni</td><td>noon</td><td class="siddham">𑖨𑖿𑖡𑖰</td></tr>
+<tr><td class="word">rsa</td><td>evening</td><td class="siddham">𑖨𑖿𑖭</td></tr>
+<tr><td class="word">rso</td><td>dusk</td><td class="siddham">𑖨𑖿𑖭𑖺</td></tr>
+<tr><td class="word">rsu</td><td>night</td><td class="siddham">𑖨𑖿𑖭𑖲</td></tr>
+</table>
+<p><span class="word">rn-</span> marks organic flow with no end in view (the open half of the day); <span class="word">rs-</span> marks flow that's terminating (the closing half). Night lands on <em>-u</em>, echoing the same "immersive containment" sense that vowel carries in the inanimate vocabulary: night as the moment you're fully enclosed by dark.</p>
+
+<h3>Short units: ticking</h3>
+<p>Seconds, minutes and hours are felt as discrete, percussive beats, so they take a CrC shape with the trill sitting <em>inside</em> the word as connective glue rather than leading it:</p>
+<table>
+<tr><th>Word</th><th>Meaning</th><th>Siddham</th></tr>
+<tr><td class="word">prk</td><td>second</td><td class="siddham">𑖢𑖿𑖨𑖿𑖎𑖿</td></tr>
+<tr><td class="word">trk</td><td>minute</td><td class="siddham">𑖝𑖿𑖨𑖿𑖎𑖿</td></tr>
+<tr><td class="word">krp</td><td>hour</td><td class="siddham">𑖎𑖿𑖨𑖿𑖢𑖿</td></tr>
+</table>
+
+<h3>Long units: arcing</h3>
+<p>Weeks, months and years are felt as looser, longer arcs, so they keep the trill leading (rC-), scaled by how fully each unit "encloses" experience:</p>
+<table>
+<tr><th>Word</th><th>Meaning</th><th>Siddham</th></tr>
+<tr><td class="word">rpa</td><td>week</td><td class="siddham">𑖨𑖿𑖢</td></tr>
+<tr><td class="word">rke</td><td>month</td><td class="siddham">𑖨𑖿𑖎𑖸</td></tr>
+<tr><td class="word">rtu</td><td>year</td><td class="siddham">𑖨𑖿𑖝𑖲</td></tr>
+</table>
+<p>The short and long units share the same three consonants (p/t/k) in the same connective-trill logic, just flipped in position: CrC for ticking, rC- for arcing.</p>
+
+<h2>5. Weekdays, Months & Dates</h2>
+
+<h3>Weekdays</h3>
+<p>Numeral + <span class="word">rne</span>, using the ordinary numerals 1–7:</p>
+<table>
+<tr><th>Word</th><th>Day</th></tr>
+<tr><td class="word">pan rne</td><td>Monday</td></tr>
+<tr><td class="word">tan rne</td><td>Tuesday</td></tr>
+<tr><td class="word">kan rne</td><td>Wednesday</td></tr>
+<tr><td class="word">tos rne</td><td>Thursday</td></tr>
+<tr><td class="word">san rne</td><td>Friday</td></tr>
+<tr><td class="word">ran rne</td><td>Saturday</td></tr>
+<tr><td class="word">pon rne</td><td>Sunday</td></tr>
+</table>
+<p>This deliberately overloads <span class="word">rne</span>. It now means "morning," "day of the week" and (below) "day of the month." Context always disambiguates; this is consistent with how the language tolerates homophony elsewhere.</p>
+
+<h3>Months</h3>
+<p>The same pattern, using <span class="word">rke</span> instead: numeral + rke, so month 9 (September) is <span class="word">kon i rke</span>.</p>
+
+<h3>Day-of-month</h3>
+<p>Since Ionnoioni makes no ordinal/cardinal distinction, "the 10th" is simply <span class="word">seo</span>, the same word as plain "10." Day-of-month reuses <span class="word">rne</span> generically with the counting particle: <span class="word">seo i rne</span>.</p>
+
+<h3>Putting it together</h3>
+<div class="example">
+  ton i krp, kan seo i trk. kan rne, seo i rne, kon i rke. tan seso tan seo ran
+  <span class="plain">08:30, Wednesday the 10th of September, 2026</span>
+</div>
+
+<p>In the Siddham writing system, numerals stay in Devanagari digits, never spelled out, with the relevant classifier following in Siddham letters, matching spoken word order:</p>
+
+<div class="example siddham">
+  ८𑖎𑖿𑖨𑖿𑖢𑖿, ३०𑖝𑖿𑖨𑖿𑖎𑖿 । ३𑖨𑖿𑖡𑖸, १०𑖨𑖿𑖡𑖸, ९𑖨𑖿𑖎𑖸 । २०२६𑖨𑖿𑖝𑖲
+  <span class="plain">8-hour, 30-minute. 3-day(week), 10-day(month), 9-month. 2026-year</span>
+</div>
+
+<h2>6. Measures</h2>
+
+<p>Rather than build weight, distance, volume and area words from scratch within the closed p/t/k/n/s/r inventory, Ionnoioni borrows the metric system wholesale, adapting pronunciation as needed. This is a deliberate exception to the language's usual closed-phoneme discipline: a living language absorbs loanwords, and metric units are about as close to a universal standard as anything in the modern world.</p>
+
+<table>
+<tr><th>Word</th><th>Unit</th></tr>
+<tr><td class="word">neter</td><td>meter</td></tr>
+<tr><td class="word">riter</td><td>liter</td></tr>
+<tr><td class="word">kren</td><td>gram</td></tr>
+<tr><td class="word">ektar</td><td>hectare</td></tr>
+</table>
+
+<p>kren was chosen over the more obvious devoiced form kran because kran was already locked as the verb "allow." Loanwords still have to fit around the vocabulary that's already there.</p>
+
+<h3>Metric prefixes</h3>
+<p>Rather than invent a separate prefix system, Ionnoioni reuses the magnitude ladder and fraction ladder already built for numbers, fused directly onto the base unit word:</p>
+
+<table>
+<tr><th>Word</th><th>Meaning</th></tr>
+<tr><td class="word">sesoneter</td><td>kilometer</td></tr>
+<tr><td class="word">aiseseoneter</td><td>centimeter</td></tr>
+<tr><td class="word">aisesoneter</td><td>millimeter</td></tr>
+</table>
+
+<p>The same pattern extends automatically to the other base units with no new mechanism required: <span class="word">sesoriter/aiseseoriter/aisesoriter</span> (kilo/centi/milliliter) and <span class="word">sesokren/aiseseokren/aisesokren</span> (kilo/centi/milligram).</p>
+
+<p>These forms fuse into a single word rather than staying separate, since the numeral accompanying them is always written as a Devanagari digit and already marks the count clearly. There's no risk of confusing the prefix with the unit itself.</p>
+
+<div class="example siddham">
+  ३ 𑖭𑖸𑖭𑖺𑖡𑖸𑖝𑖸𑖨𑖿
+  <span class="plain">kan sesoneter</span>
+  <span class="plain">3 kilometers</span>
+</div>
+
+</body>
+</html>

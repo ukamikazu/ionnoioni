@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ionnoioni: Texture: The S Class</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --ink: #1a1410;
+    --paper: #faf6ee;
+    --accent: #7a3b2e;
+    --line: #d8cdb8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Noto Serif', Georgia, serif;
+    margin: 0;
+    padding: 32px 28px 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  h1 { text-align: center; font-size: 1.9rem; margin: 0 0 2px; }
+  .subtitle { text-align: center; font-size: 1rem; color: var(--accent); margin: 0 0 24px; font-style: italic; }
+  h2.section {
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 4px;
+    margin: 30px 0 12px;
+  }
+  h3.sub { font-size: 1.02rem; color: var(--accent); margin: 18px 0 6px; }
+  p.body { margin: 4px 0 10px; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0 16px; background: #fff; border: 1px solid var(--line); }
+  th, td { padding: 7px 10px; text-align: left; border: 1px solid var(--line); font-size: 0.9rem; }
+  th { background: var(--accent); color: #fff; }
+  td.word { font-style: italic; color: var(--accent); white-space: nowrap; }
+  .gap-note { font-size: 0.85rem; color: #a05a2c; font-style: italic; margin: 4px 0 14px; }
+  .siddham-tag { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.2rem; }
+  details.fam { background: #fff; border: 1px solid var(--line); border-radius: 8px; margin: 8px 0; padding: 4px 12px; }
+  details.fam summary { cursor: pointer; padding: 6px 0; font-size: 1rem; }
+  details.fam[open] summary { border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+  .fam-verb { font-style: italic; color: var(--accent); font-weight: 600; }
+  .fam-gloss { color: #555; }
+  details.fam table { margin-top: 4px; }
+  .ex { margin: 10px 0 16px; padding: 10px 14px; background: #fff; border: 1px solid var(--line); border-radius: 8px; max-width: 760px; }
+  .siddham-row { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.5rem; line-height: 1.3; }
+  .roman-row { font-style: italic; color: var(--accent); margin-top: 4px; }
+  .free-row { margin-top: 3px; }
+  .tcard { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin: 14px 0 18px; max-width: 640px; }
+  .tcard-head { display: flex; align-items: baseline; gap: 18px; }
+  .tcard-word { font-size: 1.6rem; font-style: italic; color: var(--accent); }
+  .tcard-sid { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.6rem; }
+  .tcard-def { margin: 4px 0 10px; }
+  table.tcard-grid { margin: 0 0 8px; }
+  table.tcard-grid th { width: 22%; }
+  table.tcard-grid td { width: 39%; }
+  .tcard-foot { font-size: 0.8rem; color: #a05a2c; font-style: italic; }
+</style>
+</head>
+<body>
+<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+
+  <h1>Ionnoioni</h1>
+  <div class="subtitle">Texture: The S Class</div>
+
+  <h3 class="sub">Why <span class="siddham-tag">𑖭𑖿</span>?</h3>
+  <p class="body">s is the only sibilant in Ionnoioni, and sibilants are arguably quite special. Whether it is the alarming hiss of a snake or the sound of a running rope as an anchor is dropped, it gets your attention. It adds texture and color, and even carries specific connotations depending on time, place and culture. s was, until recently, also the most rarely used leading sound in Ionnoioni's development. This is its moment to help highlight the subtleties of human being.</p>
+
+  <p class="body">Mood names what is felt. The verb classes name what is done. Neither one names the <strong>grain</strong> of a thing, the quality of how it is felt or done, smooth or abrasive, fleeting or fixed, bounded or immersive. That is what the S class is for. Its words are not adjectives, adverbs or gerunds in the grammatical sense, Ionnoioni has none of those as dedicated parts of speech, but they function the way those categories function in other languages: they color an idea rather than naming a new one outright.</p>
+
+  <h2 class="section">Three subclasses</h2>
+  <p class="body">The S class has three confirmed subclasses: pure color (sVsV), phenomenological color (s[verb]sV) and material color (s + vowel + an inanimate root). All three share the same governing idea: a vowel slot can carry the exact sense that vowel already holds elsewhere in the grammar. In the first two, the lead element grounds the word while the trailing element qualifies it, the same ordering tendency seen throughout the rest of the language. Material color deliberately turns that order around, as described in its own section below.</p>
+
+  <h3 class="sub">sVsV: pure, abstract color</h3>
+  <p class="body">No verb is embedded. The word is built entirely from two vowel slots, each carrying a particle-sense, bound together by s on both ends. This is free-floating texture, not tethered to any concrete action, closer to the grain of a relationship, a mood or a felt quality than to anything a body does.</p>
+  <table>
+    <tr><th>Slot carries the sense of</th><th>Reads as</th></tr>
+    <tr><td class="word">a</td><td>with / bounded</td></tr>
+    <tr><td class="word">e</td><td>relational</td></tr>
+    <tr><td class="word">i</td><td>binding / fixed</td></tr>
+    <tr><td class="word">o</td><td>toward / path</td></tr>
+    <tr><td class="word">u</td><td>immersive / plural</td></tr>
+    <tr><td class="word">ai</td><td>desire</td></tr>
+    <tr><td class="word">au</td><td>pain</td></tr>
+    <tr><td class="word">oi</td><td>alarm / warning (see note below)</td></tr>
+  </table>
+  <p class="gap-note">Reversed pairs are not mirror meanings. sisa (binding grounding a with-relationship, "bonded to," a direct attachment) and sasi (with grounding a binding, "bound-with," a conditional attachment) are genuinely different claims, not the same idea read backward.</p>
+
+  <h3 class="sub">The full sVsV grid</h3>
+  <p class="body">Eight vowel senses in the lead slot and eight in the trailing slot give sixty-four possible words, and every one of them has been tested by ear and judged to name something real and specific. The cells that resisted were resolved by stating a precise English phrase and checking it against the two vowel senses; more often than not, the hard-to-paraphrase meaning turned out to be nothing more than its vowel senses spelled out in full. That is good evidence the method does real semantic work rather than producing evocative noise.</p>
+  <table>
+    <tr><th>Word</th><th>Built from</th><th>Reads as</th></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">ai-led: desire grounds the word</th></tr>
+    <tr><td class="word">saisai</td><td>desire + desire</td><td>extreme, obsessive desire, the texture underlying stalking or scrupulosity</td></tr>
+    <tr><td class="word">saisau</td><td>desire + pain</td><td>rhythm / pattern, the binding and texture of music and living things that must follow seasons</td></tr>
+    <tr><td class="word">saisoi</td><td>desire + alarm</td><td>Tremendum, ego-dystonic or intrusive desire, the self sounding a warning at its own want</td></tr>
+    <tr><td class="word">saisa</td><td>desire + with</td><td>the basic need for connection and belonging, "the oxygen of highly social primates"</td></tr>
+    <tr><td class="word">saise</td><td>desire + relational</td><td>companionate love, storge, what limerence settles into</td></tr>
+    <tr><td class="word">saiso</td><td>desire + toward</td><td>desire in motion, active pursuit, the chase</td></tr>
+    <tr><td class="word">saisi</td><td>desire + binding</td><td>habituation, a craving fixed into permanence</td></tr>
+    <tr><td class="word">saisu</td><td>desire + immersive</td><td>addiction, consumed by wanting</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">au-led: pain grounds the word</th></tr>
+    <tr><td class="word">sausai</td><td>pain + desire</td><td>saudade or hiraeth, longing and loss fused into one ache (not masochism)</td></tr>
+    <tr><td class="word">sausau</td><td>pain + pain</td><td>chronic pain, or all-consuming grief</td></tr>
+    <tr><td class="word">sausoi</td><td>pain + alarm</td><td>nociception, the alarm function of pain itself</td></tr>
+    <tr><td class="word">sausa</td><td>pain + with</td><td>compassion, "suffering with," as in the Latin com- + pati</td></tr>
+    <tr><td class="word">sause</td><td>pain + relational</td><td>attachment distress, the ache of an early attachment that is not yet secure</td></tr>
+    <tr><td class="word">sauso</td><td>pain + toward</td><td>pain approaching, worsening</td></tr>
+    <tr><td class="word">sausi</td><td>pain + binding</td><td>existential suffering, pain settled into identity, inveterate and chronic</td></tr>
+    <tr><td class="word">sausu</td><td>pain + immersive</td><td>drowning in suffering</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">oi-led: alarm grounds the word</th></tr>
+    <tr><td class="word">soisai</td><td>alarm + desire</td><td>thrill-seeking, wanting the alarm itself</td></tr>
+    <tr><td class="word">soisau</td><td>alarm + pain</td><td>trepidation</td></tr>
+    <tr><td class="word">soisoi</td><td>alarm + alarm</td><td>irrational terror, the texture underlying phobia</td></tr>
+    <tr><td class="word">soisa</td><td>alarm + with</td><td>shared vigilance, on guard together</td></tr>
+    <tr><td class="word">soise</td><td>alarm + relational</td><td>unfounded relational suspicion, the gnawing sense that something is wrong between us with no evidence at all, not paranoia</td></tr>
+    <tr><td class="word">soiso</td><td>alarm + toward</td><td>mounting dread</td></tr>
+    <tr><td class="word">soisi</td><td>alarm + binding</td><td>hypervigilance as a settled condition</td></tr>
+    <tr><td class="word">soisu</td><td>alarm + immersive</td><td>imperiled, besieged, fraught</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">a-led: with grounds the word</th></tr>
+    <tr><td class="word">sasai</td><td>with + desire</td><td>limerence, the early, saturated, can't-get-enough phase of new romantic desire</td></tr>
+    <tr><td class="word">sasau</td><td>with + pain</td><td>painful attachment, a bond that hurts</td></tr>
+    <tr><td class="word">sasoi</td><td>with + alarm</td><td>incredulity, a con artist's mark's disbelief, a warning drawn in and unheeded</td></tr>
+    <tr><td class="word">sasa</td><td>with + with</td><td>mutual bond, reciprocity</td></tr>
+    <tr><td class="word">sase</td><td>with + relational</td><td>responsibility to act, duty without obligation</td></tr>
+    <tr><td class="word">saso</td><td>with + toward</td><td>communal action, moving together toward doing something</td></tr>
+    <tr><td class="word">sasi</td><td>with + binding</td><td>bound-with, a conditional attachment, attribution itself</td></tr>
+    <tr><td class="word">sasu</td><td>with + immersive</td><td>esprit de corps, a shared, surrounding morale</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">e-led: relational grounds the word</th></tr>
+    <tr><td class="word">sesai</td><td>relational + desire</td><td>a relationship of convenience</td></tr>
+    <tr><td class="word">sesau</td><td>relational + pain</td><td>a toxic relationship</td></tr>
+    <tr><td class="word">sesoi</td><td>relational + alarm</td><td>frenemies, a wary, guarded tie</td></tr>
+    <tr><td class="word">sesa</td><td>relational + with</td><td>knot</td></tr>
+    <tr><td class="word">sese</td><td>relational + relational</td><td>pure relation, the texture of relating itself, friction</td></tr>
+    <tr><td class="word">seso</td><td>relational + toward</td><td>a bond that leans on utility without being reducible to it, workplace camaraderie, the favor-economy of close friendship</td></tr>
+    <tr><td class="word">sesi</td><td>relational + binding</td><td>a working, functional tie</td></tr>
+    <tr><td class="word">sesu</td><td>relational + immersive</td><td>steeped in use, worn-in</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">o-led: toward grounds the word</th></tr>
+    <tr><td class="word">sosai</td><td>toward + desire</td><td>conatus, directed striving before it has any object</td></tr>
+    <tr><td class="word">sosau</td><td>toward + pain</td><td>self-destructive impulse, poor impulse control</td></tr>
+    <tr><td class="word">sosoi</td><td>toward + alarm</td><td>approaching danger, closing in on a threat</td></tr>
+    <tr><td class="word">sosa</td><td>toward + with</td><td>infatuation</td></tr>
+    <tr><td class="word">sose</td><td>toward + relational</td><td>achieved competence, flow earned through use</td></tr>
+    <tr><td class="word">soso</td><td>toward + toward</td><td>wanderlust, not necessarily geographic, a spiritual or intellectual restlessness too</td></tr>
+    <tr><td class="word">sosi</td><td>toward + binding</td><td>almost-bound, on the way to being fixed</td></tr>
+    <tr><td class="word">sosu</td><td>toward + immersive</td><td>flow state</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">i-led: binding grounds the word</th></tr>
+    <tr><td class="word">sisai</td><td>binding + desire</td><td>upadana, the clinging that fuels itself</td></tr>
+    <tr><td class="word">sisau</td><td>binding + pain</td><td>shared group trauma</td></tr>
+    <tr><td class="word">sisoi</td><td>binding + alarm</td><td>a trap that itself alarms, the texture of a Stockholm-syndrome-shaped bond</td></tr>
+    <tr><td class="word">sisa</td><td>binding + with</td><td>bonded to, a direct attachment</td></tr>
+    <tr><td class="word">sise</td><td>binding + relational</td><td>relational fidelity, steadfastness held in place by the relation itself, filial piety among its forms</td></tr>
+    <tr><td class="word">siso</td><td>binding + toward</td><td>healthy hyperfocus, flow still reaching toward an unmet goal</td></tr>
+    <tr><td class="word">sisi</td><td>binding + binding</td><td>a double bind, recursive and paradoxical, with a dark-comedy quality</td></tr>
+    <tr><td class="word">sisu</td><td>binding + immersive</td><td>enmeshed, many-bound</td></tr>
+    <tr><th colspan="3" style="background:#efe4d0; color:var(--ink);">u-led: immersive grounds the word</th></tr>
+    <tr><td class="word">susai</td><td>immersive + desire</td><td>an emotional locus with a pull, the surround that draws you in</td></tr>
+    <tr><td class="word">susau</td><td>immersive + pain</td><td>pervasive threat, a texture close to PTSD</td></tr>
+    <tr><td class="word">susoi</td><td>immersive + alarm</td><td>panic</td></tr>
+    <tr><td class="word">susa</td><td>immersive + with</td><td>the tighter, more intimate community nested within a larger one, blood relatives and extended chosen family</td></tr>
+    <tr><td class="word">suse</td><td>immersive + relational</td><td>workaholism</td></tr>
+    <tr><td class="word">suso</td><td>immersive + toward</td><td>enchantment or monomania of the non-magical kind, a mind consumed by one thing</td></tr>
+    <tr><td class="word">susi</td><td>immersive + binding</td><td>crab-bucket syndrome, a community pulling one of its own back down</td></tr>
+    <tr><td class="word">susu</td><td>immersive + immersive</td><td>a strongly valenced immersion, unambiguously positive or negative, never ambivalent</td></tr>
+  </table>
+
+  <h3 class="sub">Doubled primals: when a feeling curdles</h3>
+  <p class="body">A primal crossed with itself, rather than with a different particle sense, reads as that primal pushed past its normal bounds until it curdles. This is a distinct pattern from the mixed-vowel words above.</p>
+  <table>
+    <tr><th>Word</th><th>Built from</th><th>Reads as</th></tr>
+    <tr><td class="word">saisai</td><td>desire + desire</td><td>extreme, obsessive desire, the texture underlying stalking or scrupulosity</td></tr>
+    <tr><td class="word">sausau</td><td>pain + pain</td><td>chronic pain, or all-consuming grief</td></tr>
+    <tr><td class="word">soisoi</td><td>alarm + alarm</td><td>irrational terror, the texture underlying phobia</td></tr>
+  </table>
+
+  <h3 class="sub">A note on oi: alarm and fear are not quite the same thing</h3>
+  <p class="body">Alarm and fear are evolutionarily close but distinct: alarm is closer to an external signal, the utility of noticing and avoiding a threat, where fear is the internal fight, flight or freeze response that follows. oi, as a single root, legitimately spans both senses, because it sits at that old evolutionary fork, carrying something close to very old biological code in a single syllable. A speaker disambiguates by context, the same way real languages' fear and alarm vocabulary works. This matters for reading the S class: an oi-closing word can mean a warning is present (skaursoi, a feared death, or sprensoi, a confidence trickster, too good to be true) just as readily as it can mean the subject themselves feels afraid.</p>
+
+  <h2 class="section">s[verb]sV: concrete, phenomenological color</h2>
+  <p class="body">A whole existing verb is embedded intact inside the s-frame: s + [verb] + s + [closing vowel]. The verb grounds the word's meaning; the closing vowel qualifies it with its own particle-sense, exactly as in sVsV. This subclass is tethered to something a body or mind can be caught doing, which makes it phenomenological where sVsV stays abstract.</p>
+  <p class="body">The frame accommodates whatever shape the embedded verb actually has. Clean CCV verbs (pra, tro, kri, tre, pro, prai, kra, tri, tra, kro, tru, pre, kre, pri, pru, kru, prau) fit most naturally. CCVC verbs (prin, tron, prun, krun, tsor, kron, pron, pren, tran, kran, pran, trun, krak) fit too, producing a slightly heavier word. The two deliberately irregular death-cluster verbs, kaur (CVVC) and kreu (CCVV), embed just as readily with their own natural shape left intact, no truncation required. This was never a shape-restricted rule; it simply accommodates whichever verb shape already exists.</p>
+
+  <h3 class="sub">Verbs beginning with ts: a shared s</h3>
+  <p class="body">When the embedded verb already begins with ts, the frame's leading s is dropped and the verb's own s does the job. tsor (believe) gives <em>tsorsa</em>, <em>tsorse</em> and so on through <em>tsorsoi</em>, never stsorsa. Linguists call this kind of simplification haplology: two like sounds that would sit side by side collapse into one.</p>
+
+  <h3 class="sub">All thirty-two families</h3>
+  <p class="body">Every verb in the language has now been run through the frame, eight closing vowels each, giving two hundred fifty-six words. The families are grouped below by theme. Select a verb to open its family.</p>
+  <table>
+    <tr><th>Group</th><th>Verbs</th></tr>
+    <tr><td>Life, death and flourishing</td><td><em>kre</em> (good), <em>pren</em> (thrive), <em>pron</em> (live), <em>kaur</em> (die), <em>kreu</em> (mourn)</td></tr>
+    <tr><td>Mind and feeling</td><td><em>kron</em> (hope), <em>prun</em> (remember), <em>tsor</em> (believe), <em>kri</em> (see), <em>pru</em> (know), <em>krun</em> (understand), <em>kro</em> (worry), <em>prau</em> (be heavy), <em>prai</em> (need)</td></tr>
+    <tr><td>Everyday life</td><td><em>pra</em> (speak), <em>tre</em> (give), <em>kra</em> (be safe), <em>krak</em> (laugh), <em>tro</em> (walk), <em>pro</em> (hold), <em>tri</em> (relax), <em>tra</em> (be comfortable), <em>tru</em> (help), <em>pre</em> (upset), <em>pri</em> (want more), <em>kru</em> (roll), <em>tran</em> (decide), <em>kran</em> (allow), <em>pran</em> (forbid), <em>trun</em> (cause), <em>prin</em> (small), <em>tron</em> (dark)</td></tr>
+  </table>
+  <p class="gap-note">The closing vowels always read in the same order: a (bounded, a single instance), e (relational), i (fixed, settled), o (in motion, approaching), u (immersive, steeped), ai (desire), au (pain), oi (alarm).</p>
+
+  <h3 class="sub">Life, death and flourishing</h3>
+  <p class="body">The heaviest themes a life holds: goodness, thriving and living, dying and mourning.</p>
+  <details class="fam">
+    <summary><span class="fam-verb">kre</span> <span class="fam-gloss">(good)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skresa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭</td><td>a bounded, specific good, a single concrete kindness</td></tr>
+      <tr><td class="word">skrese</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖸</td><td>goodness-as-relation, the texture of a beneficial relationship</td></tr>
+      <tr><td class="word">skresi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖰</td><td>a fixed, dependable good, a sure thing</td></tr>
+      <tr><td class="word">skreso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖺</td><td>good that is approaching, a benefit on its way</td></tr>
+      <tr><td class="word">skresu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖲</td><td>abundance, steeped in benefit</td></tr>
+      <tr><td class="word">skresai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖹</td><td>a good that is wanted, actively sought</td></tr>
+      <tr><td class="word">skresau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖻</td><td>bittersweet gain, a good bought with pain</td></tr>
+      <tr><td class="word">skresoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖿𑖃</td><td>a precarious good, one you are afraid to lose</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pren</span> <span class="fam-gloss">(thrive)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprensa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭</td><td>achievement, a bounded, specific flourishing</td></tr>
+      <tr><td class="word">sprense</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖸</td><td>thriving as relation, mutual success that exists because of connection</td></tr>
+      <tr><td class="word">sprensi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖰</td><td>settled, stable thriving, a sure footing</td></tr>
+      <tr><td class="word">sprenso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖺</td><td>thriving in motion, an upward trajectory</td></tr>
+      <tr><td class="word">sprensu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖲</td><td>abundance, steeped in flourishing</td></tr>
+      <tr><td class="word">sprensai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖹</td><td>ambition rewarded, striving that is paying off</td></tr>
+      <tr><td class="word">sprensau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖻</td><td>hard-won success, thriving that cost something real</td></tr>
+      <tr><td class="word">sprensoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖡𑖿𑖭𑖿𑖃</td><td>a confidence trickster, too good to be true</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pron</span> <span class="fam-gloss">(live)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">spronsa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭</td><td>Dasein, Heidegger's being-there: existence as it is actually lived, already in a world</td></tr>
+      <tr><td class="word">spronse</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖸</td><td>conviviality, living well together</td></tr>
+      <tr><td class="word">spronsi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖰</td><td>chthonic abidance, life rooted and enduring, held fast as if in the earth</td></tr>
+      <tr><td class="word">spronso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖺</td><td>metamorphosis, life in transformation</td></tr>
+      <tr><td class="word">spronsu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖲</td><td>verve, life lived immersively and with vigor</td></tr>
+      <tr><td class="word">spronsai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖹</td><td>élan, the vital urge, wanting to live</td></tr>
+      <tr><td class="word">spronsau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖻</td><td>resilience, life that persists through pain</td></tr>
+      <tr><td class="word">spronsoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖡𑖿𑖭𑖿𑖃</td><td>precaritization, life made precarious, lived under constant insecurity</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kaur</span> <span class="fam-gloss">(die)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skaursa</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭</td><td>a bounded, singular death, dying alone, suicide, euthanasia or the death of a great or significant figure</td></tr>
+      <tr><td class="word">skaurse</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖸</td><td>death as relation, the way a loss reshapes the relationships around it, grief's social ripple</td></tr>
+      <tr><td class="word">skaursi</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖰</td><td>death as fixed or fated, death from terminal illness, a death already settled</td></tr>
+      <tr><td class="word">skaurso</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖺</td><td>the clinical process of active dying, the texture of the trajectory, not the moment</td></tr>
+      <tr><td class="word">skaursu</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖲</td><td>steeped in death, a season of funerals, mass bereavement</td></tr>
+      <tr><td class="word">skaursai</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖹</td><td>the longing for nonexistence specifically, wanting the philosophical and psychological pain of living, not the body, to end. This is explicitly not suicide or self-harm; it names a wish to stop existing, not an active intent to end one's life, and the distinction is deliberate</td></tr>
+      <tr><td class="word">skaursau</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖻</td><td>a painful death, the dying itself as agony rather than the grief afterward</td></tr>
+      <tr><td class="word">skaursoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖻𑖨𑖿𑖭𑖿𑖃</td><td>a feared death, or being frightened so totally it carries mortal weight</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kreu</span> <span class="fam-gloss">(mourn)</span></summary>
+    <p class="body">This family contains a number of common human feelings for which there has always been insufficient expression in any language.</p>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skreusa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭</td><td>bounded, specific grief, a clear-edged sorrow</td></tr>
+      <tr><td class="word">skreuse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖸</td><td>mourning-as-relation, grief that binds a community together</td></tr>
+      <tr><td class="word">skreusi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖰</td><td>fixed, permanent grief, mourning become identity</td></tr>
+      <tr><td class="word">skreuso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖺</td><td>grief in motion, the process of grieving, moving through rather than being stuck</td></tr>
+      <tr><td class="word">skreusu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖲</td><td>immersive, collective grief, many grieving together, or one person drowning in it</td></tr>
+      <tr><td class="word">skreusai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖹</td><td>yearning-laced grief, still reaching for what's lost</td></tr>
+      <tr><td class="word">skreusau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖻</td><td>raw, sharp grief, mourning's rawest edge</td></tr>
+      <tr><td class="word">skreusoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭𑖿𑖃</td><td>anxious grief, mourning shot through with dread</td></tr>
+    </table>
+  </details>
+
+  <h3 class="sub">Mind and feeling</h3>
+  <p class="body">Hope, memory, belief, perception, knowledge and understanding, and the weights the mind carries: worry, heaviness and need.</p>
+  <details class="fam">
+    <summary><span class="fam-verb">kron</span> <span class="fam-gloss">(hope)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skronsa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭</td><td>anticipation, hope for one specific thing</td></tr>
+      <tr><td class="word">skronse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖸</td><td>vicariousness, hoping through someone else</td></tr>
+      <tr><td class="word">skronsi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖰</td><td>anchoring, hope that steadies, a fixed point to hold to</td></tr>
+      <tr><td class="word">skronso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖺</td><td>ascendancy, hope rising and gaining ground</td></tr>
+      <tr><td class="word">skronsu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖲</td><td>saturation, hope that suffuses everything</td></tr>
+      <tr><td class="word">skronsai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖹</td><td>desideratum, something hoped for as essential</td></tr>
+      <tr><td class="word">skronsau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖻</td><td>forlorn hope, the agonizing friction of holding onto a possibility when every logical sign tells you it is dead</td></tr>
+      <tr><td class="word">skronsoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖡𑖿𑖭𑖿𑖃</td><td>foreboding joy, dread that intrudes on happiness, bracing for disaster in good moments (Brené Brown)</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">prun</span> <span class="fam-gloss">(remember)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprunsa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭</td><td>ecphory, Richard Semon's term for a memory called back when a cue reawakens its trace</td></tr>
+      <tr><td class="word">sprunse</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖸</td><td>commemoration, remembering together</td></tr>
+      <tr><td class="word">sprunsi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖰</td><td>eidetic trace, a memory fixed in vivid, near-photographic detail</td></tr>
+      <tr><td class="word">sprunso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖺</td><td>anamnesis in motion, recollection unfolding</td></tr>
+      <tr><td class="word">sprunsu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖲</td><td>absorptive melancholy, being steeped in memory</td></tr>
+      <tr><td class="word">sprunsai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖹</td><td>anamnetic yearning, longing that reaches back toward what is remembered</td></tr>
+      <tr><td class="word">sprunsau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖻</td><td>psychalgia, remembering that hurts, mental pain</td></tr>
+      <tr><td class="word">sprunsoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖡𑖿𑖭𑖿𑖃</td><td>amygdala hijack, a memory that sets off alarm and overrides reason</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tsor</span> <span class="fam-gloss">(believe)</span></summary>
+    <p class="body">tsor carries two readings side by side: plain belief, and belief performed as judgment, which is sanctimony. Context tells them apart, and speakers are free to build with either.</p>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Plain belief</th><th>Sanctimony</th></tr>
+      <tr><td class="word">tsorsa</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭</td><td>one conviction</td><td>the single performed judgment, the tut</td></tr>
+      <tr><td class="word">tsorse</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖸</td><td>credence given to another's word</td><td>holier-than-thou, moral superiority as the shape of a relationship, including concern trolling</td></tr>
+      <tr><td class="word">tsorsi</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖰</td><td>dogma</td><td>self-righteousness hardened into character, Pharisaism</td></tr>
+      <tr><td class="word">tsorso</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖺</td><td>a mind being changed</td><td>moralizing in motion, the crusade</td></tr>
+      <tr><td class="word">tsorsu</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖲</td><td>worldview</td><td>sanctimony as a climate, purity culture</td></tr>
+      <tr><td class="word">tsorsai</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖹</td><td>wishful belief</td><td>hunger to be seen as righteous, virtue signaling</td></tr>
+      <tr><td class="word">tsorsau</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖻</td><td>a painful truth held</td><td>suffering paraded as virtue</td></tr>
+      <tr><td class="word">tsorsoi</td><td class="siddham-tag">𑖝𑖿𑖭𑖺𑖨𑖿𑖭𑖿𑖃</td><td>nagging doubt</td><td>pearl-clutching</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kri</span> <span class="fam-gloss">(see)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skrisa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭</td><td>personal insight, seeing one thing clearly</td></tr>
+      <tr><td class="word">skrise</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖸</td><td>recognition</td></tr>
+      <tr><td class="word">skrisi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖰</td><td>stasis, the gaze held fixed</td></tr>
+      <tr><td class="word">skriso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖺</td><td>foresight, seeing what lies ahead</td></tr>
+      <tr><td class="word">skrisu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖲</td><td>enraptured, spellbound by what is seen</td></tr>
+      <tr><td class="word">skrisai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖹</td><td>appetency, wanting what you see</td></tr>
+      <tr><td class="word">skrisau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖻</td><td>Weltschmerz, world-weariness, pain at how the world is</td></tr>
+      <tr><td class="word">skrisoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖰𑖭𑖿𑖃</td><td>vigilance, watching for danger</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pru</span> <span class="fam-gloss">(know)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprusa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭</td><td>certainty, sureness about one bounded thing</td></tr>
+      <tr><td class="word">spruse</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖸</td><td>acquaintance, knowing someone</td></tr>
+      <tr><td class="word">sprusi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖰</td><td>certitude, sureness as a settled state of mind</td></tr>
+      <tr><td class="word">spruso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖺</td><td>apperception, taking in something new through what you already know</td></tr>
+      <tr><td class="word">sprusu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖲</td><td>erudition, steeped in knowledge</td></tr>
+      <tr><td class="word">sprusai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖹</td><td>sophophilia, the love of knowing</td></tr>
+      <tr><td class="word">sprusau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖻</td><td>disillusionment, knowledge that hurts</td></tr>
+      <tr><td class="word">sprusoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖲𑖭𑖿𑖃</td><td>presentiment, knowing that something bad is coming</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">krun</span> <span class="fam-gloss">(understand)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skrunsa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭</td><td>a realization</td></tr>
+      <tr><td class="word">skrunse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖸</td><td>mutual understanding, rapport</td></tr>
+      <tr><td class="word">skrunsi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖰</td><td>wisdom</td></tr>
+      <tr><td class="word">skrunso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖺</td><td>dawning comprehension</td></tr>
+      <tr><td class="word">skrunsu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖲</td><td>understanding of the whole</td></tr>
+      <tr><td class="word">skrunsai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖹</td><td>longing to understand or be understood</td></tr>
+      <tr><td class="word">skrunsau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖻</td><td>painful clarity</td></tr>
+      <tr><td class="word">skrunsoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖡𑖿𑖭𑖿𑖃</td><td>horrified realization</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kro</span> <span class="fam-gloss">(worry)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skrosa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭</td><td>preoccupation, one worry holding the mind</td></tr>
+      <tr><td class="word">skrose</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸</td><td>solicitude, anxious care for someone</td></tr>
+      <tr><td class="word">skrosi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖰</td><td>dysphoria, unease settled in to stay</td></tr>
+      <tr><td class="word">skroso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖺</td><td>anticipatory anxiety, worry running ahead to what is coming (compare soisau, trepidation: fear braced for pain, felt in the body rather than the mind)</td></tr>
+      <tr><td class="word">skrosu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖲</td><td>angst</td></tr>
+      <tr><td class="word">skrosai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖹</td><td>importunity, worry that keeps pressing and will not let go</td></tr>
+      <tr><td class="word">skrosau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖻</td><td>malaise</td></tr>
+      <tr><td class="word">skrosoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖿𑖃</td><td>frisson, a thrill shot through with fear</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">prau</span> <span class="fam-gloss">(be heavy)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprausa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭</td><td>guilt</td></tr>
+      <tr><td class="word">sprause</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖸</td><td>commiseration</td></tr>
+      <tr><td class="word">sprausi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖰</td><td>resignation</td></tr>
+      <tr><td class="word">sprauso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖺</td><td>sadness, the everyday word for sad</td></tr>
+      <tr><td class="word">sprausu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖲</td><td>depression</td></tr>
+      <tr><td class="word">sprausai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖹</td><td>melancholy</td></tr>
+      <tr><td class="word">sprausau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖻</td><td>sorrow</td></tr>
+      <tr><td class="word">sprausoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖿𑖃</td><td>foreboding</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">prai</span> <span class="fam-gloss">(need)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">spraisa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭</td><td>singularity of purpose</td></tr>
+      <tr><td class="word">spraise</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖸</td><td>interdependence</td></tr>
+      <tr><td class="word">spraisi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖰</td><td>indispensable</td></tr>
+      <tr><td class="word">spraiso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖺</td><td>anticipation, need leaning toward what is coming</td></tr>
+      <tr><td class="word">spraisu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖲</td><td>ubiquitous privation, need felt everywhere at once</td></tr>
+      <tr><td class="word">spraisai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖹</td><td>Taṇhā, the Pali word for thirst: craving that feeds suffering</td></tr>
+      <tr><td class="word">spraisau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖻</td><td>craving</td></tr>
+      <tr><td class="word">spraisoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖹𑖭𑖿𑖃</td><td>urgency</td></tr>
+    </table>
+  </details>
+
+  <h3 class="sub">Everyday life</h3>
+  <p class="body">The quotidian verbs. These turned out to name some of the most useful textures of all, and they are best taken plainly, without over-psychologizing them.</p>
+  <details class="fam">
+    <summary><span class="fam-verb">pra</span> <span class="fam-gloss">(speak)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprasa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭</td><td>locution, a single utterance</td></tr>
+      <tr><td class="word">sprase</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖸</td><td>interlocution, conversation</td></tr>
+      <tr><td class="word">sprasi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖰</td><td>troth or solemnity, a word that binds</td></tr>
+      <tr><td class="word">spraso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖺</td><td>climax, speech building to its peak</td></tr>
+      <tr><td class="word">sprasu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖲</td><td>Babelism, a confusion of many tongues</td></tr>
+      <tr><td class="word">sprasai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖹</td><td>iktsuarpok for words: the restless waiting the Inuit word names for someone's arrival, but waiting for words instead</td></tr>
+      <tr><td class="word">sprasau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖻</td><td>logorrhea of trauma, pain pouring out as speech</td></tr>
+      <tr><td class="word">sprasoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖭𑖿𑖃</td><td>admonition</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tre</span> <span class="fam-gloss">(give)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">stresa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭</td><td>benefaction</td></tr>
+      <tr><td class="word">strese</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖸</td><td>reciprocity, the gift economy</td></tr>
+      <tr><td class="word">stresi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖰</td><td>bequest or endowment</td></tr>
+      <tr><td class="word">streso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖺</td><td>paying it forward</td></tr>
+      <tr><td class="word">stresu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖲</td><td>largesse</td></tr>
+      <tr><td class="word">stresai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖹</td><td>the urge to give</td></tr>
+      <tr><td class="word">stresau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖻</td><td>sacrifice, giving that costs</td></tr>
+      <tr><td class="word">stresoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖸𑖭𑖿𑖃</td><td>a gift with strings, the Trojan horse</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kra</span> <span class="fam-gloss">(be safe)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skrasa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭</td><td>a refuge</td></tr>
+      <tr><td class="word">skrase</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖸</td><td>feeling safe with someone, secure attachment</td></tr>
+      <tr><td class="word">skrasi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖰</td><td>security as a settled condition</td></tr>
+      <tr><td class="word">skraso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖺</td><td>reaching safety, rescue</td></tr>
+      <tr><td class="word">skrasu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖲</td><td>sanctuary</td></tr>
+      <tr><td class="word">skrasai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖹</td><td>longing for safety</td></tr>
+      <tr><td class="word">skrasau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖻</td><td>the ache of finally being safe</td></tr>
+      <tr><td class="word">skrasoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖭𑖿𑖃</td><td>false safety</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">krak</span> <span class="fam-gloss">(laugh)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skraksa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭</td><td>a single laugh</td></tr>
+      <tr><td class="word">skrakse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖸</td><td>shared laughter, the in-joke</td></tr>
+      <tr><td class="word">skraksi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖰</td><td>good humor as temperament</td></tr>
+      <tr><td class="word">skrakso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖺</td><td>laughter building</td></tr>
+      <tr><td class="word">skraksu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖲</td><td>hilarity, helpless laughter</td></tr>
+      <tr><td class="word">skraksai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖹</td><td>the itch for levity</td></tr>
+      <tr><td class="word">skraksau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖻</td><td>gallows humor</td></tr>
+      <tr><td class="word">skraksoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖎𑖿𑖭𑖿𑖃</td><td>nervous laughter</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tro</span> <span class="fam-gloss">(walk)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">strosa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭</td><td>an outing</td></tr>
+      <tr><td class="word">strose</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖸</td><td>company on the road</td></tr>
+      <tr><td class="word">strosi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖰</td><td>the daily path</td></tr>
+      <tr><td class="word">stroso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖺</td><td>making progress</td></tr>
+      <tr><td class="word">strosu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖲</td><td>wandering</td></tr>
+      <tr><td class="word">strosai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖹</td><td>itchy feet</td></tr>
+      <tr><td class="word">strosau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖻</td><td>trudging</td></tr>
+      <tr><td class="word">strosoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖭𑖿𑖃</td><td>fleeing</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pro</span> <span class="fam-gloss">(hold)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprosa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭</td><td>a keepsake</td></tr>
+      <tr><td class="word">sprose</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖸</td><td>an embrace</td></tr>
+      <tr><td class="word">sprosi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖰</td><td>safekeeping</td></tr>
+      <tr><td class="word">sproso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖺</td><td>carrying</td></tr>
+      <tr><td class="word">sprosu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖲</td><td>being held</td></tr>
+      <tr><td class="word">sprosai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖹</td><td>not wanting to let go</td></tr>
+      <tr><td class="word">sprosau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖻</td><td>holding on though it hurts</td></tr>
+      <tr><td class="word">sprosoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖺𑖭𑖿𑖃</td><td>clutching</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tri</span> <span class="fam-gloss">(relax)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">strisa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭</td><td>a breather</td></tr>
+      <tr><td class="word">strise</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖸</td><td>comfortable silence</td></tr>
+      <tr><td class="word">strisi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖰</td><td>peace of mind</td></tr>
+      <tr><td class="word">striso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖺</td><td>unwinding</td></tr>
+      <tr><td class="word">strisu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖲</td><td>deep rest</td></tr>
+      <tr><td class="word">strisai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖹</td><td>needing a break</td></tr>
+      <tr><td class="word">strisau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖻</td><td>relief</td></tr>
+      <tr><td class="word">strisoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖿𑖃</td><td>uneasy rest</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tra</span> <span class="fam-gloss">(be comfortable)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">strasa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭</td><td>a small comfort</td></tr>
+      <tr><td class="word">strase</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖸</td><td>comfortable company</td></tr>
+      <tr><td class="word">strasi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖰</td><td>contentment</td></tr>
+      <tr><td class="word">straso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖺</td><td>settling in</td></tr>
+      <tr><td class="word">strasu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖲</td><td>luxuriating</td></tr>
+      <tr><td class="word">strasai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖹</td><td>craving comfort</td></tr>
+      <tr><td class="word">strasau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖻</td><td>comfort that is no longer good for you</td></tr>
+      <tr><td class="word">strasoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖭𑖿𑖃</td><td>complacency</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tru</span> <span class="fam-gloss">(help)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">strusa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭</td><td>a favor</td></tr>
+      <tr><td class="word">struse</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖸</td><td>mutual aid</td></tr>
+      <tr><td class="word">strusi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖰</td><td>dependability</td></tr>
+      <tr><td class="word">struso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖺</td><td>a boost</td></tr>
+      <tr><td class="word">strusu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖲</td><td>everyone pitching in</td></tr>
+      <tr><td class="word">strusai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖹</td><td>eagerness to help</td></tr>
+      <tr><td class="word">strusau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖻</td><td>caregiver strain</td></tr>
+      <tr><td class="word">strusoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖭𑖿𑖃</td><td>rescue</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pre</span> <span class="fam-gloss">(upset)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">spresa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭</td><td>an upset</td></tr>
+      <tr><td class="word">sprese</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖸</td><td>a falling-out</td></tr>
+      <tr><td class="word">spresi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖰</td><td>a sore spot</td></tr>
+      <tr><td class="word">spreso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖺</td><td>getting worked up</td></tr>
+      <tr><td class="word">spresu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖲</td><td>turmoil</td></tr>
+      <tr><td class="word">spresai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖹</td><td>mischief</td></tr>
+      <tr><td class="word">spresau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖻</td><td>hurt feelings</td></tr>
+      <tr><td class="word">spresoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖸𑖭𑖿𑖃</td><td>being rattled</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pri</span> <span class="fam-gloss">(want more)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprisa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭</td><td>a little more</td></tr>
+      <tr><td class="word">sprise</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖸</td><td>keeping up with others</td></tr>
+      <tr><td class="word">sprisi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖰</td><td>never enough</td></tr>
+      <tr><td class="word">spriso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖺</td><td>steady growth</td></tr>
+      <tr><td class="word">sprisu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖲</td><td>excess</td></tr>
+      <tr><td class="word">sprisai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖹</td><td>greed</td></tr>
+      <tr><td class="word">sprisau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖻</td><td>growing pains</td></tr>
+      <tr><td class="word">sprisoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖭𑖿𑖃</td><td>escalation</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kru</span> <span class="fam-gloss">(roll)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skrusa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭</td><td>a tumble</td></tr>
+      <tr><td class="word">skruse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖸</td><td>easygoing company</td></tr>
+      <tr><td class="word">skrusi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖰</td><td>a rut</td></tr>
+      <tr><td class="word">skruso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖺</td><td>momentum</td></tr>
+      <tr><td class="word">skrusu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖲</td><td>caught up in events</td></tr>
+      <tr><td class="word">skrusai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖹</td><td>impatience to get rolling</td></tr>
+      <tr><td class="word">skrusau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖻</td><td>rolling with the punches</td></tr>
+      <tr><td class="word">skrusoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖲𑖭𑖿𑖃</td><td>careening</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tran</span> <span class="fam-gloss">(decide)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">stransa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭</td><td>a decision</td></tr>
+      <tr><td class="word">stranse</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖸</td><td>agreement</td></tr>
+      <tr><td class="word">stransi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖰</td><td>resolve</td></tr>
+      <tr><td class="word">stranso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖺</td><td>deliberating</td></tr>
+      <tr><td class="word">stransu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖲</td><td>overwhelmed by choices</td></tr>
+      <tr><td class="word">stransai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖹</td><td>impatience for closure</td></tr>
+      <tr><td class="word">stransau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖻</td><td>a hard choice</td></tr>
+      <tr><td class="word">stransoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖡𑖿𑖭𑖿𑖃</td><td>second thoughts</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kran</span> <span class="fam-gloss">(allow)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">skransa</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭</td><td>permission</td></tr>
+      <tr><td class="word">skranse</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖸</td><td>give and take</td></tr>
+      <tr><td class="word">skransi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖰</td><td>acceptance</td></tr>
+      <tr><td class="word">skranso</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖺</td><td>letting go</td></tr>
+      <tr><td class="word">skransu</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖲</td><td>anything goes</td></tr>
+      <tr><td class="word">skransai</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖹</td><td>wanting permission</td></tr>
+      <tr><td class="word">skransau</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖻</td><td>grudging acceptance</td></tr>
+      <tr><td class="word">skransoi</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖡𑖿𑖭𑖿𑖃</td><td>letting something slide</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pran</span> <span class="fam-gloss">(forbid)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">spransa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭</td><td>a no</td></tr>
+      <tr><td class="word">spranse</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖸</td><td>a boundary between people</td></tr>
+      <tr><td class="word">spransi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖰</td><td>a firm line</td></tr>
+      <tr><td class="word">spranso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖺</td><td>tightening restrictions</td></tr>
+      <tr><td class="word">spransu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖲</td><td>hemmed in</td></tr>
+      <tr><td class="word">spransai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖹</td><td>wanting what is forbidden</td></tr>
+      <tr><td class="word">spransau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖻</td><td>self-denial</td></tr>
+      <tr><td class="word">spransoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖡𑖿𑖭𑖿𑖃</td><td>a warning-off</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">trun</span> <span class="fam-gloss">(cause)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">strunsa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭</td><td>the reason</td></tr>
+      <tr><td class="word">strunse</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖸</td><td>influence</td></tr>
+      <tr><td class="word">strunsi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖰</td><td>inevitability</td></tr>
+      <tr><td class="word">strunso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖺</td><td>a chain reaction</td></tr>
+      <tr><td class="word">strunsu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖲</td><td>tangled causes</td></tr>
+      <tr><td class="word">strunsai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖹</td><td>motive</td></tr>
+      <tr><td class="word">strunsau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖻</td><td>blame</td></tr>
+      <tr><td class="word">strunsoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖲𑖡𑖿𑖭𑖿𑖃</td><td>a trigger</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">prin</span> <span class="fam-gloss">(small)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">sprinsa</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭</td><td>a trifle</td></tr>
+      <tr><td class="word">sprinse</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖸</td><td>small kindnesses</td></tr>
+      <tr><td class="word">sprinsi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖰</td><td>humility</td></tr>
+      <tr><td class="word">sprinso</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖺</td><td>dwindling</td></tr>
+      <tr><td class="word">sprinsu</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖲</td><td>the little things</td></tr>
+      <tr><td class="word">sprinsai</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖹</td><td>wanting less</td></tr>
+      <tr><td class="word">sprinsau</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖻</td><td>a small, lingering hurt</td></tr>
+      <tr><td class="word">sprinsoi</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖿𑖃</td><td>feeling small</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tron</span> <span class="fam-gloss">(dark)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Reads as</th></tr>
+      <tr><td class="word">stronsa</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭</td><td>a shadow</td></tr>
+      <tr><td class="word">stronse</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖸</td><td>a shared secret</td></tr>
+      <tr><td class="word">stronsi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖰</td><td>gloom</td></tr>
+      <tr><td class="word">stronso</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖺</td><td>darkening</td></tr>
+      <tr><td class="word">stronsu</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖲</td><td>being in the dark</td></tr>
+      <tr><td class="word">stronsai</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖹</td><td>wanting to hide</td></tr>
+      <tr><td class="word">stronsau</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖻</td><td>a dark time</td></tr>
+      <tr><td class="word">stronsoi</td><td class="siddham-tag">𑖭𑖿𑖝𑖿𑖨𑖺𑖡𑖿𑖭𑖿𑖃</td><td>fear of the dark</td></tr>
+    </table>
+  </details>
+
+  <h3 class="sub">Using a texture word</h3>
+  <p class="body">A texture word works the way any predicate does in Ionnoioni. It can stand directly on a subject with no linking verb, it can take a direct object like a verb or attach what it is about with a relational particle, and it can stand as a noun in its own right.</p>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖢𑖿𑖨𑖰𑖡𑖿𑖭𑖺 𑖡 𑖌 𑖎𑖿𑖨𑖸 𑖝𑖿𑖨𑖲𑖡𑖿</div>
+    <div class="roman-row">nio sprinso na o kre trun</div>
+    <div class="free-row">I am shrinking away from pride (a predicate, with its complement attached by na o)</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖝𑖿𑖃</div>
+    <div class="roman-row">nio skrose toi</div>
+    <div class="free-row">I care about you (taking a direct object)</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖡𑖰𑖌 𑖭𑖿𑖎𑖿𑖨𑖺𑖭𑖸 𑖌 𑖝𑖿𑖃</div>
+    <div class="roman-row">nio skrose o toi</div>
+    <div class="free-row">My care goes out toward you (with a relational particle)</div>
+  </div>
+  <div class="ex">
+    <div class="siddham-row">𑖝𑖰𑖌 𑖢𑖿𑖨 𑖭𑖿𑖎𑖿𑖨𑖸𑖄𑖭</div>
+    <div class="roman-row">tio pra skreusa</div>
+    <div class="free-row">You spoke your grief (as a noun, the object of pra)</div>
+  </div>
+
+  <h2 class="section">Material color: the grain of things</h2>
+  <p class="body">The third subclass embeds a whole inanimate root after a single vowel: s + vowel + root. Every inanimate root begins with a stop and an s (ps-, ts- or ks-), so the shape falls out naturally: s + a + kso (fire) gives <em>sakso</em>. Where phenomenological color gives the texture of doing, material color gives the texture of things: stone and tools, trees and water, mind and fire.</p>
+  <p class="body"><strong>The order is flipped.</strong> In every other S-class word the first element grounds the meaning and the second qualifies it. Here the root, the concrete part, grounds the word and the leading vowel qualifies it. Every word in this subclass is a kind of its root: <em>sakso</em> is a kind of fire, a hearth, not a kind of withness. It is the one place in the S class where the order turns around, and that is part of what marks it as a different scale of texture.</p>
+  <p class="body">Fifteen inanimate roots and eight leading vowels give one hundred twenty words. The families are grouped below by their opening consonant.</p>
+
+  <h3 class="sub">The stone family (ps-)</h3>
+  <details class="fam">
+    <summary><span class="fam-verb">psa</span> <span class="fam-gloss">(stone)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sapsa</td><td class="siddham-tag">𑖭𑖢𑖿𑖭</td><td>with / bounded + stone</td><td>a stone in hand, a touchstone</td></tr>
+      <tr><td class="word">sepsa</td><td class="siddham-tag">𑖭𑖸𑖢𑖿𑖭</td><td>relational + stone</td><td>common ground</td></tr>
+      <tr><td class="word">sipsa</td><td class="siddham-tag">𑖭𑖰𑖢𑖿𑖭</td><td>fixed + stone</td><td>bedrock</td></tr>
+      <tr><td class="word">sopsa</td><td class="siddham-tag">𑖭𑖺𑖢𑖿𑖭</td><td>toward + stone</td><td>a rockslide</td></tr>
+      <tr><td class="word">supsa</td><td class="siddham-tag">𑖭𑖲𑖢𑖿𑖭</td><td>immersive + stone</td><td>inside stone, a cave</td></tr>
+      <tr><td class="word">saipsa</td><td class="siddham-tag">𑖭𑖹𑖢𑖿𑖭</td><td>desire + stone</td><td>wanting something firm</td></tr>
+      <tr><td class="word">saupsa</td><td class="siddham-tag">𑖭𑖻𑖢𑖿𑖭</td><td>pain + stone</td><td>a stone on the heart</td></tr>
+      <tr><td class="word">soipsa</td><td class="siddham-tag">𑖭𑖿𑖃𑖢𑖿𑖭</td><td>alarm + stone</td><td>rockfall, the ground giving way</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pse</span> <span class="fam-gloss">(tool)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sapse</td><td class="siddham-tag">𑖭𑖢𑖿𑖭𑖸</td><td>with / bounded + tool</td><td>the right tool</td></tr>
+      <tr><td class="word">sepse</td><td class="siddham-tag">𑖭𑖸𑖢𑖿𑖭𑖸</td><td>relational + tool</td><td>the workshop, tools shared</td></tr>
+      <tr><td class="word">sipse</td><td class="siddham-tag">𑖭𑖰𑖢𑖿𑖭𑖸</td><td>fixed + tool</td><td>infrastructure</td></tr>
+      <tr><td class="word">sopse</td><td class="siddham-tag">𑖭𑖺𑖢𑖿𑖭𑖸</td><td>toward + tool</td><td>work under way</td></tr>
+      <tr><td class="word">supse</td><td class="siddham-tag">𑖭𑖲𑖢𑖿𑖭𑖸</td><td>immersive + tool</td><td>industry, machinery all around</td></tr>
+      <tr><td class="word">saipse</td><td class="siddham-tag">𑖭𑖹𑖢𑖿𑖭𑖸</td><td>desire + tool</td><td>the itch to make</td></tr>
+      <tr><td class="word">saupse</td><td class="siddham-tag">𑖭𑖻𑖢𑖿𑖭𑖸</td><td>pain + tool</td><td>toil that wears you</td></tr>
+      <tr><td class="word">soipse</td><td class="siddham-tag">𑖭𑖿𑖃𑖢𑖿𑖭𑖸</td><td>alarm + tool</td><td>a tool turned hazard</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">psi</span> <span class="fam-gloss">(marker)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sapsi</td><td class="siddham-tag">𑖭𑖢𑖿𑖭𑖰</td><td>with / bounded + marker</td><td>a landmark</td></tr>
+      <tr><td class="word">sepsi</td><td class="siddham-tag">𑖭𑖸𑖢𑖿𑖭𑖰</td><td>relational + marker</td><td>a token or pledge between people</td></tr>
+      <tr><td class="word">sipsi</td><td class="siddham-tag">𑖭𑖰𑖢𑖿𑖭𑖰</td><td>fixed + marker</td><td>a monument</td></tr>
+      <tr><td class="word">sopsi</td><td class="siddham-tag">𑖭𑖺𑖢𑖿𑖭𑖰</td><td>toward + marker</td><td>a signpost</td></tr>
+      <tr><td class="word">supsi</td><td class="siddham-tag">𑖭𑖲𑖢𑖿𑖭𑖰</td><td>immersive + marker</td><td>a landscape of signs</td></tr>
+      <tr><td class="word">saipsi</td><td class="siddham-tag">𑖭𑖹𑖢𑖿𑖭𑖰</td><td>desire + marker</td><td>longing to leave a mark</td></tr>
+      <tr><td class="word">saupsi</td><td class="siddham-tag">𑖭𑖻𑖢𑖿𑖭𑖰</td><td>pain + marker</td><td>a scar</td></tr>
+      <tr><td class="word">soipsi</td><td class="siddham-tag">𑖭𑖿𑖃𑖢𑖿𑖭𑖰</td><td>alarm + marker</td><td>a warning sign</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">pso</span> <span class="fam-gloss">(hill)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sapso</td><td class="siddham-tag">𑖭𑖢𑖿𑖭𑖺</td><td>with / bounded + hill</td><td>a lookout</td></tr>
+      <tr><td class="word">sepso</td><td class="siddham-tag">𑖭𑖸𑖢𑖿𑖭𑖺</td><td>relational + hill</td><td>the ridge that joins or divides</td></tr>
+      <tr><td class="word">sipso</td><td class="siddham-tag">𑖭𑖰𑖢𑖿𑖭𑖺</td><td>fixed + hill</td><td>the mountain that stays</td></tr>
+      <tr><td class="word">sopso</td><td class="siddham-tag">𑖭𑖺𑖢𑖿𑖭𑖺</td><td>toward + hill</td><td>the climb</td></tr>
+      <tr><td class="word">supso</td><td class="siddham-tag">𑖭𑖲𑖢𑖿𑖭𑖺</td><td>immersive + hill</td><td>hill country</td></tr>
+      <tr><td class="word">saipso</td><td class="siddham-tag">𑖭𑖹𑖢𑖿𑖭𑖺</td><td>desire + hill</td><td>the urge to climb</td></tr>
+      <tr><td class="word">saupso</td><td class="siddham-tag">𑖭𑖻𑖢𑖿𑖭𑖺</td><td>pain + hill</td><td>an uphill struggle</td></tr>
+      <tr><td class="word">soipso</td><td class="siddham-tag">𑖭𑖿𑖃𑖢𑖿𑖭𑖺</td><td>alarm + hill</td><td>a precipice</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">psu</span> <span class="fam-gloss">(grave)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sapsu</td><td class="siddham-tag">𑖭𑖢𑖿𑖭𑖲</td><td>with / bounded + grave</td><td>a resting place</td></tr>
+      <tr><td class="word">sepsu</td><td class="siddham-tag">𑖭𑖸𑖢𑖿𑖭𑖲</td><td>relational + grave</td><td>a family plot</td></tr>
+      <tr><td class="word">sipsu</td><td class="siddham-tag">𑖭𑖰𑖢𑖿𑖭𑖲</td><td>fixed + grave</td><td>final rest</td></tr>
+      <tr><td class="word">sopsu</td><td class="siddham-tag">𑖭𑖺𑖢𑖿𑖭𑖲</td><td>toward + grave</td><td>mortality approaching</td></tr>
+      <tr><td class="word">supsu</td><td class="siddham-tag">𑖭𑖲𑖢𑖿𑖭𑖲</td><td>immersive + grave</td><td>a cemetery</td></tr>
+      <tr><td class="word">saipsu</td><td class="siddham-tag">𑖭𑖹𑖢𑖿𑖭𑖲</td><td>desire + grave</td><td>where one wishes to lie</td></tr>
+      <tr><td class="word">saupsu</td><td class="siddham-tag">𑖭𑖻𑖢𑖿𑖭𑖲</td><td>pain + grave</td><td>graveside grief</td></tr>
+      <tr><td class="word">soipsu</td><td class="siddham-tag">𑖭𑖿𑖃𑖢𑖿𑖭𑖲</td><td>alarm + grave</td><td>an open grave, dread of it</td></tr>
+    </table>
+  </details>
+
+  <h3 class="sub">The mind family (ts-)</h3>
+  <details class="fam">
+    <summary><span class="fam-verb">tsa</span> <span class="fam-gloss">(mind)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">satsa</td><td class="siddham-tag">𑖭𑖝𑖿𑖭</td><td>with / bounded + mind</td><td>a single thought, a mind made up</td></tr>
+      <tr><td class="word">setsa</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭</td><td>relational + mind</td><td>a meeting of minds, like-mindedness</td></tr>
+      <tr><td class="word">sitsa</td><td class="siddham-tag">𑖭𑖰𑖝𑖿𑖭</td><td>fixed + mind</td><td>a mindset, a fixed idea</td></tr>
+      <tr><td class="word">sotsa</td><td class="siddham-tag">𑖭𑖺𑖝𑖿𑖭</td><td>toward + mind</td><td>attention, the mind turning toward something</td></tr>
+      <tr><td class="word">sutsa</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭</td><td>immersive + mind</td><td>being lost in thought</td></tr>
+      <tr><td class="word">saitsa</td><td class="siddham-tag">𑖭𑖹𑖝𑖿𑖭</td><td>desire + mind</td><td>the hungry mind, the urge to understand</td></tr>
+      <tr><td class="word">sautsa</td><td class="siddham-tag">𑖭𑖻𑖝𑖿𑖭</td><td>pain + mind</td><td>a troubled mind</td></tr>
+      <tr><td class="word">soitsa</td><td class="siddham-tag">𑖭𑖿𑖃𑖝𑖿𑖭</td><td>alarm + mind</td><td>a racing mind, the mind on alert</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tse</span> <span class="fam-gloss">(space)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">satse</td><td class="siddham-tag">𑖭𑖝𑖿𑖭𑖸</td><td>with / bounded + space</td><td>a nook, a room</td></tr>
+      <tr><td class="word">setse</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭𑖸</td><td>relational + space</td><td>personal space</td></tr>
+      <tr><td class="word">sitse</td><td class="siddham-tag">𑖭𑖰𑖝𑖿𑖭𑖸</td><td>fixed + space</td><td>one's place</td></tr>
+      <tr><td class="word">sotse</td><td class="siddham-tag">𑖭𑖺𑖝𑖿𑖭𑖸</td><td>toward + space</td><td>a passage, distance ahead</td></tr>
+      <tr><td class="word">sutse</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭𑖸</td><td>immersive + space</td><td>vastness, open sky</td></tr>
+      <tr><td class="word">saitse</td><td class="siddham-tag">𑖭𑖹𑖝𑖿𑖭𑖸</td><td>desire + space</td><td>wanting room</td></tr>
+      <tr><td class="word">sautse</td><td class="siddham-tag">𑖭𑖻𑖝𑖿𑖭𑖸</td><td>pain + space</td><td>an emptied room, absence</td></tr>
+      <tr><td class="word">soitse</td><td class="siddham-tag">𑖭𑖿𑖃𑖝𑖿𑖭𑖸</td><td>alarm + space</td><td>exposure, nowhere to hide</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tsi</span> <span class="fam-gloss">(tree)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">satsi</td><td class="siddham-tag">𑖭𑖝𑖿𑖭𑖰</td><td>with / bounded + tree</td><td>shade</td></tr>
+      <tr><td class="word">setsi</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭𑖰</td><td>relational + tree</td><td>the family tree</td></tr>
+      <tr><td class="word">sitsi</td><td class="siddham-tag">𑖭𑖰𑖝𑖿𑖭𑖰</td><td>fixed + tree</td><td>rootedness</td></tr>
+      <tr><td class="word">sotsi</td><td class="siddham-tag">𑖭𑖺𑖝𑖿𑖭𑖰</td><td>toward + tree</td><td>growth, reaching</td></tr>
+      <tr><td class="word">sutsi</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭𑖰</td><td>immersive + tree</td><td>deep woods</td></tr>
+      <tr><td class="word">saitsi</td><td class="siddham-tag">𑖭𑖹𑖝𑖿𑖭𑖰</td><td>desire + tree</td><td>wanting to put down roots</td></tr>
+      <tr><td class="word">sautsi</td><td class="siddham-tag">𑖭𑖻𑖝𑖿𑖭𑖰</td><td>pain + tree</td><td>a felled tree</td></tr>
+      <tr><td class="word">soitsi</td><td class="siddham-tag">𑖭𑖿𑖃𑖝𑖿𑖭𑖰</td><td>alarm + tree</td><td>the creak before the fall</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tso</span> <span class="fam-gloss">(way)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">satso</td><td class="siddham-tag">𑖭𑖝𑖿𑖭𑖺</td><td>with / bounded + way</td><td>a method</td></tr>
+      <tr><td class="word">setso</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭𑖺</td><td>relational + way</td><td>custom</td></tr>
+      <tr><td class="word">sitso</td><td class="siddham-tag">𑖭𑖰𑖝𑖿𑖭𑖺</td><td>fixed + way</td><td>tradition</td></tr>
+      <tr><td class="word">sotso</td><td class="siddham-tag">𑖭𑖺𑖝𑖿𑖭𑖺</td><td>toward + way</td><td>a journey</td></tr>
+      <tr><td class="word">sutso</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭𑖺</td><td>immersive + way</td><td>a way of life</td></tr>
+      <tr><td class="word">saitso</td><td class="siddham-tag">𑖭𑖹𑖝𑖿𑖭𑖺</td><td>desire + way</td><td>seeking a path</td></tr>
+      <tr><td class="word">sautso</td><td class="siddham-tag">𑖭𑖻𑖝𑖿𑖭𑖺</td><td>pain + way</td><td>a hard road</td></tr>
+      <tr><td class="word">soitso</td><td class="siddham-tag">𑖭𑖿𑖃𑖝𑖿𑖭𑖺</td><td>alarm + way</td><td>a wrong turn, being lost</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">tsu</span> <span class="fam-gloss">(water)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">satsu</td><td class="siddham-tag">𑖭𑖝𑖿𑖭𑖲</td><td>with / bounded + water</td><td>a cupful, a pool, water held</td></tr>
+      <tr><td class="word">setsu</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭𑖲</td><td>relational + water</td><td>the well where people meet, shared water</td></tr>
+      <tr><td class="word">sitsu</td><td class="siddham-tag">𑖭𑖰𑖝𑖿𑖭𑖲</td><td>fixed + water</td><td>still water, a lake</td></tr>
+      <tr><td class="word">sotsu</td><td class="siddham-tag">𑖭𑖺𑖝𑖿𑖭𑖲</td><td>toward + water</td><td>a current, the river's run</td></tr>
+      <tr><td class="word">sutsu</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭𑖲</td><td>immersive + water</td><td>submersion, deep water</td></tr>
+      <tr><td class="word">saitsu</td><td class="siddham-tag">𑖭𑖹𑖝𑖿𑖭𑖲</td><td>desire + water</td><td>thirst</td></tr>
+      <tr><td class="word">sautsu</td><td class="siddham-tag">𑖭𑖻𑖝𑖿𑖭𑖲</td><td>pain + water</td><td>tears</td></tr>
+      <tr><td class="word">soitsu</td><td class="siddham-tag">𑖭𑖿𑖃𑖝𑖿𑖭𑖲</td><td>alarm + water</td><td>a flood</td></tr>
+    </table>
+  </details>
+
+  <h3 class="sub">The fire family (ks-)</h3>
+  <details class="fam">
+    <summary><span class="fam-verb">ksa</span> <span class="fam-gloss">(ember)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">saksa</td><td class="siddham-tag">𑖭𑖎𑖿𑖭</td><td>with / bounded + ember</td><td>a spark</td></tr>
+      <tr><td class="word">seksa</td><td class="siddham-tag">𑖭𑖸𑖎𑖿𑖭</td><td>relational + ember</td><td>a spark between people</td></tr>
+      <tr><td class="word">siksa</td><td class="siddham-tag">𑖭𑖰𑖎𑖿𑖭</td><td>fixed + ember</td><td>a smoldering</td></tr>
+      <tr><td class="word">soksa</td><td class="siddham-tag">𑖭𑖺𑖎𑖿𑖭</td><td>toward + ember</td><td>catching, kindling</td></tr>
+      <tr><td class="word">suksa</td><td class="siddham-tag">𑖭𑖲𑖎𑖿𑖭</td><td>immersive + ember</td><td>a bed of coals</td></tr>
+      <tr><td class="word">saiksa</td><td class="siddham-tag">𑖭𑖹𑖎𑖿𑖭</td><td>desire + ember</td><td>a flicker of desire</td></tr>
+      <tr><td class="word">sauksa</td><td class="siddham-tag">𑖭𑖻𑖎𑖿𑖭</td><td>pain + ember</td><td>a smoldering hurt</td></tr>
+      <tr><td class="word">soiksa</td><td class="siddham-tag">𑖭𑖿𑖃𑖎𑖿𑖭</td><td>alarm + ember</td><td>a stray spark</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kse</span> <span class="fam-gloss">(ash)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sakse</td><td class="siddham-tag">𑖭𑖎𑖿𑖭𑖸</td><td>with / bounded + ash</td><td>remains in hand</td></tr>
+      <tr><td class="word">sekse</td><td class="siddham-tag">𑖭𑖸𑖎𑖿𑖭𑖸</td><td>relational + ash</td><td>what is left between people after it ends</td></tr>
+      <tr><td class="word">sikse</td><td class="siddham-tag">𑖭𑖰𑖎𑖿𑖭𑖸</td><td>fixed + ash</td><td>ruins</td></tr>
+      <tr><td class="word">sokse</td><td class="siddham-tag">𑖭𑖺𑖎𑖿𑖭𑖸</td><td>toward + ash</td><td>ashes scattered</td></tr>
+      <tr><td class="word">sukse</td><td class="siddham-tag">𑖭𑖲𑖎𑖿𑖭𑖸</td><td>immersive + ash</td><td>desolation</td></tr>
+      <tr><td class="word">saikse</td><td class="siddham-tag">𑖭𑖹𑖎𑖿𑖭𑖸</td><td>desire + ash</td><td>longing for what burned</td></tr>
+      <tr><td class="word">saukse</td><td class="siddham-tag">𑖭𑖻𑖎𑖿𑖭𑖸</td><td>pain + ash</td><td>aftermath grief</td></tr>
+      <tr><td class="word">soikse</td><td class="siddham-tag">𑖭𑖿𑖃𑖎𑖿𑖭𑖸</td><td>alarm + ash</td><td>a warning in the ashes</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">ksi</span> <span class="fam-gloss">(shroud)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">saksi</td><td class="siddham-tag">𑖭𑖎𑖿𑖭𑖰</td><td>with / bounded + shroud</td><td>a veil</td></tr>
+      <tr><td class="word">seksi</td><td class="siddham-tag">𑖭𑖸𑖎𑖿𑖭𑖰</td><td>relational + shroud</td><td>discretion, what two people keep covered</td></tr>
+      <tr><td class="word">siksi</td><td class="siddham-tag">𑖭𑖰𑖎𑖿𑖭𑖰</td><td>fixed + shroud</td><td>lasting concealment</td></tr>
+      <tr><td class="word">soksi</td><td class="siddham-tag">𑖭𑖺𑖎𑖿𑖭𑖰</td><td>toward + shroud</td><td>covering over</td></tr>
+      <tr><td class="word">suksi</td><td class="siddham-tag">𑖭𑖲𑖎𑖿𑖭𑖰</td><td>immersive + shroud</td><td>cocooned</td></tr>
+      <tr><td class="word">saiksi</td><td class="siddham-tag">𑖭𑖹𑖎𑖿𑖭𑖰</td><td>desire + shroud</td><td>longing to be wrapped</td></tr>
+      <tr><td class="word">sauksi</td><td class="siddham-tag">𑖭𑖻𑖎𑖿𑖭𑖰</td><td>pain + shroud</td><td>a bound wound</td></tr>
+      <tr><td class="word">soiksi</td><td class="siddham-tag">𑖭𑖿𑖃𑖎𑖿𑖭𑖰</td><td>alarm + shroud</td><td>a veil over danger</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">kso</span> <span class="fam-gloss">(fire)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">sakso</td><td class="siddham-tag">𑖭𑖎𑖿𑖭𑖺</td><td>with / bounded + fire</td><td>a hearth, fire kept within bounds</td></tr>
+      <tr><td class="word">sekso</td><td class="siddham-tag">𑖭𑖸𑖎𑖿𑖭𑖺</td><td>relational + fire</td><td>the fire people gather around, warmth shared between them</td></tr>
+      <tr><td class="word">sikso</td><td class="siddham-tag">𑖭𑖰𑖎𑖿𑖭𑖺</td><td>fixed + fire</td><td>the kept flame, a fire tended so it never goes out</td></tr>
+      <tr><td class="word">sokso</td><td class="siddham-tag">𑖭𑖺𑖎𑖿𑖭𑖺</td><td>toward + fire</td><td>spreading fire, flames on the move</td></tr>
+      <tr><td class="word">sukso</td><td class="siddham-tag">𑖭𑖲𑖎𑖿𑖭𑖺</td><td>immersive + fire</td><td>a conflagration, being engulfed</td></tr>
+      <tr><td class="word">saikso</td><td class="siddham-tag">𑖭𑖹𑖎𑖿𑖭𑖺</td><td>desire + fire</td><td>ardor, fire as wanting</td></tr>
+      <tr><td class="word">saukso</td><td class="siddham-tag">𑖭𑖻𑖎𑖿𑖭𑖺</td><td>pain + fire</td><td>a burn, the sting of fire</td></tr>
+      <tr><td class="word">soikso</td><td class="siddham-tag">𑖭𑖿𑖃𑖎𑖿𑖭𑖺</td><td>alarm + fire</td><td>fire as danger, smoke on the horizon</td></tr>
+    </table>
+  </details>
+  <details class="fam">
+    <summary><span class="fam-verb">ksu</span> <span class="fam-gloss">(place of burning)</span></summary>
+    <table>
+      <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+      <tr><td class="word">saksu</td><td class="siddham-tag">𑖭𑖎𑖿𑖭𑖲</td><td>with / bounded + place of burning</td><td>a pyre</td></tr>
+      <tr><td class="word">seksu</td><td class="siddham-tag">𑖭𑖸𑖎𑖿𑖭𑖲</td><td>relational + place of burning</td><td>a communal fire-rite</td></tr>
+      <tr><td class="word">siksu</td><td class="siddham-tag">𑖭𑖰𑖎𑖿𑖭𑖲</td><td>fixed + place of burning</td><td>an altar</td></tr>
+      <tr><td class="word">soksu</td><td class="siddham-tag">𑖭𑖺𑖎𑖿𑖭𑖲</td><td>toward + place of burning</td><td>the procession to the pyre</td></tr>
+      <tr><td class="word">suksu</td><td class="siddham-tag">𑖭𑖲𑖎𑖿𑖭𑖲</td><td>immersive + place of burning</td><td>a furnace, an inferno</td></tr>
+      <tr><td class="word">saiksu</td><td class="siddham-tag">𑖭𑖹𑖎𑖿𑖭𑖲</td><td>desire + place of burning</td><td>zeal, consuming devotion</td></tr>
+      <tr><td class="word">sauksu</td><td class="siddham-tag">𑖭𑖻𑖎𑖿𑖭𑖲</td><td>pain + place of burning</td><td>an ordeal by fire</td></tr>
+      <tr><td class="word">soiksu</td><td class="siddham-tag">𑖭𑖿𑖃𑖎𑖿𑖭𑖲</td><td>alarm + place of burning</td><td>a burning ground</td></tr>
+    </table>
+  </details>
+  <p class="gap-note">Some of these words echo other languages. The whole relational row of the fire family (sekso, seksa, sekse, seksi, seksu) sounds like "sex" in several of them, which suits the ks- sound color, long associated with profanity in Ionnoioni. sepsi sounds like sepsis, and sukse (desolation) sounds like "success." These are left as they are, for speakers to enjoy or avoid.</p>
+  <p class="body">The same shape also fits the three time words that begin with rs (evening, dusk and night). Those are kept for poetry and prose, in a literary register, and live on the Idioms, Metaphors and Kennings page.</p>
+
+  <h2 class="section">Bracketing a texture: ta and ra</h2>
+  <p class="body">The bracket particles work on texture words exactly as they work everywhere else. <strong>ta</strong> softens and <strong>ra</strong> intensifies, and where the particle stands says where that softening or intensity falls: before the word marks the onset, after it marks the resolution, and on both sides marks the whole thing throughout. That gives every S-class word six bracketed forms, three gentler and three stronger, generating a full spectrum from a single root without coining anything new.</p>
+  <p class="body">ta and ra are never mixed in one form. An intense onset that gentles, or a soft beginning that builds, is already implied by where a single bracket stands; adding the opposite bracket would be superfluous at best and noise at worst.</p>
+  <p class="body">Each texture can be laid out as a card: the word and its Siddham, its base reading, then the six bracketed forms.</p>
+  <div class="tcard">
+    <div class="tcard-head"><span class="tcard-word">susai</span><span class="tcard-sid">𑖭𑖲𑖭𑖹</span></div>
+    <div class="tcard-def">an emotional locus with a pull, the surround that draws you in</div>
+    <table class="tcard-grid">
+      <tr><th></th><th>ta (softens)</th><th>ra (intensifies)</th></tr>
+      <tr><th>at the start</th><td><em>ta susai</em><br>ambience</td><td><em>ra susai</em><br>sudden absorption, enthrallment</td></tr>
+      <tr><th>at the end</th><td><em>susai ta</em><br>gravitas</td><td><em>susai ra</em><br>allurement, building</td></tr>
+      <tr><th>throughout</th><td><em>ta susai ta</em><br>atmosphere</td><td><em>ra susai ra</em><br>inundation</td></tr>
+    </table>
+    <div class="tcard-foot">These readings are not absolute, only a ballpark of the texture's grain, left to personal interpretation as in most language except technical vocabulary such as anatomy.</div>
+  </div>
+  <div class="tcard">
+    <div class="tcard-head"><span class="tcard-word">soisau</span><span class="tcard-sid">𑖭𑖿𑖃𑖭𑖻</span></div>
+    <div class="tcard-def">trepidation</div>
+    <table class="tcard-grid">
+      <tr><th></th><th>ta (softens)</th><th>ra (intensifies)</th></tr>
+      <tr><th>at the start</th><td><em>ta soisau</em><br>apprehension</td><td><em>ra soisau</em><br>excruciation</td></tr>
+      <tr><th>at the end</th><td><em>soisau ta</em><br>lingering wariness</td><td><em>soisau ra</em><br>mounting anguish</td></tr>
+      <tr><th>throughout</th><td><em>ta soisau ta</em><br>disquiet</td><td><em>ra soisau ra</em><br>diremption, a forcible tearing-apart</td></tr>
+    </table>
+    <div class="tcard-foot">These readings are not absolute, only a ballpark of the texture's grain, left to personal interpretation as in most language except technical vocabulary such as anatomy.</div>
+  </div>
+
+  <h2 class="section">Why this might matter more than it first appears</h2>
+  <p class="body">Every other expansion of this language's vocabulary, the mood primals, the kru- family, even the earlier sVsV words, required inventing or discovering one meaning at a time. s[verb]sV is different: once the rule is fixed, a word's meaning can be read off its components rather than separately invented. The expressive range multiplies by roughly the number of eligible verbs at a stroke, rather than growing one coinage at a time. It is a genuine answer to a problem every one of this project's vocabulary sessions has run into: feelings and textures that are difficult, or merely cumbersome, to express, made close to trivial to name once the pieces already exist.</p>
+
+  <h2 class="section">Zero grade: textures of the beyond</h2>
+  <p class="body">A small set of S-class words deliberately breaks the rule that s stands on both sides of the first vowel. Each is a single s, a plain vowel and one of the three primals, with the second s left out. Their vowel senses read exactly as in sVsV, the first grounding and the second qualifying, but they reach toward a metaphysical or spiritual register: devotion, the sacred, the holy and the infinite.</p>
+  <p class="body">The missing s is the point. It represents the incompleteness that makes these textures possible at all: each names a reaching toward something that is never fully grasped, held or arrived at, and the word itself is left open in the same way.</p>
+  <table>
+    <tr><th>Word</th><th>Siddham</th><th>Built from</th><th>Reads as</th></tr>
+    <tr><td class="word">saai</td><td class="siddham-tag">𑖭𑖋</td><td>with + desire</td><td>Koinonia, intimate spiritual fellowship and communal participation</td></tr>
+    <tr><td class="word">saau</td><td class="siddham-tag">𑖭𑖍</td><td>with + pain</td><td>communion, shared suffering held as sacred</td></tr>
+    <tr><td class="word">saoi</td><td class="siddham-tag">𑖭𑖃</td><td>with + alarm</td><td>vigilantly, watchfully, custodially: togetherness defined by guardianship</td></tr>
+    <tr><td class="word">seau</td><td class="siddham-tag">𑖭𑖸𑖍</td><td>relational + pain</td><td>martyr complex, a relationship whose whole shape is self-sacrifice</td></tr>
+    <tr><td class="word">seoi</td><td class="siddham-tag">𑖭𑖸𑖃</td><td>relational + alarm</td><td>portentous, a connection that itself foreshadows or warns</td></tr>
+    <tr><td class="word">siai</td><td class="siddham-tag">𑖭𑖰𑖋</td><td>binding + desire</td><td>Ishq-e-Haqiqi, divine love, desire bound to the Real rather than to anything passing</td></tr>
+    <tr><td class="word">siau</td><td class="siddham-tag">𑖭𑖰𑖍</td><td>binding + pain</td><td>Mujahadah, the struggle against the lower self, pain deliberately taken on and held</td></tr>
+    <tr><td class="word">sioi</td><td class="siddham-tag">𑖭𑖰𑖃</td><td>binding + alarm</td><td>taboo, the sacred line fixed in place</td></tr>
+    <tr><td class="word">soai</td><td class="siddham-tag">𑖭𑖺𑖋</td><td>toward + desire</td><td>Epectasis, the endless straining toward the divine that never arrives because its object is infinite</td></tr>
+    <tr><td class="word">soau</td><td class="siddham-tag">𑖭𑖺𑖍</td><td>toward + pain</td><td>Dukkha-Nirodha-Gamini-Patipada, the path leading to the cessation of suffering</td></tr>
+    <tr><td class="word">sooi</td><td class="siddham-tag">𑖭𑖺𑖃</td><td>toward + alarm</td><td>Makhāfah, reverent fear as a spiritual station</td></tr>
+    <tr><td class="word">suai</td><td class="siddham-tag">𑖭𑖲𑖋</td><td>immersive + desire</td><td>Devekut, cleaving to the divine</td></tr>
+    <tr><td class="word">suau</td><td class="siddham-tag">𑖭𑖲𑖍</td><td>immersive + pain</td><td>Qabd, spiritual contraction, the soul pressed in on itself</td></tr>
+    <tr><td class="word">suoi</td><td class="siddham-tag">𑖭𑖲𑖃</td><td>immersive + alarm</td><td>Majestas, Rudolf Otto's overpowering majesty, awe that surrounds and overwhelms</td></tr>
+  </table>
+  <p class="gap-note">Of the fifteen possible zero-grade shapes, one is not part of the set: seai has long belonged to the mood vocabulary as simple lust and keeps that meaning.</p>
+
+  <h2 class="section">Lengthened grade: textures as worlds</h2>
+  <p class="body">The zero grade stops short of its second s and is left open toward what can never be reached. The lengthened grade does the opposite: the word runs on past its last vowel and gutters out in a final s, like a candle flame going out. That closing hiss seals the texture, and a sealed texture is no longer something felt between people. It has become a world: the climate, the structure or the culture that people live inside.</p>
+  <table>
+    <tr><th>Grade</th><th>Shape</th><th>What it names</th></tr>
+    <tr><td>zero grade</td><td class="word">sVV</td><td>reaching beyond, never arriving</td></tr>
+    <tr><td>full grade</td><td class="word">sVsV, s[verb]sV, s + vowel + root</td><td>a texture</td></tr>
+    <tr><td>lengthened grade</td><td class="word">full grade + s</td><td>the texture as a whole world</td></tr>
+  </table>
+  <p class="body">The names come from Indo-European linguistics, where roots appear in a zero grade, a full grade and a lengthened grade.</p>
+  <p class="body">The lengthened grade is productive, like the ta and ra brackets. Any full-grade word in any of the three subclasses may take the final s wherever the scale-up makes sense, and speakers are free to coin them. Not every texture has a world to become: a single utterance (sprasa) probably does not. The zero grade never takes it, since those words are defined by the s they lack.</p>
+  <table>
+    <tr><th>Full grade</th><th></th><th>Lengthened grade</th><th>Siddham</th><th>Reads as</th></tr>
+    <tr><td class="word">sesa</td><td>knot</td><td class="word">sesas</td><td class="siddham-tag">𑖭𑖸𑖭𑖭𑖿</td><td>a web, a net: knots taken as one structure</td></tr>
+    <tr><td class="word">sasa</td><td>mutual bond</td><td class="word">sasas</td><td class="siddham-tag">𑖭𑖭𑖭𑖿</td><td>the social fabric</td></tr>
+    <tr><td class="word">saisau</td><td>rhythm</td><td class="word">saisaus</td><td class="siddham-tag">𑖭𑖹𑖭𑖻𑖭𑖿</td><td>the great round, the cycle of seasons</td></tr>
+    <tr><td class="word">soisi</td><td>hypervigilance</td><td class="word">soisis</td><td class="siddham-tag">𑖭𑖿𑖃𑖭𑖰𑖭𑖿</td><td>a culture of surveillance</td></tr>
+    <tr><td class="word">skrese</td><td>goodness as relation</td><td class="word">skreses</td><td class="siddham-tag">𑖭𑖿𑖎𑖿𑖨𑖸𑖭𑖸𑖭𑖿</td><td>the common good</td></tr>
+    <tr><td class="word">sprause</td><td>commiseration</td><td class="word">sprauses</td><td class="siddham-tag">𑖭𑖿𑖢𑖿𑖨𑖻𑖭𑖸𑖭𑖿</td><td>a culture of mourning</td></tr>
+    <tr><td class="word">setso</td><td>custom</td><td class="word">setsos</td><td class="siddham-tag">𑖭𑖸𑖝𑖿𑖭𑖺𑖭𑖿</td><td>culture, the whole of a people's ways</td></tr>
+    <tr><td class="word">sutsi</td><td>deep woods</td><td class="word">sutsis</td><td class="siddham-tag">𑖭𑖲𑖝𑖿𑖭𑖰𑖭𑖿</td><td>wilderness, the forest as a world</td></tr>
+  </table>
+  <p class="gap-note">Color words also end in -s. No color word begins with s, so the two never collide, and the echo is a fitting one: a culture or a climate is a kind of coloring laid over a whole world.</p>
+
+  <h2 class="section">What is still open</h2>
+  <ul style="padding-left: 20px;">
+    <li style="margin-bottom: 10px;">All thirty-two verbs have been run through the s[verb]sV frame and all fifteen inanimate roots through material color. Only the verb compounds (trekri, trekra, trotri and tretra) remain unrun, and they may be best left as they are.</li>
+    <li style="margin-bottom: 10px;">With sixty-four sVsV words, two hundred fifty-six verb-family words, one hundred twenty material-color words and fourteen in the zero grade, the S class now holds four hundred fifty-four textures. Every one of them now has its six bracketed forms laid out on the Texture Cards page.</li>
+    <li style="margin-bottom: 10px;">spraiso and skronsa share an English gloss, anticipation. English simply runs short here. The Ionnoioni words differ in grain, and that difference is still waiting to be spelled out.</li>
+    <li style="margin-bottom: 10px;">The shape sCVsV, and its lengthened form, is set aside, because its opening (sne, sre, ste, spe, ske) is already the shape of the connectives.</li>
+    <li style="margin-bottom: 10px;">Only eight lengthened-grade words are established so far. The rest are left for speakers to find as they need them.</li>
+  </ul>
+
+</body>
+</html>
