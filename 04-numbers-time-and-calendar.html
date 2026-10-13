@@ -117,7 +117,7 @@
 </style>
 </head>
 <body>
-<nav style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
+<nav class="allpages" style="font-family: 'Noto Serif', Georgia, serif; font-size: 0.85rem; margin: 0 0 12px;"><a href="index.html" style="color: #7a3b2e;">Ionnoioni: all pages</a></nav>
 
 <nav class="pagelinks">
   Ionnoioni: Introduction · Grammar, Syntax & Mechanics · Writing System · Glossary · <strong>Numbers, Time & Calendar</strong>
@@ -320,5 +320,6 @@ Rather than treat time as an abstract unit, Ionnoioni names it by what's observa
   <span class="plain">3 kilometers</span>
 </div>
 
+<script>if (window.top !== window) { var n = document.querySelector('nav.allpages'); if (n) n.style.display = 'none'; }</script>
 </body>
 </html>
