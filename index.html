@@ -54,12 +54,13 @@
     <li><a href="05-body-senses-and-food.html" target="pane"><span class="n">05</span>Body, Senses &amp; Food</a></li>
     <li><a href="06-colors.html" target="pane"><span class="n">06</span>Colors</a></li>
     <li><a href="07-idioms-metaphors-and-kennings.html" target="pane"><span class="n">07</span>Idioms, Metaphors &amp; Kennings</a></li>
-    <li><a href="08-texture-the-s-class.html" target="pane"><span class="n">08</span>Texture: The S Class</a></li>
-    <li><a href="09-texture-cards.html" target="pane"><span class="n">09</span>Texture Cards</a></li>
-    <li><a href="10-on-speaking-of-the-interior.html" target="pane"><span class="n">10</span>On Speaking of the Interior</a></li>
-    <li><a href="11-phrasebook.html" target="pane"><span class="n">11</span>Phrasebook</a></li>
-    <li><a href="12-glossary.html" target="pane"><span class="n">12</span>Glossary</a></li>
-    <li><a href="13-enquiries.html" target="pane"><span class="n">13</span>Enquiries</a></li>
+    <li><a href="08-oaths.html" target="pane"><span class="n">08</span>Oaths</a></li>
+    <li><a href="09-texture-the-s-class.html" target="pane"><span class="n">09</span>Texture: The S Class</a></li>
+    <li><a href="10-texture-cards.html" target="pane"><span class="n">10</span>Texture Cards</a></li>
+    <li><a href="11-on-speaking-of-the-interior.html" target="pane"><span class="n">11</span>On Speaking of the Interior</a></li>
+    <li><a href="12-phrasebook.html" target="pane"><span class="n">12</span>Phrasebook</a></li>
+    <li><a href="13-glossary.html" target="pane"><span class="n">13</span>Glossary</a></li>
+    <li><a href="14-enquiries.html" target="pane"><span class="n">14</span>Enquiries</a></li>
   </ol>
   <div class="foot">Sion Inin · <span class="sid">𑖭𑖰𑖌𑖡𑖿 𑖂𑖡𑖰𑖡𑖿</span></div>
 </nav>
@@ -79,10 +80,13 @@
   links.forEach(function (l) {
     l.addEventListener('click', function (e) { e.preventDefault(); show(l.getAttribute('href'), true); });
   });
-  // Pages renumbered when Body, Senses & Food arrived; older links still land on the right page.
-  var moved = { '05-colors': '06-colors', '06-idioms-metaphors-and-kennings': '07-idioms-metaphors-and-kennings', '07-texture-the-s-class': '08-texture-the-s-class', '08-texture-cards': '09-texture-cards', '09-on-speaking-of-the-interior': '10-on-speaking-of-the-interior', '10-phrasebook': '11-phrasebook', '11-glossary': '12-glossary', '12-enquiries': '13-enquiries' };
+  // Pages get renumbered as the site grows; an older link (#05-colors) still finds its page by the name after the number.
   var start = location.hash.slice(1) || '01-introduction';
-  if (moved[start]) { start = moved[start]; history.replaceState(null, '', '#' + start); }
+  if (!links.some(function (l) { return l.getAttribute('href') === start + '.html'; })) {
+    var slug = start.replace(/^\d+-/, '');
+    var hit = links.filter(function (l) { return l.getAttribute('href').replace(/^\d+-/, '') === slug + '.html'; })[0];
+    if (hit) { start = hit.getAttribute('href').replace('.html', ''); history.replaceState(null, '', '#' + start); }
+  }
   show(start + '.html', false);
 </script>
 </body>
