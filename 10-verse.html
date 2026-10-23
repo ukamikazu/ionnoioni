@@ -32,6 +32,9 @@
   .poem { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 10px 0 14px; }
   .poem .sid { font-family: 'Noto Sans Siddham', sans-serif; font-size: 1.35rem; line-height: 1.6; }
   .poem .rom { font-style: italic; color: var(--accent); margin-top: 8px; line-height: 1.6; }
+  .poem .rom .rl { display: block; }
+  .poem .rom .sc { display: block; font-style: normal; font-family: 'DejaVu Sans Mono', 'Courier New', monospace; color: #4a3a2a; font-size: 1.4rem; font-weight: 700; letter-spacing: 0.1em; line-height: 1.1; margin-bottom: 6px; }
+  .poem .rom .gap { display: block; height: 10px; }
   .poem .eng { color: #444; margin-top: 8px; line-height: 1.6; }
   .poem .pnote { color: #a05a2c; font-size: 0.85rem; font-style: italic; margin-top: 8px; }
   ul.kinds { padding-left: 20px; } ul.kinds li { margin-bottom: 6px; }
@@ -47,6 +50,7 @@
   <p class="body">Ionnoioni sounds light. Its syllables are open, its five vowels are always given their full value, its stops are quick taps and its r rolls. Spoken aloud it has a bouncing, almost sung gait, and its heavier words, the hissing textures and the clipped clusters, stand out against that brightness. This page gathers what the language has shown so far about making verse: the line, alliteration, rhyme, the riddle, a stanza taken from the alphabet itself and two styles.</p>
   <h2 class="section">The line</h2>
   <p class="body">The verse line is borrowed from Old English: two half-lines with a pause between them, each carrying two strong beats. Content words take the beats. The little words, i, e, a, o, na and the pronouns, fall into the dips between them, and since the language is full of them the line always has room to breathe. Words alliterate across the pause, and the second half alliterates on its first beat, never its last.</p>
+  <p class="body">Each poem below carries a scansion under its romanized lines for readers who want it: <strong>'</strong> marks a beat, <strong>˘</strong> a dip and <strong>‖</strong> the pause. A two-syllable word is written as one unit, such as '˘ for <em>iptu</em>. Vowels side by side count as separate syllables (ni-o, ti-a, ku-o), except the diphthongs ai, au and oi, and a syllabic r carries a syllable of its own (krp, rsu). Most words lean on their first syllable, while inside words carry their stress inward.</p>
   <p class="body">When one-syllable content words pile up, every one of them insists on a beat. That is a fault in a calm line and a gift in an urgent one: an overloaded half-line is the heart pounding too hard for the meter, as the second line of the riddle below shows.</p>
   <h2 class="section">Alliteration</h2>
   <p class="body">In most languages alliteration is only sound. In Ionnoioni the word families share their openings, so a run of alliterating words also carries the color of its sound: a line beating on pr- is serious business, a line beating on tr- is light, and a line hissing on ks- is close to an oath. Any vowel alliterates with any other, as it did in Old English, which lets the primals and the intake words chime together.</p>
@@ -61,14 +65,14 @@
   </ul>
   <div class="poem">
     <div class="sid">𑖡𑖰𑖌 𑖎𑖿𑖨𑖰, 𑖡𑖰𑖌 𑖎𑖿𑖨𑖰𑖡𑖿<br>𑖡𑖰𑖌 𑖝𑖿𑖨, 𑖡𑖰𑖌 𑖝𑖿𑖨𑖻</div>
-    <div class="rom">nio kri, nio krin<br>nio tra, nio trau</div>
+    <div class="rom"><span class="rl">nio kri, nio krin</span><span class="sc">˘˘ ' ˘˘ '</span><span class="rl">nio tra, nio trau</span><span class="sc">˘˘ ' ˘˘ '</span></div>
     <div class="eng">I see, I read<br>I am at ease, I am struck</div>
     <div class="pnote">A nasal tail and then a primal tinge. Each pair almost rhymes, and the meaning turns in the gap.</div>
   </div>
   <h3 class="sub">Alliteration and rhyme together</h3>
   <div class="poem">
     <div class="sid">𑖎𑖿𑖭𑖹 𑖂 𑖎𑖿𑖭𑖺 𑖝𑖿𑖨𑖺 𑖡 𑖌<br>𑖎𑖿𑖭 𑖂 𑖎𑖿𑖭𑖺 𑖝𑖿𑖨𑖰 𑖀 𑖡𑖿𑖃<br><br>𑖝𑖰𑖀 𑖝𑖿𑖨𑖸 𑖡𑖿𑖃 𑖂𑖢𑖿𑖝𑖲<br>𑖝𑖿𑖨 𑖝𑖿𑖭𑖲, 𑖝𑖿𑖨𑖰 𑖨𑖿𑖭𑖲<br><br>𑖨 𑖄 𑖨𑖿𑖭𑖲𑖎𑖿𑖭, 𑖨𑖿𑖭𑖲𑖎𑖿𑖭𑖹 𑖢𑖡𑖿<br>𑖝𑖰𑖀 𑖭𑖿𑖡𑖸 𑖡𑖰𑖌, 𑖝𑖡𑖿</div>
-    <div class="rom">ksai i kso tro na o<br>ksa i kso tri a noi<br><br>tia tre noi iptu<br>tra tsu, tri rsu<br><br>ra u rsuksa, rsuksai pan<br>tia sne nio, tan</div>
+    <div class="rom"><span class="rl">ksai i kso tro na o</span><span class="sc">' ˘ ' ' ˘ ˘</span><span class="rl">ksa i kso tri a noi</span><span class="sc">' ˘ ' ' ˘ ˘</span><span class="gap"></span><span class="rl">tia tre noi iptu</span><span class="sc">'˘ ' ˘ '˘</span><span class="rl">tra tsu, tri rsu</span><span class="sc">' ' ' '</span><span class="gap"></span><span class="rl">ra u rsuksa, rsuksai pan</span><span class="sc">˘ ˘ '˘ '˘ '</span><span class="rl">tia sne nio, tan</span><span class="sc">'˘ ˘ ˘˘ '</span></div>
     <div class="eng">The sun's fire goes away,<br>the ember's fire settles with me.<br><br>My beloved gives me tea:<br>easy water, settling night.<br><br>Many stars, and the moon is one,<br>my beloved and I are two.</div>
     <div class="pnote">Three couplets. The first alliterates on the fire sound ks- and rhymes slant (o against noi), the second turns to t- and tr- and rhymes in full, and the third alliterates on r- and closes on two bare numerals: the moon is one and the two of us are two.</div>
   </div>
@@ -76,7 +80,7 @@
   <p class="body">The Old English riddles speak in the first person and often end by daring the listener to say what the speaker is called. Ionnoioni has no word for a name, so its riddles end the way its speakers ask: how do they call it?</p>
   <div class="poem">
     <div class="sid">𑖢𑖿𑖨𑖰𑖡𑖿 𑖂 𑖝𑖿𑖨𑖺𑖡𑖿 ‖ 𑖢𑖿𑖨𑖺𑖡𑖿, 𑖢𑖿𑖨𑖺 𑖎𑖲𑖌<br>𑖝𑖿𑖨𑖻, 𑖝𑖿𑖨𑖻, 𑖝𑖿𑖨𑖻 ‖ 𑖡 𑖝𑖿𑖨𑖰, 𑖡 𑖝𑖿𑖨𑖺<br>𑖎 𑖎𑖰𑖌 𑖄 𑖎𑖰𑖌 𑖢𑖿𑖨 𑖎𑖿𑖃?</div>
-    <div class="rom">prin i tron ‖ pron, pro kuo<br>trau, trau, trau ‖ na tri, na tro<br>ka kio u kio pra koi?</div>
+    <div class="rom"><span class="rl">prin i tron ‖ pron, pro kuo</span><span class="sc">' ˘ ' ‖ ' ˘ '˘</span><span class="rl">trau, trau, trau ‖ na tri, na tro</span><span class="sc">' ' ' ‖ ˘ ' ˘ '</span><span class="rl">ka kio u kio pra koi?</span><span class="sc">˘ '˘ ˘ ˘˘ ' ˘</span></div>
     <div class="eng">Small and dark, I live, holding the self.<br>Hit, hit, hit, never resting, never walking.<br>How do they call it?</div>
   </div>
   <details class="answer"><summary>The answer (open once you have guessed)</summary>
@@ -93,19 +97,19 @@
   <p class="body">The last two phrases of the song end on sa and ra, so the stanza closes on a rhyme or near-rhyme when the poet wants one.</p>
   <div class="poem">
     <div class="sid">𑖎𑖿𑖭𑖹 𑖝𑖿𑖨𑖺 𑖌<br>𑖝𑖰𑖀 𑖝𑖿𑖨𑖸 𑖡𑖿𑖃 𑖝𑖿𑖭𑖲<br>𑖀𑖢𑖿𑖝, 𑖀𑖝𑖿𑖎: 𑖎𑖿𑖨𑖸<br>𑖊𑖨𑖿𑖭𑖿</div>
-    <div class="rom">ksai tro o<br>tia tre noi tsu<br>apta, atka: kre<br>ers</div>
+    <div class="rom"><span class="rl">ksai tro o</span><span class="sc">' ' ˘</span><span class="rl">tia tre noi tsu</span><span class="sc">'˘ ' ˘ '</span><span class="rl">apta, atka: kre</span><span class="sc">'˘ '˘ '</span><span class="rl">ers</span><span class="sc">'</span></div>
     <div class="eng">The sun comes up,<br>my beloved gives me water.<br>Drink, taste: good.<br>True.</div>
     <div class="pnote">Line two can also be heard as a request, "Beloved, give me water," since Ionnoioni marks no imperative and needs no subject.</div>
   </div>
   <p class="body">A Basis stanza can also recite the alphabet itself. The first stanza below walks it by first letters: primals, then vowels, then consonants, then an r-word held at the end. The second hides the same order inside the literary time words for evening and dusk.</p>
   <div class="poem">
     <div class="sid">𑖋𑖊𑖭𑖿, 𑖍𑖊𑖭𑖿, 𑖃𑖨𑖿𑖃<br>𑖀𑖢𑖿𑖎𑖸, 𑖊𑖢𑖿𑖎, 𑖌𑖢𑖿𑖝𑖸, 𑖂𑖢𑖿𑖝𑖲, 𑖄𑖝𑖿𑖎<br>𑖡𑖻 𑖎𑖿𑖨𑖰, 𑖝𑖰𑖀 𑖢𑖿𑖨𑖺: 𑖭𑖲𑖝𑖿𑖨𑖰<br>𑖨𑖿𑖭𑖲𑖝𑖿𑖨𑖰</div>
-    <div class="rom">aies, aues, oiroi<br>apke, epka, opte, iptu, utka<br>nau kri, tia pro: sutri<br>rsutri</div>
+    <div class="rom"><span class="rl">aies, aues, oiroi</span><span class="sc">'˘ '˘ '˘</span><span class="rl">apke, epka, opte, iptu, utka</span><span class="sc">'˘ '˘ '˘ '˘ '˘</span><span class="rl">nau kri, tia pro: sutri</span><span class="sc">' ' '˘ ' '˘</span><span class="rl">rsutri</span><span class="sc">'˘</span></div>
     <div class="eng">Afterglow, grief going quiet, calm after fright.<br>A meal: bread, milk, tea, savor.<br>The cat watches, my beloved holds me: a nap.<br>Sleep.</div>
   </div>
   <div class="poem">
     <div class="sid">𑖭𑖹𑖨𑖿𑖭, 𑖭𑖻𑖨𑖿𑖭, 𑖭𑖿𑖃𑖨𑖿𑖭<br>𑖭𑖨𑖿𑖭𑖺, 𑖭𑖸𑖨𑖿𑖭𑖺, 𑖭𑖺𑖨𑖿𑖭𑖺, 𑖭𑖰𑖨𑖿𑖭𑖺, 𑖭𑖲𑖨𑖿𑖭𑖺<br>𑖝𑖿𑖭𑖺𑖨𑖿𑖭, 𑖢𑖨𑖿𑖭𑖺, 𑖭𑖿𑖎𑖻𑖨𑖿𑖭<br>𑖨𑖿𑖭𑖲</div>
-    <div class="rom">sairsa, saursa, soirsa<br>sarso, serso, sorso, sirso, surso<br>tsorsa, parso, skaursa<br>rsu</div>
+    <div class="rom"><span class="rl">sairsa, saursa, soirsa</span><span class="sc">'˘ '˘ '˘</span><span class="rl">sarso, serso, sorso, sirso, surso</span><span class="sc">'˘ '˘ '˘ '˘ '˘</span><span class="rl">tsorsa, parso, skaursa</span><span class="sc">'˘ '˘ '˘</span><span class="rl">rsu</span><span class="sc">'</span></div>
     <div class="eng">Longing for evening, a lonely evening, an uneasy evening.<br>One dusk, twilight shared, the light failing, the eternal hour of dusk, deep twilight.<br>One conviction, the west, a single death.<br>Night.</div>
     <div class="pnote">The consonant line falters: n and k have no word to give, and only t, p and s answer.</div>
   </div>
@@ -114,14 +118,14 @@
   <p class="body">Realism alone falls flat in a language with so small a concrete vocabulary. Its answer is a form called <em>krikuo</em>, after the word for the mind's eye, built from <em>kri</em> (see) and <em>kuo</em> (inside). Every line but the last holds only what can be seen, counted or timed: no mood words, no texture words, no kennings. The last line is a single texture word, the only interior in the poem.</p>
   <div class="poem">
     <div class="sid">८𑖎𑖿𑖨𑖿𑖢𑖿, ३०𑖝𑖿𑖨𑖿𑖎𑖿। 𑖝𑖿𑖭𑖲𑖢𑖸।<br>𑖝𑖰𑖀 𑖎𑖿𑖨𑖻 𑖊𑖢𑖿𑖎 𑖌 𑖝𑖡𑖿।<br>𑖡𑖰𑖌 𑖀𑖢𑖿𑖝। 𑖭𑖿𑖝𑖿𑖨𑖰𑖭𑖸।</div>
-    <div class="rom">ton i krp, kan seo i trk. tsupe.<br>tia krau epka o tan.<br>nio apta. strise.</div>
+    <div class="rom"><span class="rl">ton i krp, kan seo i trk. tsupe.</span><span class="sc">' ˘ ' ' '˘ ˘ ' '˘</span><span class="rl">tia krau epka o tan.</span><span class="sc">'˘ ' '˘ ˘ '</span><span class="rl">nio apta. strise.</span><span class="sc">˘˘ '˘ '˘</span></div>
     <div class="eng">Eight thirty. Rain.<br>My beloved cuts the bread in two.<br>I drink. Comfortable silence.</div>
   </div>
   <h3 class="sub">Nominalism</h3>
   <p class="body">The other style is made of names: texture words, mood words and the time words set side by side, often with no verb at all. Sound leads the way, and the meaning comes from the naming itself, word placed against word. The two styles mirror each other. Realism is all particulars with one name at the end, and Nominalism is all names, sometimes ending on one plain fact.</p>
   <div class="poem">
     <div class="sid">𑖨𑖿𑖭 𑖭𑖺𑖨𑖿𑖭 𑖊𑖨𑖿𑖭𑖿<br>𑖨𑖿𑖭𑖲𑖎𑖿𑖭𑖹 𑖢𑖨𑖿𑖭𑖺 𑖂𑖨𑖿𑖭𑖿<br>𑖨𑖿𑖭𑖲𑖎𑖿𑖭 𑖭𑖿𑖎𑖻𑖨𑖿𑖭 𑖊𑖨𑖿𑖭𑖿</div>
-    <div class="rom">rsa sorsa ers<br>rsuksai parso irs<br>rsuksa skaursa ers</div>
+    <div class="rom"><span class="rl">rsa sorsa ers</span><span class="sc">' '˘ '</span><span class="rl">rsuksai parso irs</span><span class="sc">'˘ '˘ '</span><span class="rl">rsuksa skaursa ers</span><span class="sc">'˘ '˘ '</span></div>
     <div class="eng">Evening, evening drawing in: true.<br>The moon in the west: false.<br>A star, one bounded death: true.</div>
     <div class="pnote">Every line begins on rs and ends on rs. The day closing is true. The moon going down is false, since it only seems to leave. And a star's death is true, because the light we see can come from a star already gone.</div>
   </div>
